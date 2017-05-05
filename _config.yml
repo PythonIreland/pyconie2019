@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "PyCon Ireland 2017"
 email: "pycon@python.ie"
 description: "Python Ireland Annual Python Conference"
-baseurl: "/zeppelin"
+baseurl: "/pycon"
 url: "https://dmarkey.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
