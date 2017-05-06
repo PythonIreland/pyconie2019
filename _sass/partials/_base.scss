@@ -1,19 +1,19 @@
 @import "compass";
 
 // Font weights
-$light: 100;
-$regular: 300;
-$bold: 500;
-$extra-bold: 600;
+$light: 400;
+$regular: 400;
+$bold: 400;
+$extra-bold: 400;
 
 // Base Font
-$base-font-family: sans-serif;
+$base-font-family: 'Bree Serif';
 $base-font-weight: $regular;
 $base-font-size: 13px;
 $base-line-height: 23px;
 
 // Fixed Font
-$fixed-font-family: 'serif';
+$fixed-font-family: 'Bree Serif';
 $fixed-font-size: 85%;
 $fixed-line-height: $base-line-height;
 
