@@ -17,6 +17,7 @@
 							{% for listItem in ticketsOffer.ticketContentList %}
 							<li>{{ listItem }}</li>
 							{% endfor %}
+							<li>{{ ticketsOffer.additionalInfo }}</li>
 						</ul>
 						{% if ticketsOffer.soldOut == true %}
 						<span class="button disabled">{{ ticketsOffer.soldOutText }}</span>

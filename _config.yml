@@ -26,31 +26,32 @@ organizerName: "Python Ireland"
 organizerDescription: "The Python Ireland Committee"
 organizerEmail: "pycon@python.ie"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "http://python.ie/"
 
 # Head
-metaKeywords: "event, pycon, python, google, programming, android, chrome, developers, lviv"
+metaKeywords: "event, pycon, python, programming, pydata"
 twitterAccount: "@PythonIreland"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+c4pUrl: "https://google.ie"
+c4sponsorsUrl: "http://python.ie/pycon-2017/call-for-sponsors/"
 
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "Home"}
-# - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/#partners", text: "Sponsors"}
+ - {permalink: "/#tickets", text: "Tickets"}
+ - {permalink: "/#location", text: "Location"}
 # - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/speakers/", text: "Speakers"}
 # - {permalink: "/team/", text: "Team"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://google.ie", text: "Become a speaker"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://google.ie", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -59,7 +60,7 @@ eventDate: "Sat 21st - Sun 22nd October "
 typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://google.ie", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
@@ -67,7 +68,7 @@ aboutTitle: "About PyConIE 2017"
 aboutBlock:
  - {title: "Talks", image: "conference.jpg", text: "The best talks form Irish and International speaker about Python and related technologies." }
  - {title: "Workshops", image: "workshop.jpg", text: "Full workshop tracks to up-skill on some new technology." }
- #- {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Networking", image: "networking.jpg", text: "Meet new friends and enjoy Dublin City, enjoy our entertainment events!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -114,7 +115,7 @@ venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio syste
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "Latest Tweets!"
-twitterHashTag: "#pyconie"
+twitterHashTag: "pyconie"
 #twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
@@ -133,39 +134,52 @@ ticketsTitle: "Tickets"
 ticketsInfo: "Tickets grant access to all conference sections, coffee breaks, lunch and entertainment. Accommodation is NOT included in the ticket price."
 ticketsOffers:
  -
+  name: "Corporate"
+  price: "450"
+  priceCurrency: "EUR"
+  ticketsNumber: "300"
+  #ribbon: "-20%"
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  additionalInfo: "Please purchase this ticket if your employer is paying for your ticket."
+  buyButtonText: "Buy Now"
+  disabled: false
+ -
   name: "Standard Rate"
   price: "80"
   priceCurrency: "EUR"
-  ticketsNumber: "150"
-  ribbon: "-5%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
- -
-  name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
-  ticketsNumber: "100"
-  ribbon: "-20%"
+  ticketsNumber: "250"
+  #ribbon: "-5%"
   featured: true
   buyButtonLink: "http://dfua.ticketforevent.com/"
+  additionalInfo: "This is the standard rate"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
-  disabled: true
+
  -
   name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
+  price: "40"
+  priceCurrency: "EUR"
+  ticketsNumber: "40"
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  additionalInfo: "Requires a valid student ID at the conference check in."
+  validFrom: "2014-08-20T10:00"
+  validThrough: "2014-10-23T23:59"
+  soldOut: false
+  soldOutText: "Sold Out"
+
+ -
+  name: "Sunday Only"
+  price: "50"
+  priceCurrency: "EUR"
   ticketsNumber: "50"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  additionalInfo: "This is a Sunday Only day ticket."
   validFrom: "2014-08-20T10:00"
   validThrough: "2014-10-23T23:59"
-  soldOut: true
+  soldOut: false
   soldOutText: "Sold Out"
+
 
 # Footer
 socialLinks:
@@ -185,7 +199,7 @@ footerBlocks:
 
 # Blog
 blogTitle: "Latest news"
-blogCommentsEnabled: true
+blogCommentsEnabled: false
 discusShortName: "devfestua"
 
 # Speakers List Block
