@@ -10,7 +10,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "PyCon Ireland 2017"
+title: "PyCon Ireland 2017 - Ireland's Python Conference"
 email: "pycon@python.ie"
 description: "Python Ireland Annual Python Conference"
 baseurl: "/zeppelin"
@@ -44,7 +44,7 @@ c4sponsorsUrl: "http://python.ie/pycon-2017/call-for-sponsors/"
 navigationLinks:
  - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "Tickets"}
- - {permalink: "/#location", text: "Location"}
+ - {permalink: "/#location-map", text: "Location"}
 # - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/speakers/", text: "Speakers"}
 # - {permalink: "/team/", text: "Team"}
@@ -55,7 +55,7 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "PyConIE 2017"
+heroTitle: "PyConIE 2017 - Ireland's Python Conference"
 eventDate: "Sat 21st - Sun 22nd October "
 typeoutTextValues: ''
 typeoutFallback: ""
