@@ -66,7 +66,7 @@ heroButtons:
 # About Block
 aboutTitle: "About PyConIE 2017"
 aboutBlock:
- - {title: "Talks", image: "conference.jpg", text: "The best talks from Irish and International speaker about Python and related technologies." }
+ - {title: "Talks", image: "conference.jpg", text: "The best talks from Irish and International speakers about Python and related technologies." }
  - {title: "Workshops", image: "workshop.jpg", text: "Full workshop tracks to up-skill on some new technology." }
  - {title: "Networking", image: "networking.jpg", text: "Meet new friends and enjoy Dublin City, enjoy our entertainment events!" }
 
