@@ -77,7 +77,6 @@ statisticBlock:
  - {count: "32", specialCharacter: "+", info: "hours", detail: "of Python related talks"}
  - {count: "25", specialCharacter: "+", info: "speakers", detail: "from around the world"}
  - {count: "2", specialCharacter: "", info: "parallel tracks", detail: "Track topics TBD"}
- - {count: "1", specialCharacter: "", info: "Great city", detail: "See what Dublin has to offer"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
