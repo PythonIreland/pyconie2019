@@ -16,8 +16,8 @@ description: "Python Ireland Annual Python Conference"
 baseurl: "/zeppelin"
 url: "https://dmarkey.github.io"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
+googleAnalyticsTrackingId: "UA-53856571-1"
+googleAnalyticsSiteUrl: "python.ie"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
@@ -60,7 +60,7 @@ eventDate: "Sat 21st - Sun 22nd October "
 typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
- - {link: "https://google.ie", text: "Become a speaker"}
+ - {permalink: "/#partners", text: "Become a sponsor"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
@@ -99,9 +99,9 @@ eventAddressCountry: "Ireland"
 eventStartTime: "2014-10-25T10:00"
 eventDoorTime: "09:00"
 eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "53.3409, 6.2682"
-mapCenterCoordinates: "53.3409, 6.2682"
-mapMobileCenterCoordinates: "53.3409, 6.2682"
+eventPlaceCoordinates: "53.3400212, -6.3213563"
+mapCenterCoordinates: "53.3400212, -6.3213563"
+mapMobileCenterCoordinates: "53.3400212, -6.3213563"
 
 # Venue Block
 venueBlockTitle: "Venue"
@@ -135,28 +135,29 @@ ticketsInfo: "Tickets grant access to all conference sections, coffee breaks, lu
 ticketsOffers:
  -
   name: "Corporate"
-  price: "450"
+  price: "TBD"
   priceCurrency: "EUR"
   ticketsNumber: "300"
   #ribbon: "-20%"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   additionalInfo: "Please purchase this ticket if your employer is paying for your ticket."
-  buyButtonText: "Buy Now"
-  disabled: false
+  buyButtonText: "Coming Soon"
+  disabled: true
  -
   name: "Standard Rate"
-  price: "80"
+  price: "TBD"
   priceCurrency: "EUR"
   ticketsNumber: "250"
   #ribbon: "-5%"
   featured: true
   buyButtonLink: "http://dfua.ticketforevent.com/"
   additionalInfo: "This is the standard rate"
-  buyButtonText: "Buy Now"
+  buyButtonText: "Coming Soon"
+  disabled: true
 
  -
   name: "Student"
-  price: "40"
+  price: "TBD"
   priceCurrency: "EUR"
   ticketsNumber: "40"
   buyButtonLink: "http://dfua.ticketforevent.com/"
@@ -166,19 +167,21 @@ ticketsOffers:
   validThrough: "2014-10-23T23:59"
   soldOut: false
   soldOutText: "Sold Out"
+  disabled: true
 
  -
   name: "Sunday Only"
-  price: "50"
+  price: "TBD"
   priceCurrency: "EUR"
   ticketsNumber: "50"
   buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
+  buyButtonText: "Coming Soon"
   additionalInfo: "This is a Sunday Only day ticket."
   validFrom: "2014-08-20T10:00"
   validThrough: "2014-10-23T23:59"
   soldOut: false
   soldOutText: "Sold Out"
+  disabled: true
 
 
 # Footer
@@ -193,7 +196,7 @@ footerBlocks:
  -
   title: "FAQ"
   links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {link: "https://python.ie/code-conduct/", text: "Code of Conduct"}
 
 # Blog
 blogTitle: "Latest news"

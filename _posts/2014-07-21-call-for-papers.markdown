@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "Call for Proposals is Open!"
+title:  "New PyConIE Website Launch!"
 date:   2014-07-21 09:00:00
 isStaticPost: false
 ---
-PyconIE 2017 is now looking for speakers to give talks and workshops at PyCon Ireland 2017!
+Welcome to the new website for PyConIE 2017 Python Ireland's Python Conference.
+
+Check back soon for updates on Ticket sales, Call for Speakers and Call for sponsors.
 
 
 #### Any questions? 
