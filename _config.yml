@@ -99,9 +99,9 @@ eventAddressCountry: "Ireland"
 eventStartTime: "2014-10-25T10:00"
 eventDoorTime: "09:00"
 eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "53.3400212, -6.3213563"
-mapCenterCoordinates: "53.3400212, -6.3213563"
-mapMobileCenterCoordinates: "53.3400212, -6.3213563"
+eventPlaceCoordinates: "53.3408506, -6.2704206"
+mapCenterCoordinates: "53.3408506, -6.2704206"
+mapMobileCenterCoordinates: "53.3408506, -6.2704206"
 
 # Venue Block
 venueBlockTitle: "Venue"
