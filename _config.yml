@@ -16,7 +16,7 @@ description: "Python Ireland Annual Python Conference"
 baseurl: ""
 url: "https://pyconie17.python.ie"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-53856571-1"
+googleAnalyticsTrackingId: "UA-53856571-4"
 googleAnalyticsSiteUrl: "python.ie"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
