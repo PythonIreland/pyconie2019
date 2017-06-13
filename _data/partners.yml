@@ -1,7 +1,7 @@
 - 
   group: "Diamond Sponsor"
   elements: 
-    - {name: "Your Name Here", description: "", link: "https://python.ie", imageUrl: "placeholder.png"}
+    - {name: "RapidRatings", description: "Rapid Ratings International, Inc. is the creator of the proprietary FHR® (Financial Health Rating), the industry’s leading assessment of public and private company financial health. Our disruptive methodology, scalable solutions, and unparalleled support enable businesses to effectively manage and price risks associated with the financial health of third-parties including customers, trading counterparties, suppliers, vendors, and investments.", link: "http://www.rapidratings.com/about-us/careers/", imageUrl: "rr.png"}
 -
   group: "Platinum Sponsors"
   elements: 
