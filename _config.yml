@@ -135,39 +135,37 @@ ticketsInfo: "Tickets grant access to all conference sections, coffee breaks, lu
 ticketsOffers:
  -
   name: "Corporate"
-  price: "TBD"
+  price: "300"
   priceCurrency: "EUR"
   ticketsNumber: "300"
   #ribbon: "-20%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/iah8p0elpaq"
   additionalInfo: "Please purchase this ticket if your employer is paying for your ticket."
-  buyButtonText: "Coming Soon"
-  disabled: true
+  buyButtonText: "Buy Now"
+  disabled: false
  -
   name: "Standard Rate"
-  price: "TBD"
+  price: "80"
   priceCurrency: "EUR"
   ticketsNumber: "250"
   #ribbon: "-5%"
   featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/iah8p0elpaq"
   additionalInfo: "This is the standard rate"
-  buyButtonText: "Coming Soon"
-  disabled: true
+  buyButtonText: "Buy Now"
+  disabled: false
 
  -
   name: "Student"
-  price: "TBD"
+  price: "40"
   priceCurrency: "EUR"
-  ticketsNumber: "40"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
+  ticketsNumbDer: "40"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/iah8p0elpaq"
   buyButtonText: "Buy Now"
   additionalInfo: "Requires a valid student ID at the conference check in."
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
   soldOut: false
   soldOutText: "Sold Out"
-  disabled: true
+  disabled: false
 
  -
   name: "Sunday Only"
