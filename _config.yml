@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "PyCon Ireland 2017 - Ireland's Python Conference"
 email: "pycon@python.ie"
-description: "Python Ireland Annual Python Conference"
+description: "Python Ireland's Annual Python Conference"
 baseurl: ""
 url: "https://pyconie17.python.ie"
 permalink: "/blog/:title"
