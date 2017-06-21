@@ -169,16 +169,12 @@ ticketsOffers:
 
  -
   name: "Sunday Only"
-  price: "TBD"
+  price: "50"
   priceCurrency: "EUR"
   ticketsNumber: "50"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Coming Soon"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/j33gqtthwui"
+  buyButtonText: "Buy Now"
   additionalInfo: "This is a Sunday Only day ticket."
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
-  soldOut: false
-  soldOutText: "Sold Out"
   disabled: true
 
 
