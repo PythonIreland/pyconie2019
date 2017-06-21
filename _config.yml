@@ -175,7 +175,7 @@ ticketsOffers:
   buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/j33gqtthwui"
   buyButtonText: "Buy Now"
   additionalInfo: "This is a Sunday Only day ticket."
-  disabled: true
+  disabled: false
 
 
 # Footer
