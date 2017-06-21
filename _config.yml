@@ -139,18 +139,18 @@ ticketsOffers:
   priceCurrency: "EUR"
   ticketsNumber: "300"
   #ribbon: "-20%"
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/iah8p0elpaq"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/i5mda8ecd2q"
   additionalInfo: "Please purchase this ticket if your employer is paying for your ticket."
   buyButtonText: "Buy Now"
   disabled: false
  -
-  name: "Standard Rate"
+  name: "General"
   price: "80"
   priceCurrency: "EUR"
   ticketsNumber: "250"
   #ribbon: "-5%"
   featured: true
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/iah8p0elpaq"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/mbex8dpg45i"
   additionalInfo: "This is the standard rate"
   buyButtonText: "Buy Now"
   disabled: false
