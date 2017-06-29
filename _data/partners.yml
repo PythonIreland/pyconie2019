@@ -9,4 +9,4 @@
 -
   group: "Gold Sponsors"
   elements: 
-    - {name: "Your Name Here", description: "", link: "https://python.ie", imageUrl: "placeholder.png"}
+    - {name: "Python Academy", description: "Advanced Python Workshop", link: " http://www.python-academy.com/courses/python_advanced_pyconie.html", imageUrl: "academy.png"}
