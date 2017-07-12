@@ -6,7 +6,13 @@
   group: "Platinum Sponsors"
   elements: 
     - {name: "HostedGraphite", description: "Your monitoring data displayed on beautiful graphs and dashboards.", link: "https://www.hostedgraphite.com/", imageUrl: "hostedgraphite_Logo.png"}
+    - {name: "Zalando", description: "Zalando", link: "https://jobs.zalando.com/", imageUrl: "zalando.svg"}
+    - {name: "Bank of America Merrill Lynch", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
 -
   group: "Gold Sponsors"
   elements: 
     - {name: "Python Academy", description: "Advanced Python Workshop", link: " http://www.python-academy.com/courses/python_advanced_pyconie.html", imageUrl: "academy.png"}
+
+  group: "Workshop Sponsors"
+  elements: 
+    - {name: "Zalando", description: "Zalando", link: "https://jobs.zalando.com/", imageUrl: "zalando.svg"}
