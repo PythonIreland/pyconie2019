@@ -63,6 +63,7 @@ heroButtons:
  - {permalink: "/#partners", text: "Become a sponsor"}
  - {permalink: "/#tickets", text: "Buy tickets"}
  - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2017/call-for-proposals/", text: "Become a speaker"}
+ - {link: "https://python.ie/pycon-2017/financial-aid-2017/", text: "Financial Aid"}
 
 # About Block
 aboutTitle: "About PyConIE 2017"
