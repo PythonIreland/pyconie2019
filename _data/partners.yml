@@ -12,6 +12,7 @@
   group: "Gold Sponsors"
   elements: 
     - {name: "Python Academy", description: "Advanced Python Workshop", link: " http://www.python-academy.com/courses/python_advanced_pyconie.html", imageUrl: "academy.png"}
+    - {name: "Brightwater", description: "Brightwater Recruitment", link: "https://www.brightwater.ie", imageUrl: "bw.png"}
 -
   group: "Workshop Sponsors"
   elements: 
