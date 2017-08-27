@@ -9,3 +9,16 @@
   rockstar: true
   social: 
     - {name: "twitter", link: "https://twitter.com/brandon_rhodes"}
+-
+  id: 4
+  name: "Tracy"
+  surname: "Osborn"
+  company: "limedaring.com"
+  title: ""
+  bio: "Author of @HelloWebApp and creator of @WeddingLovely. Designer-developer-speaker-entreprenerd who loves being outside and climbing mountains."
+  thumbnailUrl: osborn.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/limedaring"}
+
+
