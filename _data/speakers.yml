@@ -20,5 +20,17 @@
   rockstar: true
   social:
     - {name: "twitter", link: "https://twitter.com/limedaring"}
+-
+  id: 5
+  name: "Ana"
+  surname: "Balica"
+  company: "SteamTeam"
+  title: ""
+  bio: "Yet another developer. Most of the times good at being mediocre."
+  thumbnailUrl: ana.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/anabalica"}
+
 
 
