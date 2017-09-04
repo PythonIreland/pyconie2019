@@ -31,6 +31,19 @@
   rockstar: true
   social:
     - {name: "twitter", link: "https://twitter.com/anabalica"}
+-
+  id: 6
+  name: "Sean"
+  surname: "O'Donnell"
+  company: "RapidRatings"
+  title: "Chief Technical Architect"
+  bio: ""
+  thumbnailUrl: sean.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/seanodonnell"}
+
+
 
 
 
