@@ -60,7 +60,7 @@ eventDate: "Sat 21st - Sun 22nd October "
 typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
- - {permalink: "/#partners", text: "Become a sponsor"}
+ - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "Buy tickets"}
  - {link: "http://pycon-ireland-accommodation.wikia.com/wiki/PyCon_Ireland_Accommodation_Wiki", text: "Accommodation and Travel Guide"}
  - {link: "http://schedule.pycon.python.ie/", text: "Full Schedule"}
