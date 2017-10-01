@@ -20,6 +20,7 @@
     - {name: "Brightwater", description: "Brightwater Recruitment", link: "https://www.brightwater.ie", imageUrl: "bw2.png"}
     - {name: "Demonware", description: "Demonware", link: "https://www.demonware.ie", imageUrl: "dw.png"}
     - {name: "Tenable", description: "", link: "http://www.tenable.com/", imageUrl: "ten.png"}
+    - {name: "Nexmo", description: "", link: "https://www.nexmo.com/", imageUrl: "nexmo.png"}
 -
   group: "Lanyards Sponsors"
   elements:
