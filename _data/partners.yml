@@ -9,10 +9,27 @@
     - {name: "Zalando", description: "Zalando", link: "https://jobs.zalando.com/", imageUrl: "zalando.svg"}
     - {name: "Bank of America Merrill Lynch", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
 -
+  group: "Bar and Entertainmant"
+  elements:
+    - {name: "Tenable", description: "", link: "http://www.tenable.com/", imageUrl: "ten.png"}
+
+-
   group: "Gold Sponsors"
   elements: 
     - {name: "Python Academy", description: "Advanced Python Workshop", link: " http://www.python-academy.com/courses/python_advanced_pyconie.html", imageUrl: "academy.png"}
     - {name: "Brightwater", description: "Brightwater Recruitment", link: "https://www.brightwater.ie", imageUrl: "bw2.png"}
+    - {name: "Demonware", description: "Demonware", link: "https://www.demonware.ie", imageUrl: "dw.png"}
+    - {name: "Tenable", description: "", link: "http://www.tenable.com/", imageUrl: "ten.png"}
+-
+  group: "Lanyards Sponsors"
+  elements:
+  - {name: "Demonware", description: "Demonware", link: "https://www.demonware.ie", imageUrl: "dw.png"}
+
+-
+  group: "Silver Sponsors"
+  elements:
+    - {name: "O'Reilly", description: "O'Reilly", link: "https://www.safaribooksonline.com/", imageUrl: "or.png"}
+
 -
   group: "Workshop Sponsors"
   elements: 
