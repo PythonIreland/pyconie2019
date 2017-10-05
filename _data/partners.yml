@@ -18,13 +18,14 @@
   elements: 
     - {name: "Python Academy", description: "Advanced Python Workshop", link: " http://www.python-academy.com/courses/python_advanced_pyconie.html", imageUrl: "academy.png"}
     - {name: "Brightwater", description: "Brightwater Recruitment", link: "https://www.brightwater.ie", imageUrl: "bw2.png"}
-    - {name: "Demonware", description: "Demonware", link: "https://www.demonware.ie", imageUrl: "dw.png"}
+    - {name: "Demonware", description: "Demonware", link: "https://www.demonware.net", imageUrl: "dw.png"}
     - {name: "Tenable", description: "", link: "http://www.tenable.com/", imageUrl: "ten.png"}
     - {name: "Nexmo", description: "", link: "https://www.nexmo.com/", imageUrl: "nexmo.png"}
+    - {name: "Indeed", description: "", link: "https://www.indeed.ie/", imageUrl: "indeed.png"}
 -
   group: "Lanyards Sponsors"
   elements:
-  - {name: "Demonware", description: "Demonware", link: "https://www.demonware.ie", imageUrl: "dw.png"}
+  - {name: "Demonware", description: "Demonware", link: "https://www.demonware.net", imageUrl: "dw.png"}
 
 -
   group: "Silver Sponsors"
@@ -35,3 +36,8 @@
   group: "Workshop Sponsors"
   elements: 
     - {name: "Zalando", description: "Zalando", link: "https://jobs.zalando.com/", imageUrl: "zalando.svg"}
+-
+  group: "Diversity"
+  elements:
+    - {name: "Python Software Foundaton", description: "PSF", link: "https://www.python.org/psf/", imageUrl: "psf.png"}
+
