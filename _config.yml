@@ -45,6 +45,7 @@ navigationLinks:
  - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "Tickets"}
  - {permalink: "/#location-map", text: "Location"}
+ - {permalink: "/#quiz", text: "Entertainment"}
 # - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/#rockstar-speakers", text: "Keynote Speakers"}
 # - {permalink: "/team/", text: "Team"}
@@ -65,6 +66,7 @@ heroButtons:
  - {link: "http://pycon-ireland-accommodation.wikia.com/wiki/PyCon_Ireland_Accommodation_Wiki", text: "Accommodation and Travel Guide"}
  - {link: "http://schedule.pycon.python.ie/", text: "Full Schedule"}
  - {link: "http://python.ie/pycon/volunteer/", text: "Become a volunteer"}
+ - {permalink: "/#quiz", text: "Entertainment"}
 
 # About Block
 aboutTitle: "About PyConIE 2017"
