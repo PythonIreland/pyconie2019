@@ -140,16 +140,6 @@ ticketsTitle: "Tickets"
 ticketsInfo: "Tickets grant access to all conference sections, coffee breaks, lunch and entertainment. Accommodation is NOT included in the ticket price."
 ticketsOffers:
  -
-  name: "Corporate"
-  price: "300"
-  priceCurrency: "EUR"
-  ticketsNumber: "300"
-  #ribbon: "-20%"
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/i5mda8ecd2q"
-  additionalInfo: "Please purchase this ticket if your employer is paying for your ticket."
-  buyButtonText: "Buy Now"
-  disabled: false
- -
   name: "General"
   price: "80"
   priceCurrency: "EUR"
@@ -157,7 +147,7 @@ ticketsOffers:
   #ribbon: "-5%"
   featured: true
   buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/mbex8dpg45i"
-  additionalInfo: "This is the standard rate"
+  additionalInfo: "Grants full access to all talks, workshops and events on both days"
   buyButtonText: "Buy Now"
   disabled: false
 
@@ -168,7 +158,7 @@ ticketsOffers:
   ticketsNumbDer: "40"
   buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/iah8p0elpaq"
   buyButtonText: "Buy Now"
-  additionalInfo: "Requires a valid student ID at the conference check in."
+  additionalInfo: "Grants full access to all talks, workshops and events on both days. Requires a valid student ID at the conference check in."
   soldOut: false
   soldOutText: "Sold Out"
   disabled: false
@@ -180,7 +170,17 @@ ticketsOffers:
   ticketsNumber: "50"
   buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/j33gqtthwui"
   buyButtonText: "Buy Now"
-  additionalInfo: "This is a Sunday Only day ticket."
+  additionalInfo: "Grants full access to all talks, workshops and events on Sunday only."
+  disabled: false
+ -
+  name: "Corporate"
+  price: "300"
+  priceCurrency: "EUR"
+  ticketsNumber: "300"
+  #ribbon: "-20%"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/i5mda8ecd2q"
+  additionalInfo: "Grants full access to all talks, workshops and events on both days. Please purchase this ticket if your employer is paying for your ticket."
+  buyButtonText: "Buy Now"
   disabled: false
 
 
