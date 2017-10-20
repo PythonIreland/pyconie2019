@@ -31,6 +31,7 @@
   group: "Silver Sponsors"
   elements:
     - {name: "O'Reilly", description: "O'Reilly", link: "https://www.safaribooksonline.com/", imageUrl: "or.png"}
+    - {name: "JetBrains", description: "JetBrains", link: "https://www.jetbrains.com/", imageUrl: "jetbrains.png"}
 
 -
   group: "Workshop Sponsors"
