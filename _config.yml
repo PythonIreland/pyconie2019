@@ -142,7 +142,7 @@ ticketsOffers:
  -
   name: "General"
   price: ""
-  priceCurrency: "EUR"
+  priceCurrency: ""
   ticketsNumber: "250"
   #ribbon: "-5%"
   featured: true
@@ -153,8 +153,8 @@ ticketsOffers:
 
  -
   name: "Student"
-  price: "40"
-  priceCurrency: "EUR"
+  price: ""
+  priceCurrency: ""
   ticketsNumbDer: ""
   buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/iah8p0elpaq"
   buyButtonText: "Buy Now"
@@ -165,8 +165,8 @@ ticketsOffers:
 
  -
   name: "Sunday Only"
-  price: "50"
-  priceCurrency: "EUR"
+  price: ""
+  priceCurrency: ""
   ticketsNumber: ""
   buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/j33gqtthwui"
   buyButtonText: "Buy Now"
@@ -175,7 +175,7 @@ ticketsOffers:
  -
   name: "Corporate"
   price: ""
-  priceCurrency: "EUR"
+  priceCurrency: ""
   ticketsNumber: "300"
   #ribbon: "-20%"
   buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/i5mda8ecd2q"
