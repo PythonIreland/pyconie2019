@@ -43,7 +43,7 @@ c4sponsorsUrl: "http://python.ie/pycon-2018/call-for-sponsors/"
 # Navigation
 navigationLinks:
 # - {permalink: "/#partners", text: "Sponsors"}
-# - {permalink: "/#tickets", text: "Tickets"}
+ - {permalink: "/#tickets", text: "Tickets"}
  - {permalink: "/#location-map", text: "Location"}
 # - {permalink: "/#quiz", text: "Entertainment"}
 # - {permalink: "/schedule/", text: "Schedule"}
