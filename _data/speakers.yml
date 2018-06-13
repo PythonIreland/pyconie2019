@@ -1,47 +1,4 @@
-- 
-  id: 3
-  name: "Brandon"
-  surname: "Rhodes"
-  company: "DropBox"
-  title: ""
-  bio: "Python programmer @Dropbox and chair of @PyCon 2016–17 Portland. Enjoys beautiful code, unique gin, craft beer, and the Oxford comma."
-  thumbnailUrl: rhodes.jpeg
-  rockstar: true
-  social: 
-    - {name: "twitter", link: "https://twitter.com/brandon_rhodes"}
--
-  id: 4
-  name: "Tracy"
-  surname: "Osborn"
-  company: "limedaring.com"
-  title: ""
-  bio: "Author of @HelloWebApp and creator of @WeddingLovely. Designer-developer-speaker-entreprenerd who loves being outside and climbing mountains."
-  thumbnailUrl: osborn.jpg
-  rockstar: true
-  social:
-    - {name: "twitter", link: "https://twitter.com/limedaring"}
--
-  id: 5
-  name: "Ana"
-  surname: "Balica"
-  company: "StreetTeam"
-  title: ""
-  bio: "Yet another developer. Most of the times good at being mediocre."
-  thumbnailUrl: ana.jpg
-  rockstar: true
-  social:
-    - {name: "twitter", link: "https://twitter.com/anabalica"}
--
-  id: 6
-  name: "Sean"
-  surname: "O'Donnell"
-  company: "RapidRatings"
-  title: "Chief Technical Architect"
-  bio: ""
-  thumbnailUrl: sean.jpg
-  rockstar: true
-  social:
-    - {name: "twitter", link: "https://twitter.com/seanodonnell"}
+
 
 
 
