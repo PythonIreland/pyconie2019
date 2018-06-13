@@ -10,11 +10,11 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "PyCon Ireland 2017 - Ireland's Python Conference"
+title: "PyCon Ireland 2018 - Ireland's Python Conference"
 email: "pycon@python.ie"
 description: "Python Ireland's Annual Python Conference"
 baseurl: ""
-url: "https://pyconie17.python.ie"
+url: "https://pyconie18.python.ie"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-53856571-4"
 googleAnalyticsSiteUrl: "python.ie"
@@ -37,7 +37,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
 #c4pUrl: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2017/call-for-proposals/"
-c4sponsorsUrl: "http://python.ie/pycon-2017/call-for-sponsors/"
+c4sponsorsUrl: "http://python.ie/pycon-2018/call-for-sponsors/"
 
 
 # Navigation
@@ -45,9 +45,9 @@ navigationLinks:
  - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "Tickets"}
  - {permalink: "/#location-map", text: "Location"}
- - {permalink: "/#quiz", text: "Entertainment"}
+# - {permalink: "/#quiz", text: "Entertainment"}
 # - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/#rockstar-speakers", text: "Keynote Speakers"}
+# - {permalink: "/#rockstar-speakers", text: "Keynote Speakers"}
 # - {permalink: "/team/", text: "Team"}
 #bottomNavigationLinks:
 # - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2017/call-for-proposals", text: "Become a speaker"}
@@ -56,20 +56,20 @@ navigationLinks:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "PyConIE 2017 - Ireland's Python Conference"
-eventDate: "Sat 21st - Sun 22nd October "
+heroTitle: "PyConIE 2018 - Ireland's Python Conference"
+eventDate: "Sat 10th - Sun 11th November"
 typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
- - {permalink: "/#partners", text: "Sponsors"}
+# - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "Buy tickets"}
  - {link: "http://pycon-ireland-accommodation.wikia.com/wiki/PyCon_Ireland_Accommodation_Wiki", text: "Accommodation and Travel Guide"}
- - {link: "http://schedule.pycon.python.ie/", text: "Full Schedule"}
- - {link: "http://python.ie/pycon/volunteer/", text: "Become a volunteer"}
- - {permalink: "/#quiz", text: "Entertainment"}
+# - {link: "http://schedule.pycon.python.ie/", text: "Full Schedule"}
+# - {link: "http://python.ie/pycon/volunteer/", text: "Become a volunteer"}
+# - {permalink: "/#quiz", text: "Entertainment"}
 
 # About Block
-aboutTitle: "About PyConIE 2017"
+aboutTitle: "About PyConIE 2018"
 aboutBlock:
  - {title: "Talks", image: "conference.jpg", text: "The best talks from Irish and International speakers about Python and related technologies." }
  - {title: "Workshops", image: "workshop.jpg", text: "Full workshop tracks to up-skill on some new technology." }
@@ -102,9 +102,9 @@ eventAddressLocality: "Dublin"
 #eventAddressLocalityRegion: "Ireland"
 # eventPostalCode: "79000"
 eventAddressCountry: "Ireland"
-eventStartTime: "2014-10-25T10:00"
+eventStartTime: "2018-11-10T09:00"
 eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
+eventEndTime: "2018-11-11T20:00"
 eventPlaceCoordinates: "53.3408484, -6.2682426"
 mapCenterCoordinates: "53.3408484, -6.2682426"
 mapMobileCenterCoordinates: "53.3408484, -6.2682426"
@@ -146,7 +146,7 @@ ticketsOffers:
   ticketsNumber: "250"
   #ribbon: "-5%"
   featured: true
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/mbex8dpg45i"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/mbex8dpg45i"
   additionalInfo: "Grants full access to all talks, workshops and events on both days"
   buyButtonText: "Buy Now"
   disabled: false
@@ -156,7 +156,7 @@ ticketsOffers:
   price: "40"
   priceCurrency: "EUR"
   ticketsNumbDer: "40"
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/iah8p0elpaq"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/iah8p0elpaq"
   buyButtonText: "Buy Now"
   additionalInfo: "Grants full access to all talks, workshops and events on both days. Requires a valid student ID at the conference check in."
   soldOut: false
@@ -168,7 +168,7 @@ ticketsOffers:
   price: "50"
   priceCurrency: "EUR"
   ticketsNumber: "50"
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/j33gqtthwui"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/j33gqtthwui"
   buyButtonText: "Buy Now"
   additionalInfo: "Grants full access to all talks, workshops and events on Sunday only."
   disabled: false
@@ -178,7 +178,7 @@ ticketsOffers:
   priceCurrency: "EUR"
   ticketsNumber: "300"
   #ribbon: "-20%"
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2017/with/i5mda8ecd2q"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/i5mda8ecd2q"
   additionalInfo: "Grants full access to all talks, workshops and events on both days. Please purchase this ticket if your employer is paying for your ticket."
   buyButtonText: "Buy Now"
   disabled: false
