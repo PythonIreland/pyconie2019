@@ -141,7 +141,7 @@ ticketsInfo: "Tickets grant access to all conference sections, coffee breaks, lu
 ticketsOffers:
  -
   name: "General"
-  price: ""
+  price: "80"
   priceCurrency: ""
   ticketsNumber: "250"
   #ribbon: "-37%"
@@ -153,7 +153,7 @@ ticketsOffers:
 
  -
   name: "Smart"
-  price: ""
+  price: "50"
   priceCurrency: ""
   ticketsNumber: "50"
   ribbon: "-37%"
@@ -165,7 +165,7 @@ ticketsOffers:
 
  -
   name: "Student"
-  price: ""
+  price: "40"
   priceCurrency: ""
   ticketsNumbDer: ""
   buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/1facrutwayo"
@@ -177,7 +177,7 @@ ticketsOffers:
 
  -
   name: "Sunday Only"
-  price: ""
+  price: "50"
   priceCurrency: ""
   ticketsNumber: ""
   buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/lfdfxvcw-00"
@@ -187,7 +187,7 @@ ticketsOffers:
   
  -
   name: "Corporate"
-  price: ""
+  price: "300"
   priceCurrency: ""
   ticketsNumber: "300"
   #ribbon: "-20%"
