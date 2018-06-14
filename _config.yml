@@ -142,7 +142,7 @@ ticketsOffers:
  -
   name: "General"
   price: "80"
-  priceCurrency: ""
+  priceCurrency: "Eur"
   ticketsNumber: "250"
   #ribbon: "-37%"
   featured: true
@@ -154,7 +154,7 @@ ticketsOffers:
  -
   name: "Smart"
   price: "50"
-  priceCurrency: ""
+  priceCurrency: "Eur"
   ticketsNumber: "50"
   ribbon: "-37%"
   featured: true
@@ -166,8 +166,8 @@ ticketsOffers:
  -
   name: "Student"
   price: "40"
-  priceCurrency: ""
-  ticketsNumbDer: ""
+  priceCurrency: "Eur"
+  ticketsNumbDer: "50"
   buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/1facrutwayo"
   buyButtonText: "Buy Now"
   additionalInfo: "Grants full access to all talks, workshops and events on both days. Requires a valid student ID at the conference check in."
@@ -178,8 +178,8 @@ ticketsOffers:
  -
   name: "Sunday Only"
   price: "50"
-  priceCurrency: ""
-  ticketsNumber: ""
+  priceCurrency: "Eur"
+  ticketsNumber: "20"
   buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/lfdfxvcw-00"
   buyButtonText: "Buy Now"
   additionalInfo: "Grants full access to all talks, workshops and events on Sunday only."
@@ -188,7 +188,7 @@ ticketsOffers:
  -
   name: "Corporate"
   price: "300"
-  priceCurrency: ""
+  priceCurrency: "Eur"
   ticketsNumber: "300"
   #ribbon: "-20%"
   buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/7xmhwfyqtqq"
