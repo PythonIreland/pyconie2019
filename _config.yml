@@ -141,47 +141,60 @@ ticketsInfo: "Tickets grant access to all conference sections, coffee breaks, lu
 ticketsOffers:
  -
   name: "General"
-  price: ""
-  priceCurrency: ""
+  price: "80"
+  priceCurrency: "Eur"
   ticketsNumber: "250"
-  #ribbon: "-5%"
+  #ribbon: "-37%"
   featured: true
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/mbex8dpg45i"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/ni7bmnlhhso"
   additionalInfo: "Grants full access to all talks, workshops and events on both days"
   buyButtonText: "Buy Now"
-  disabled: true
+  disabled: false
+
+ -
+  name: "Smart"
+  price: "50"
+  priceCurrency: "Eur"
+  ticketsNumber: "50"
+  ribbon: "-37%"
+  featured: true
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/azbftwegueu"
+  additionalInfo: "Exactly the same as the General Ticket, but for two differences, it's cheaper and a limited edition. If you can afford the General ticket and wish to support, you can have it too."
+  buyButtonText: "Buy Now"
+  disabled: false
 
  -
   name: "Student"
-  price: ""
-  priceCurrency: ""
-  ticketsNumbDer: ""
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/iah8p0elpaq"
+  price: "40"
+  priceCurrency: "Eur"
+  ticketsNumbDer: "50"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/1facrutwayo"
   buyButtonText: "Buy Now"
   additionalInfo: "Grants full access to all talks, workshops and events on both days. Requires a valid student ID at the conference check in."
   soldOut: false
   soldOutText: "Sold Out"
-  disabled: true
+  disabled: false
 
  -
   name: "Sunday Only"
-  price: ""
-  priceCurrency: ""
-  ticketsNumber: ""
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/j33gqtthwui"
+  price: "50"
+  priceCurrency: "Eur"
+  ticketsNumber: "20"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/lfdfxvcw-00"
   buyButtonText: "Buy Now"
   additionalInfo: "Grants full access to all talks, workshops and events on Sunday only."
-  disabled: true
+  disabled: false
+  
  -
   name: "Corporate"
-  price: ""
-  priceCurrency: ""
+  price: "300"
+  priceCurrency: "Eur"
   ticketsNumber: "300"
   #ribbon: "-20%"
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/i5mda8ecd2q"
+  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/7xmhwfyqtqq"
   additionalInfo: "Grants full access to all talks, workshops and events on both days. Please purchase this ticket if your employer is paying for your ticket."
   buyButtonText: "Buy Now"
-  disabled: true
+  disabled: false
 
 
 # Footer
