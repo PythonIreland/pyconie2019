@@ -1,44 +1,38 @@
 - 
   group: "Diamond Sponsor"
   elements: 
-    - {name: "RapidRatings", description: "Rapid Ratings International, Inc. is the creator of the proprietary FHR® (Financial Health Rating), the industry’s leading assessment of public and private company financial health. Our disruptive methodology, scalable solutions, and unparalleled support enable businesses to effectively manage and price risks associated with the financial health of third-parties including customers, trading counterparties, suppliers, vendors, and investments.", link: "http://www.rapidratings.com/about-us/careers/", imageUrl: "rr.png"}
+    - {name: "HostedGraphite", description: "Your monitoring data displayed on beautiful graphs and dashboards.", link: "https://www.hostedgraphite.com/", imageUrl: "hostedgraphite_Logo.png"}
 -
   group: "Platinum Sponsors"
   elements: 
-    - {name: "HostedGraphite", description: "Your monitoring data displayed on beautiful graphs and dashboards.", link: "https://www.hostedgraphite.com/", imageUrl: "hostedgraphite_Logo.png"}
-    - {name: "Zalando", description: "Zalando", link: "https://jobs.zalando.com/", imageUrl: "zalando.svg"}
-    - {name: "Bank of America Merrill Lynch", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
+    - {name: "Demonware", description: "Demonware", link: "https://www.demonware.net", imageUrl: "dw.png"}
+    - {name: "Brightwater", description: "Brightwater Recruitment", link: "https://www.brightwater.ie", imageUrl: "bw2.png"}
+    - {name: "RenRe", description: "RenaissanceRe", link: "https://www.renre.com/", imageUrl: "renaissancere-grey.png"} 
 -
   group: "Bar and Entertainmant"
   elements:
     - {name: "Tenable", description: "", link: "http://www.tenable.com/", imageUrl: "ten.png"}
-
 -
   group: "Gold Sponsors"
   elements: 
     - {name: "Python Academy", description: "Advanced Python Workshop", link: " http://www.python-academy.com/courses/python_advanced_pyconie.html", imageUrl: "academy.png"}
-    - {name: "Brightwater", description: "Brightwater Recruitment", link: "https://www.brightwater.ie", imageUrl: "bw2.png"}
-    - {name: "Demonware", description: "Demonware", link: "https://www.demonware.net", imageUrl: "dw.png"}
+ #  - {name: "Telnyx", description: "Telnyx", link: "", imageUrl: ""}
+ #  - {name: "Riot Games", description: "Riot Games", link: "", imageUrl: ""}
+    - {name: "Bank of America Merrill Lynch", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
     - {name: "Tenable", description: "", link: "http://www.tenable.com/", imageUrl: "ten.png"}
-    - {name: "Nexmo", description: "", link: "https://www.nexmo.com/", imageUrl: "nexmo.png"}
-    - {name: "Indeed", description: "", link: "https://www.indeed.ie/", imageUrl: "indeed.png"}
--
-  group: "Lanyards Sponsors"
-  elements:
-  - {name: "Demonware", description: "Demonware", link: "https://www.demonware.net", imageUrl: "dw.png"}
-
+    - {name: "Bloomberg Polarlake", description: "", link: "https://www.bloombergpolarlake.com/", imageUrl: "bloomberg.png"}
+      #-
+      #
+#  group: "Lanyards Sponsors"
+#  elements:
+#  - {name: "Telnyx", description: "Telnyx", link: "", imageUrl: ""}
 -
   group: "Silver Sponsors"
-  elements:
-    - {name: "O'Reilly", description: "O'Reilly", link: "https://www.safaribooksonline.com/", imageUrl: "or.png"}
-    - {name: "JetBrains", description: "JetBrains", link: "https://www.jetbrains.com/", imageUrl: "jetbrains.png"}
-
--
-  group: "Workshop Sponsors"
   elements: 
     - {name: "Zalando", description: "Zalando", link: "https://jobs.zalando.com/", imageUrl: "zalando.svg"}
+    - {name: "O'Reilly", description: "O'Reilly", link: "https://www.safaribooksonline.com/", imageUrl: "or.png"}
 -
-  group: "Diversity"
-  elements:
-    - {name: "Python Software Foundaton", description: "PSF", link: "https://www.python.org/psf/", imageUrl: "psf.png"}
-
+#  group: "Volunteers"
+#  elements:
+#    - {name: "RapidRatings", description: "Rapid Ratings International, Inc. is the creator of the proprietary FHR® (Financial Health Rating), the industry’s leading assessment of public and private company financial health. Our disruptive methodology, scalable solutions, and unparalleled support enable businesses to effectively manage and price risks associated with the financial health of third-parties including customers, trading counterparties, suppliers, vendors, and investments.", link: "http://www.rapidratings.com/about-us/careers/", imageUrl: "rr.png"}
+-
