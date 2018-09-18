@@ -42,14 +42,14 @@ c4sponsorsUrl: "http://python.ie/pycon-2018/call-for-sponsors/"
 
 # Navigation
 navigationLinks:
-# - {permalink: "/#partners", text: "Sponsors"}
+ - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "Tickets"}
  - {permalink: "/#location-map", text: "Location"}
 # - {permalink: "/#quiz", text: "Entertainment"}
 # - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/#rockstar-speakers", text: "Keynote Speakers"}
 # - {permalink: "/team/", text: "Team"}
- - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals", text: "Become a speaker"}
+# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals", text: "Become a speaker"}
  - {link: "https://python.ie/pycon-2018/financial-aid-2018/", text: "Financial Aid"}
 #bottomNavigationLinks:
 # - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals", text: "Become a speaker"}
@@ -63,7 +63,7 @@ eventDate: "Sat 10th - Sun 11th November"
 typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
-# - {permalink: "/#partners", text: "Sponsors"}
+ - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 # - {link: "http://pycon-ireland-accommodation.wikia.com/wiki/PyCon_Ireland_Accommodation_Wiki", text: "Accommodation and Travel Guide"}
 # - {link: "http://schedule.pycon.python.ie/", text: "Full Schedule"}
