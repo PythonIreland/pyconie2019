@@ -5,22 +5,22 @@
 -
   group: "Platinum Sponsors"
   elements: 
-    - {name: "Demonware", description: "Demonware", link: "https://www.demonware.net", imageUrl: "dw.png"}
-    - {name: "Brightwater", description: "Brightwater Recruitment", link: "https://www.brightwater.ie", imageUrl: "bw2.png"}
-    - {name: "RenRe", description: "RenaissanceRe", link: "https://www.renre.com/", imageUrl: "renaissancere-grey.png"} 
--
-  group: "Bar and Entertainmant"
-  elements:
-    - {name: "Tenable", description: "", link: "http://www.tenable.com/", imageUrl: "ten.png"}
+    - {name: "Demonware", description: "Demonware is an Irish software development company and a subsidiary of Activision Blizzard. Demonware's products enable games publishers to outsource their networking requirements, allowing them to concentrate on playability. ", link: "https://www.demonware.net", imageUrl: "dw.png"}
+    - {name: "Brightwater", description: "Brightwater Recruitment specialises in placing candidates in permanent, contract and temporary Irish and international jobs.", link: "https://www.brightwater.ie", imageUrl: "bw2.png"}
+    - {name: "RenRe", description: "RenaissanceRe Holdings Ltd is a provider of reinsurance, insurance and other related business services.", link: "https://www.renre.com/", imageUrl: "renaissancere-grey.png"}
+#-
+#  group: "Bar and Entertainmant"
+#  elements:
+#    - {name: "Tenable", description: "", link: "http://www.tenable.com/", imageUrl: "ten.png"}
 -
   group: "Gold Sponsors"
   elements: 
     - {name: "Python Academy", description: "Advanced Python Workshop", link: " http://www.python-academy.com/courses/python_advanced_pyconie.html", imageUrl: "academy.png"}
  #  - {name: "Telnyx", description: "Telnyx", link: "", imageUrl: ""}
- #  - {name: "Riot Games", description: "Riot Games", link: "", imageUrl: ""}
+    - {name: "Riot Games", description: "Riot Games, Inc. is an American video game developer and eSports tournament organizer based in West Los Angeles, California. ", link: "https://www.riotgames.com", imageUrl: "riot-games.png"}
     - {name: "Bank of America Merrill Lynch", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
-    - {name: "Tenable", description: "", link: "http://www.tenable.com/", imageUrl: "ten.png"}
-    - {name: "Bloomberg Polarlake", description: "", link: "https://www.bloombergpolarlake.com/", imageUrl: "bloomberg.png"}
+    - {name: "Tenable", description: "Tenable.io, the world’s first Cyber Exposure platform, arms Security with the visibility to see their entire cyber attack surface at all times (from IT to Cloud to IoT to OT) and arms the CISO, C-suite and Board of Directors with the insight to focus on the issues which matter most and make better strategic decisions.", link: "http://www.tenable.com/", imageUrl: "ten.png"}
+    - {name: "Bloomberg Polarlake", description: "Bloomberg L.P. is a privately held financial, software, data, and media company headquartered in Midtown Manhattan, New York City.", link: "https://www.bloombergpolarlake.com/", imageUrl: "bloomberg.png"}
       #-
       #
 #  group: "Lanyards Sponsors"
@@ -29,10 +29,10 @@
 -
   group: "Silver Sponsors"
   elements: 
-    - {name: "Zalando", description: "Zalando", link: "https://jobs.zalando.com/", imageUrl: "zalando.svg"}
-    - {name: "O'Reilly", description: "O'Reilly", link: "https://www.safaribooksonline.com/", imageUrl: "or.png"}
+    - {name: "Zalando", description: "Zalando SE is a German electronic commerce company based in Berlin. The company maintains a cross-platform online store that sells shoes, fashion and beauty items", link: "https://jobs.zalando.com/", imageUrl: "zalando.svg"}
+    - {name: "O'Reilly", description: "O'Reilly Media (formerly O'Reilly & Associates) is an American media company established by Tim O'Reilly that publishes books and Web sites and produces conferences on computer technology topics.", link: "https://www.safaribooksonline.com/", imageUrl: "or.png"}
 -
-#  group: "Volunteers"
-#  elements:
-#    - {name: "RapidRatings", description: "Rapid Ratings International, Inc. is the creator of the proprietary FHR® (Financial Health Rating), the industry’s leading assessment of public and private company financial health. Our disruptive methodology, scalable solutions, and unparalleled support enable businesses to effectively manage and price risks associated with the financial health of third-parties including customers, trading counterparties, suppliers, vendors, and investments.", link: "http://www.rapidratings.com/about-us/careers/", imageUrl: "rr.png"}
+  group: "Volunteers"
+  elements:
+    - {name: "RapidRatings", description: "Rapid Ratings International, Inc. is the creator of the proprietary FHR® (Financial Health Rating), the industry’s leading assessment of public and private company financial health. Our disruptive methodology, scalable solutions, and unparalleled support enable businesses to effectively manage and price risks associated with the financial health of third-parties including customers, trading counterparties, suppliers, vendors, and investments.", link: "http://www.rapidratings.com/about-us/careers/", imageUrl: "rr.png"}
 -
