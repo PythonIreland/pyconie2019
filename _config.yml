@@ -42,17 +42,19 @@ c4sponsorsUrl: "http://python.ie/pycon-2018/call-for-sponsors/"
 
 # Navigation
 navigationLinks:
-# - {permalink: "/#partners", text: "Sponsors"}
+ - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "Tickets"}
  - {permalink: "/#location-map", text: "Location"}
 # - {permalink: "/#quiz", text: "Entertainment"}
 # - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/#rockstar-speakers", text: "Keynote Speakers"}
 # - {permalink: "/team/", text: "Team"}
+# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals", text: "Become a speaker"}
+ - {link: "https://python.ie/pycon-2018/financial-aid-2018/", text: "Financial Aid"}
 #bottomNavigationLinks:
-# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2017/call-for-proposals", text: "Become a speaker"}
+# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals", text: "Become a speaker"}
 #rightNavigationButtons:
-# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2017/call-for-proposals", text: "Become a speaker"}
+# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -61,7 +63,7 @@ eventDate: "Sat 10th - Sun 11th November"
 typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
-# - {permalink: "/#partners", text: "Sponsors"}
+ - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 # - {link: "http://pycon-ireland-accommodation.wikia.com/wiki/PyCon_Ireland_Accommodation_Wiki", text: "Accommodation and Travel Guide"}
 # - {link: "http://schedule.pycon.python.ie/", text: "Full Schedule"}
@@ -134,68 +136,6 @@ partnersC4sponsorsButton: "Become a sponsor"
 #subscribeTitle: "Subscribe for updates"
 #subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
 #subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
-
-# Tickets Block
-ticketsTitle: "Tickets"
-ticketsInfo: "Tickets grant access to all conference sections, coffee breaks, lunch and entertainment. Accommodation is NOT included in the ticket price."
-ticketsOffers:
- -
-  name: "General"
-  price: "80"
-  priceCurrency: "Eur"
-  ticketsNumber: "250"
-  #ribbon: "-37%"
-  featured: true
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/ni7bmnlhhso"
-  additionalInfo: "Grants full access to all talks, workshops and events on both days"
-  buyButtonText: "Buy Now"
-  disabled: false
-
- -
-  name: "Smart"
-  price: "50"
-  priceCurrency: "Eur"
-  ticketsNumber: "50"
-  ribbon: "-37%"
-  featured: true
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/azbftwegueu"
-  additionalInfo: "Exactly the same as the General Ticket, but for two differences, it's cheaper and a limited edition. If you can afford the General ticket and wish to support, you can have it too."
-  buyButtonText: "Buy Now"
-  disabled: false
-
- -
-  name: "Student"
-  price: "40"
-  priceCurrency: "Eur"
-  ticketsNumbDer: "50"
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/1facrutwayo"
-  buyButtonText: "Buy Now"
-  additionalInfo: "Grants full access to all talks, workshops and events on both days. Requires a valid student ID at the conference check in."
-  soldOut: false
-  soldOutText: "Sold Out"
-  disabled: false
-
- -
-  name: "Sunday Only"
-  price: "50"
-  priceCurrency: "Eur"
-  ticketsNumber: "20"
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/lfdfxvcw-00"
-  buyButtonText: "Buy Now"
-  additionalInfo: "Grants full access to all talks, workshops and events on Sunday only."
-  disabled: false
-  
- -
-  name: "Corporate"
-  price: "300"
-  priceCurrency: "Eur"
-  ticketsNumber: "300"
-  #ribbon: "-20%"
-  buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2018/with/7xmhwfyqtqq"
-  additionalInfo: "Grants full access to all talks, workshops and events on both days. Please purchase this ticket if your employer is paying for your ticket."
-  buyButtonText: "Buy Now"
-  disabled: false
-
 
 # Footer
 socialLinks:

@@ -1,51 +1,41 @@
 <!-- Begin Tickets 2 Section -->
-<section id="tickets" class="tickets-2">
-	<div class="content-wrapper">
-		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
-			<h3>{{ site.ticketsTitle }}</h3>
-			<div class="tickets-table row animated hiding" data-animation="fadeInDown" data-delay="0">
-			{% assign animationDelay = 0 %}
-            {% for ticketsOffer in site.ticketsOffers %}
-	            <div class="tickets-row animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-	            	<div class="row">
-						<div class="col-sm-6 col-xs-12">
-							<p class="title">{{ ticketsOffer.name }}</p>
-							{% if ticketsOffer.additionalInfo != null %}
-								<span class="ticket-additional-info">{{ ticketsOffer.additionalInfo }}</span>
-							{% endif %}
-						</div>
-						<div class="col-sm-3 col-xs-12">
-							<p class="price">{{ ticketsOffer.price }} {{ ticketsOffer.priceCurrency }}</p>
-						</div>
-						<div class="col-sm-3 col-xs-12">
-							{% if ticketsOffer.soldOut == true %}
-							<p class="ticket-sold-out">{{ ticketsOffer.soldOutText }}</p>
-							{% elsif ticketsOffer.disabled != true %}
-							<span class="bordered dark-border button">
-								<a href="{{ ticketsOffer.buyButtonLink }}" class="waves-effect waves-button" target="_blank">{{ ticketsOffer.buyButtonText }}</a>
-							</span>
-							{% else %}
-							{% endif %}
-						</div>
-					</div>
-				</div>
-			{% assign animationDelay = animationDelay | plus:250 %}
-            {% endfor %}
-            </div>
-            <span class="tickets-info">{{ site.ticketsInfo }}</span>
-		</div>
-	</div>
+<!-- place this in your head tag -->
+<link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
+<script src='https://js.tito.io/v1' async></script>
 
-        <div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
+
+<section id="tickets" class="tickets-2">
+	        <div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
         <h4> Advanced Python Workshop </h4>
         <p>
 
 There is also a one-day Advanced Python workshop run by Mike Müller of Python
-Academy. It takes place at the Camden Court Hotel, Lower Camden Street, Dublin on Friday
-October the 20th.
+Academy. It takes place on Novemver 9th.
 
 This is a great opportunity to lift your Python skills to an advanced level.
 Full details <a href="http://www.python-academy.com/courses/python_advanced_pyconie.html">On this page</a>
+</p>
+        </div>	
+
+	<div class="content-wrapper">
+		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
+<!-- Place this where you want the widget to appear -->
+<tito-widget event="/python-ireland/pycon-ireland-2018"></tito-widget>
+
+		</div>
+	</div>
+
+
+	
+	        <div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
+        <h3> Submit a talk </h3>
+        <p>
+Proposals on any subject are welcomed, at any level of technical expertise. 
+The deadline for submissions is midnight 9th September 2018.
+We believe that the Irish Tech Community would be very well placed to make an engaging contribution to what promises to be our most exciting conference yet.
+The conference, fully volunteer organized is only possible with the help of people from the community stepping forward to share their time and knowledge.
+
+Please fill <a href="https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals/">this form</a>
 </p>
         </div>
 </section>
