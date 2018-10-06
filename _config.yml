@@ -45,9 +45,9 @@ navigationLinks:
  - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "Tickets"}
  - {permalink: "/#location-map", text: "Location"}
+ - {permalink: "/#keynote-speakers", text: "Keynotes"}
 # - {permalink: "/#quiz", text: "Entertainment"}
 # - {permalink: "/schedule/", text: "Schedule"}
-# - {permalink: "/#rockstar-speakers", text: "Keynote Speakers"}
 # - {permalink: "/team/", text: "Team"}
 # - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals", text: "Become a speaker"}
  - {link: "https://python.ie/pycon-2018/financial-aid-2018/", text: "Financial Aid"}
@@ -64,6 +64,7 @@ typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
  - {permalink: "/#partners", text: "Sponsors"}
+ - {permalink: "/#keynote-speakers", text: "Buy tickets"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 # - {link: "http://pycon-ireland-accommodation.wikia.com/wiki/PyCon_Ireland_Accommodation_Wiki", text: "Accommodation and Travel Guide"}
 # - {link: "http://schedule.pycon.python.ie/", text: "Full Schedule"}
@@ -141,6 +142,7 @@ partnersC4sponsorsButton: "Become a sponsor"
 socialLinks:
  - {link: "https://twitter.com/intent/user?screen_name=pythonireland", icon: "twitter"}
  - {link: "https://facebook.com/pythonireland", icon: "facebook"}
+
 footerBlocks:
  -
   title: "Contacts"
@@ -161,7 +163,7 @@ showSessions: true
 
 # Team Block
 teamBlockTitle: "About us"
-aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+aboutUs: ""
 
 # Logistics Find Way Block
 findWayTitle: "Find your way here"

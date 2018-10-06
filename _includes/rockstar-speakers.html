@@ -1,9 +1,17 @@
 <!-- Begin Rockstar Speakers Section -->
-<section id="rockstar-speakers" class="rockstar-speakers image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.rockstarSpeakersImage }});">
+<section id="keynote-speakers" class="rockstar-speakers image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.rockstarSpeakersImage }});">
 	<div class="overlay solid-overlay"></div>
 	<div class="content-wrapper">
 		<div class="col-lg-10 col-lg-offset-1 rockstar-speakers-list">
 			<h3 id="rockstar-speaker-title">{{ site.rockstarSpeakersTitle }}</h3>
+			{% for keynote in site.data.keynotes %}
+            <b>{{ keynote.name }}</b>
+			<a href="{{ keynote.link }}" target="_blank">
+			<img height="110px", src="{{ site.baseurl }}/img/people/{{ keynote.picture }}"
+				 title="{{ keynote.description }}"
+				 alt="{{ keynote.name }}">
+				</a>
+			{% endfor %}
 		</div>
 	</div>
 </section>

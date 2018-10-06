@@ -1,0 +1,21 @@
+-
+  name: "Dr. Brett Becker"
+  description: "Assistant Professor, School of Computer Science, University College Dublin"
+  link: "http://www.brettbecker.com/"
+  picture: "brett_becker.png"
+-
+  name: "Miguel Grinberg"
+  description: "software engineer, photographer and filmmaker"
+  link: "https://blog.miguelgrinberg.com/index"
+  picture: "miguel_grinberg.jpg"
+-
+  name: "Dr Suzanne Little"
+  description: "Lecturer, School of Computing, Dublin City University"
+  link: "https://www.computing.dcu.ie/~slittle/"
+  picture: "suzannelittle.png"
+-
+  name: "Keith Quille"
+  description: "Associate Lecturer, Department of Computing, IT Tallaght"
+  link: "http://www.keithquille.com/"
+  picture: "KeithQuille.png"
+
