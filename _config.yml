@@ -64,7 +64,7 @@ typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
  - {permalink: "/#partners", text: "Sponsors"}
- - {permalink: "/#keynote-speakers", text: "Buy tickets"}
+ - {permalink: "/#keynote-speakers", text: "Keynotes"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 # - {link: "http://pycon-ireland-accommodation.wikia.com/wiki/PyCon_Ireland_Accommodation_Wiki", text: "Accommodation and Travel Guide"}
 # - {link: "http://schedule.pycon.python.ie/", text: "Full Schedule"}
