@@ -1,18 +1,29 @@
 <!-- Begin Rockstar Speakers Section -->
-<section id="keynote-speakers" class="rockstar-speakers image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.rockstarSpeakersImage }});">
-	<div class="overlay solid-overlay"></div>
-	<div class="content-wrapper">
-		<div class="col-lg-10 col-lg-offset-1 rockstar-speakers-list">
-			<h3 id="rockstar-speaker-title">{{ site.rockstarSpeakersTitle }}</h3>
-			{% for keynote in site.data.keynotes %}
-            <b>{{ keynote.name }}</b>
-			<a href="{{ keynote.link }}" target="_blank">
-			<img height="110px", src="{{ site.baseurl }}/img/people/{{ keynote.picture }}"
-				 title="{{ keynote.description }}"
-				 alt="{{ keynote.name }}">
-				</a>
-			{% endfor %}
-		</div>
-	</div>
+<section id="keynote-speakers" class="rockstar-speakers image-section parallax"
+         style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.rockstarSpeakersImage }});">
+    <div class="overlay solid-overlay"></div>
+    <div class="content-wrapper">
+        <div class="col-lg-12 col-lg-offset-1 rockstar-speakers-list">
+            <h3 id="rockstar-speaker-title">{{ site.rockstarSpeakersTitle }}</h3>
+            <div class="row">
+                {% for keynote in site.data.keynotes %}
+                {% assign colWidth = 12 | divided_by: forloop.length %}
+                <div class="col-md-{{ colWidth }} col-xs-6">
+                    <h5>{{ keynote.name }}</h5>
+                    <a href="{{ keynote.link }}" target="_blank">
+                        <img class="img-circle"
+                             height="110px" , src="{{ site.baseurl }}/img/people/{{ keynote.picture }}"
+                             title="{{ keynote.description }}"
+                             alt="{{ keynote.name }}">
+                    </a>
+                </div>
+                {% assign check = forloop.index | modulo:2 %}
+                {% if check == 0 %}
+                <div class="clearfix visible-xs"></div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 </section>
 <!-- End Rockstar Speakers Section -->
