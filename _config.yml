@@ -67,10 +67,10 @@ typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
  - {permalink: "/#partners", text: "Sponsors"}
- - {permalink: "/#quiz", text: "Entertainment"}
  - {permalink: "/#tickets", text: "Tickets"}
  - {permalink: "/#keynote-speakers", text: "Keynotes"}
  - {permalink: "/#talks", text: "Talks"}
+ - {permalink: "/#quiz", text: "Entertainment"}
  - {permalink: "/#location-map", text: "Location"}
  - {link: "https://python.ie/pycon-2018/financial-aid-2018/", text: "Financial Aid"}
 
