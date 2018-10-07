@@ -1,0 +1,30 @@
+<!-- Begin Tickets 2 Section -->
+<!-- place this in your head tag -->
+<section id="talks" class="talks">
+
+<h3 id="talks-title">{{ site.talksTitle }}</h3>
+
+<div class="talks-row animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+  {% for talk in site.data.talks %}
+
+  <div class="talks-row animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+    <div class="row">
+      <div class="col-sm-3 col-xs-12 text-left">
+        <p class="title">{{ talk.title }}</p>
+        {% if talk.additionalInfo != null %}
+        <span class="talk-additional-info">{{ talk.additionalInfo }}</span>
+        {% endif %}
+      </div>
+      <div class="col-sm-1 col-xs-12 text-left">
+        <p class="price">{{ talk.speakers }}</p>
+      </div>
+      <div class="col-sm-8 col-xs-12 text-left">
+        <p class="price">{{ talk.description }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+</section>
+<!-- End Tickets 2 Section -->

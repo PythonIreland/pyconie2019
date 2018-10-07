@@ -1,0 +1,479 @@
+- talksTitle: "Talks"
+- description: "Always wanted to publish a package on PyPI, but didn't know where\
+    \ to start?\r\nThis talk is for you! Starting with nothing, we'll build a package\
+    \ and publish it on PyPI using current best practices.\r\n\r\nPublishing a package\
+    \ on PyPI used to be a cargo cult. (And often still is!) Instead of copying and\
+    \ pasting from other projects' `setup.py` without fully understanding what's happening,\
+    \ discover how to package your code for PyPI from scratch - then learn how to\
+    \ avoid doing any of this completely! (But now know you'll know what's going on).\r\
+    \n\r\n* _Why_ should you package your code for PyPI?\r\n* How to structure your\
+    \ project and your code, including why you need a `src` folder!\r\n* Discover\
+    \ what goes in your `Pipfile` and your `setup.py`, and why. Learn\r\n  the difference\
+    \ between installing your library to use it, and installing it to develop on it.\r\
+    \n* Write tests for your project, and run them using Tox.\r\n* Ensure your code\
+    \ will work in different on different platforms with\r\n  Continuous Integration!\r\
+    \n* Document your code so people won't ask you loads of questions!\r\n* How to\
+    \ actually get your code on PyPI using Twine. Configure your machine\r\n  for\
+    \ PyPI and test your package release on the PyPI test server.\r\n* Finally, learn\
+    \ how avoid doing any of this yourself (or avoid doing it\r\n  twice) using CookieCutter\
+    \ templates.\r\n\r\nBy the end of this talk, you'll be so comfortable packaging\
+    \ projects you won't avoid writing `setup.py` files any more! Maybe you'll even\
+    \ start writing new code just so you can publish it on PyPI!"
+  endTime: '2018-11-11T07:00:00Z'
+  id: '92'
+  speakers: Mark Smith
+  startTime: '2018-11-11T06:15:00Z'
+  title: Publish a (Perfect) Python Package on PyPI
+  tracks:
+  - name: Track 1
+  type: schedule-session
+- description: "What exactly _are_ functions? Let's talk about functions, methods,\
+    \ callables and closures - what they are, what you can give them, what they can\
+    \ give you, what you can do with them ... and what's inside.\r\n\r\nYou probably\
+    \ think you already know everything about functions, but you probably don't!\r\
+    \n\r\n**Input & Output**: How do you get things in and out of functions? I'll\
+    \ cover parameters and the myriad of ways they can be specified, provided and\
+    \ accessed - including helpful hints to avoid common mistakes! I'll cover return\
+    \ values, briefly, along with variable scopes and exceptions.\r\n\r\n**Closures**:\
+    \ What are they, how do they work and how they can affect memory usage.\r\n\r\n\
+    **Methods**: How does a method differ from a function, when are they made, how\
+    \ do they work (where does `self` come from?) and how to access the function inside\
+    \ every method.\r\n\r\n**\\_\\_magic\\_\\_**:Make your own callables from any\
+    \ object!\r\n\r\n**Introspection**: Using modern Python techniques, what can you\
+    \ find out about a function, and what can you do with that information?\r\n\r\n\
+    **Bytecode**: What happens if you open up a function and look at its insides?\
+    \ Can you change it and put it back together again? (Spoiler: Yes, you can.)\r\
+    \n\r\nBy the end of this talk, I guarantee* you'll know more about callables than\
+    \ when you walked in, along with techniques both practical and so extreme your\
+    \ colleagues will never let you merge them to master.\r\n\r\n(*This guarantee\
+    \ is legally non-binding and cannot be redeemed in any way.)"
+  endTime: '2018-11-10T07:00:00Z'
+  id: '93'
+  speakers: Mark Smith
+  startTime: '2018-11-10T06:15:00Z'
+  title: More Than You Ever Wanted To Know About Python Functions
+  tracks:
+  - name: Track 2
+  type: schedule-session
+- description: Python is a versatile language and it supports a wide variety of programming
+    paradigms. At its heart it's object-oriented, but in this talk I want to discuss
+    how you can use Python to write clean, efficient, and modular functional code.
+    I'll begin by giving a little background on what functional programming is and
+    why you might use it. I'll talk through some of the simple primitives of functional
+    programming, and I'll give some useful examples of functional code for data analysis.
+    The aim is to give a practical and pragmatic introduction to these ideas, covering
+    some of the strengths and weaknesses of Python as a functional language.
+  endTime: '2018-11-11T08:00:00Z'
+  id: '94'
+  speakers: "Neal \xD3 Riain"
+  startTime: '2018-11-11T07:15:00Z'
+  title: Functional Programming for Data Science
+  tracks:
+  - name: Track 1
+  type: schedule-session
+- description: "Python sometimes gets a bad rap for being a slow language, but slow\
+    \ code can be written in any language. The first step towards accelerating code\
+    \ is identifying where it\u2019s slow: a 100x speed up to something that takes\
+    \ 1% of the time pales in comparison to a 1.1x speed up of something that takes\
+    \ 50% of the time. The Python Standard Library provides a collection of packages\
+    \ to get started--profile, cProfile, and pstats--and the community well goes deeper\
+    \ with interactive visualizations, deterministic vs. statistical, line vs. call\
+    \ stack profilers.\r\n\r\nIn this talk, we will demo how to instrument sample\
+    \ slow code using cProfile, then find the source of the problem using the interactive\
+    \ tool SnakeViz. Another demo will be shown using py-spy, a statistical profiler\
+    \ which can be attached to running processes, requiring no modification to existing\
+    \ code."
+  endTime: '2018-11-10T08:00:00Z'
+  id: '95'
+  speakers: Nick Timkovich
+  startTime: '2018-11-10T07:15:00Z'
+  title: 'Profiling: Find the Squeaky Wheel'
+  tracks:
+  - name: Track 2
+  type: schedule-session
+- description: In this talk I will describe and present ideas for a machine translation
+    prototype implemented in Keras. I will cover Neural Machine Translation, which
+    is an approach to machine translation that uses a large neural network. It departs
+    from phrase-based statistical approaches that use separately engineered subcomponents.
+    E.g. Google uses Google Neural Machine Translation (GNMT) in preference to its
+    previous statistical methods. NMT has highly promising performance for large training
+    data. The common principle is encoding the meaning of input into concept space
+    and performing translation based on encoding which leads to deeper understanding
+    and learning of translation rules, for better translation than SMT. The problem
+    is the tendency towards overfitting to frequent observations and overlooking special
+    cases. With the cause that the translational function is shared, so high- and
+    low-frequency pairs impact each other by adapting shared parameters. Smoothness
+    of translation function makes infrequent pairs seem like noise.
+  endTime: '2018-11-11T09:15:00Z'
+  id: '96'
+  speakers: Bojan Bozic
+  startTime: '2018-11-11T08:30:00Z'
+  title: Can we talk? Machine Translation with Keras.
+  tracks:
+  - name: Track 1
+  type: schedule-session
+- description: "In this talk, I'd like to discuss how and when DSLs can improve your\
+    \ life. I also review a variety of tools and techniques that can help you with\
+    \ creating internal DSLs with Python.\r\n---\r\n\r\nDomain-specific languages\
+    \ have a long tradition in computer science. Some well-known examples include:\r\
+    \nRegExp and CRON\u200A-\u200Athese are so-called External DSLs\u200A-\u200Athey\
+    \ define their own separate syntax and usually are not related to any general\
+    \ purpose languages.\r\nThere also exist other types of DSL\u200A-\u200AInternal.\
+    \ The most well-known examples of this type come from the Ruby community\u200A\
+    -\u200ARSpec is a popular testing DSLs and Ruby on Rails provides several DSLs\
+    \ useful in the context of Web development. Internal DSLs also have a long tradition\
+    \ with LISP and its macros being the most prominent examples.\r\nDespite this\
+    \ proud tradition DSLs never gained a wide adoption as a tool in the belt of most\
+    \ Software Craftsmen.\r\nYet the thought about good software practices evolved\
+    \ over the years in such way as to lead us to write the code that encodes more\
+    \ and more domain knowledge within it.\r\nWe've learned the importance of the\
+    \ good names to make our code clear and make our intentions transparent. And we've\
+    \ learned that creating good abstractions helps us better model our thought process\
+    \ within the code.\r\nThe code written by people who take these lessons to heart\
+    \ is easy to understand for the reader. And for a sufficiently large project\u200A\
+    -\u200Amost of it tends to be expressed in the terms of the project domain and\
+    \ not in terms of low-level programming language constructs.\r\nArguably when\
+    \ we follow these practices we already create DSLs although we rarely think about\
+    \ our code in those terms.\r\n---\r\nIn this talk, I'd like to discuss the situations\
+    \ when it can be useful for you to take the next step. And to make the DSLs you're\
+    \ creating more explicit by adding build tools support or employing metaprogramming.\r\
+    \n\r\nI'd be focusing on Internal DSLs as I think it's an easier and more fruitful\
+    \ starting point for exploring ideas in this area.\r\nTo illustrated ideas in\
+    \ this talk and the thought process that can lead you on the path of DSL development,\
+    \ I will use the OpenSource project\u200A-\u200ASSM Document Generator (https://github.com/awslabs/aws-systems-manager-document-generator)\
+    \ that I've developed.\r\nIn this project, I went through several iterations,\
+    \ and my thinking evolved over time from using YAML configurations to define the\
+    \ relevant domain objects to creating a simple Python internal DSL.\r\n---\r\n\
+    \r\nHow to build internal DSLs in\_Python\r\n\r\nThe second part of the talk is\
+    \ dedicating to exploring how you can approach implementing Internal DSLs in Python.\
+    \ I review a variety of approaches, techniques, and tools that can help you with\
+    \ this task:\r\n* Creative use of standard syntax constructs like context managers\
+    \ (with), object construction mechanism, etc;\r\n* Import-time modification of\
+    \ AST. This is probably one of the most powerful approaches, as it allows you\
+    \ to introduce new syntax or re-interpret existing one. It comes with its own\
+    \ drawbacks though;\r\n* Annotations and Metaclasses.\r\n\r\nAs a conclusion\u200A\
+    -\u200AIn this talk, I'd like to encourage people to explore ideas around creating\
+    \ internal DSLs and I explore some tools and approaches that can help them on\
+    \ this path.\r\n---\r\nSome tools and references:\r\n\r\nMacropy\u200A-\u200A\
+    \ https://github.com/lihaoyi/macropy\r\nPython functional pipes\u200A-\u200A https://github.com/robinhilliard/pipes\r\
+    \nDjango forms\u200A-\u200A https://docs.djangoproject.com/en/2.1/topics/forms/\r\
+    \nSSM Document Generator\u200A-\u200A https://github.com/awslabs/aws-systems-manager-document-generator\r\
+    \nDomain-Specific Languages by Martin Fowler\u200A-\u200A http://goodreads.com/book/show/8082269"
+  endTime: '2018-11-10T09:15:00Z'
+  id: '97'
+  speakers: Vladyslav Sitalo
+  startTime: '2018-11-10T08:30:00Z'
+  title: "Domain-specific Languages in Python. The Why and\_How."
+  tracks:
+  - name: Track 2
+  type: schedule-session
+- description: "This talk is broken into 4 sections:\r\n\r\nSection 1: The structure\
+    \ of the Leaving Certificate Computer Science pilot scheme\r\nSection 2: The structure\
+    \ of the Leaving Certificate CS Specification \r\nSection 3: How Python can be\
+    \ applied to the Leaving Certificate CS specification\r\nSection 4 : The Computer\
+    \ Science Teachers' Association of Ireland and Python Ireland \r\n\r\nI am the\
+    \ founder of the Computer Science Teachers' Association of Ireland and have been\
+    \ in contact with Nicolas Laurence about links between the CSTAI and Python Ireland.\
+    \ Nicolas suggested that I should come to the conference and submit a talk about\
+    \ this topic."
+  endTime: '2018-11-11T07:00:00Z'
+  id: '98'
+  speakers: Stephen Murphy
+  startTime: '2018-11-11T06:15:00Z'
+  title: Leaving Certificate Computer Science and Python
+  tracks:
+  - name: Track 2
+  type: schedule-session
+- description: "Part of the title originates from a quote by computer scientist Gerry\
+    \ Sussman on the new MIT introduction to programming course, which (in Sussman's\
+    \ view) focused more on building practical applications at the expense of many\
+    \ computer science fundamentals.\r\n\r\nThe talk will look at some of the advantages\
+    \ and pitfalls of the increasing trend of using Python as an introductory programming\
+    \ language: partially through some personal anecdotes and partially through friends\
+    \ and colleagues' experiences. It will also look at the increasing divergence\
+    \ between those involved in software development and those who, educated through\
+    \ Python, are based in other domains as their primary job but are using their\
+    \ new Python-based knowledge to assist their daily work (in finance, insurance\
+    \ etc).\r\n\r\nI have rated this as Intermediate as some knowledge of Python will\
+    \ be needed as well as understanding some Computer Science basics (i.e arrays\
+    \ vs lists). Some side by side comparisons will take place using Python against\
+    \ Scheme (aspects of fundamental programming and comparing a 'traditional' computer\
+    \ science course re-written in Python), Lua (another contender for when I taught\
+    \ some basic programming) and C (comparison to another popular introductory language\
+    \ and low level details)."
+  endTime: '2018-11-11T08:00:00Z'
+  id: '99'
+  speakers: Ben Fagan
+  startTime: '2018-11-11T07:15:00Z'
+  title: 'Programming by poking: some experiences in teaching with Python'
+  tracks:
+  - name: Track 2
+  type: schedule-session
+- description: "Talk Abstract\r\n==========\r\nThere are lots of reasons using a cloud\
+    \ service is favorable, but how to make sure consistency between development and\
+    \ deployment? With Docker and Terraform, we can create the same environment on\
+    \ cloud easily. For example, we will deploy a Jupyter notebook on Google Cloud\
+    \ Platform using both tools.\r\n\r\nTalk Description\r\n============\r\nIn this\
+    \ talk, we will use a task: hiring a GPU on Google Cloud Platform to train neural\
+    \ network, as an example to show how an application can be deployed on a cloud\
+    \ platform with Docker and Terraform. The goal is to have Jupyter Notebook running\
+    \ in an environment with Tensorflow (GPU version) and other libraries installed\
+    \ on a Google Compute Engine.\r\n\r\nFirst we will briefly explain what is Docker\
+    \ and what is Terraform for audiences who has no experience in either or both\
+    \ of them. Some basic concepts of both tools will also be covered. After that,\
+    \ we will walk-through each steps of the work flow, which includes designing and\
+    \ building a Docker image, setting up a pipeline on Github and Docker Hub, writing\
+    \ the Terrafrom code and the start up script, launching an instance. From that,\
+    \ audiences will have an idea of how both tools can be use together to deploy\
+    \ an app onto a cloud platform and what advantages each tool can bring in the\
+    \ process.\r\n\r\nThis talk is for people with no experience in application deployment\
+    \ on cloud service but would benefit form computational reproducibility and cloud\
+    \ service, potentially data scientists/ analysts or tech practitioners who didn\u2019\
+    t have a software developing background. We will use an example that is simple\
+    \ but useful in data science to demonstrate basic usage of Docker and Terraform\
+    \ which would be beneficial to beginners who would like to simplify their work\
+    \ flow with those tools."
+  endTime: '2018-11-11T09:15:00Z'
+  id: '100'
+  speakers: Cheuk Ho
+  startTime: '2018-11-11T08:30:00Z'
+  title: 'Launch Jupyter to the Cloud: an example of using Docker and Terraform'
+  tracks:
+  - name: Track 2
+  type: schedule-session
+- description: "High functioning autism and near autism are common in STEM workplaces.\
+    \  Diagnoses of autism are increasing, with some surveys estimating 1 in 59 children\
+    \ have signs of autism.  Many of us have struggled with autistic characteristics,\
+    \ and many have struggled with the autistic characteristics of colleagues.  Many\
+    \ of us have also benfited from these same characteristics.\r\n\r\nThis talk will\
+    \ look at an overview of autism, my own personal journey as a late diagnosis autist\
+    \ person, and will cover methods that autistic people can use to smooth their\
+    \ worklives, as well as methods that non-autistic people can use to cope with\
+    \ their autistic colleagues and ways that they can greatly benefit from their\
+    \ gifts."
+  endTime: '2018-11-10T07:00:00Z'
+  id: '101'
+  speakers: Ed Singleton
+  startTime: '2018-11-10T06:15:00Z'
+  title: Autism in the Developer Workplace
+  tracks:
+  - name: Workshop Track 1
+  type: schedule-session
+- description: "The Internet age generates vast amounts of data. Most of this data\
+    \ is unstructured and needs to post processed in some way. Python has become the\
+    \ standard tool for transforming this data into more useable forms.\r\n\r\nnumpy\
+    \ and numba are popular Python libraries for processing large quantities of data.\
+    \ When running complex transformations on large datasets, many developers fall\
+    \ into common pitfalls that kill the performance of these libraries.\r\n\r\nThis\
+    \ talk explains how numpy/numba work under the hood and how they use vectorisation\
+    \ to process large amounts of data extremely quickly. We use these tools to reduce\
+    \ the processing time of a large, real 670GB dataset from one month to 40 minutes,\
+    \ even when the code is run on a single Macbook Pro.\r\n\r\nLink to video of a\
+    \ similar talk Donald has given on the subject: https://www.youtube.com/watch?v=MKIrRYKJeAc\r\
+    \nLink to other talks Donald has given on data processing and machine learning:\
+    \ http://donsoft.io/"
+  endTime: '2018-11-10T08:00:00Z'
+  id: '102'
+  speakers: Donald Whyte
+  startTime: '2018-11-10T07:15:00Z'
+  title: High Performance Data Processing in Python
+  tracks:
+  - name: Workshop Track 1
+  type: schedule-session
+- description: Setup, configuration, and use of Python Data Science tools, highlighting
+    some of the technical pitfalls / statistical failings people often come across
+    in the cleaning and analysis of data. Focus on using multiple datasets from OpenDataNI
+    to generate insights into economic policy and educational attainment in Northern
+    Ireland.
+  endTime: '2018-11-10T11:30:00Z'
+  id: '88'
+  speakers: Andrew Bolster
+  startTime: '2018-11-10T10:45:00Z'
+  title: An Idiots Guide to (Open) Data Science
+  tracks:
+  - name: Workshop Track 1
+  type: schedule-session
+- description: "The ability to explore and grasp data structures through quick and\
+    \ intuitive visualisation is a key skill of any data scientist. Different tools\
+    \ in the Python ecosystem required varying levels of mental-gymnastics to manipulate\
+    \ and visualise information during a data exploration session. The array of Python\
+    \ libraries, each with their own idiosyncrasies, available can be daunting for\
+    \ newcomers and data scientists-in-training. \r\n\r\nIn this talk, we will examine\
+    \ the core data visualisation libraries compatible with the popular Pandas data\
+    \ wrangling library. We'll look at the base-level Matplotlib library first, and\
+    \ then show the benefits of the higher-level Pandas visualisation toolkit and\
+    \ the popular Seaborne library. By the end of the talk, you'll be bar plotting,\
+    \ scatter plotting, and line plotting (never pie charting) your way to data visualisation\
+    \ bliss."
+  endTime: '2018-11-11T11:30:00Z'
+  id: '87'
+  speakers: Shane Lynn
+  startTime: '2018-11-11T10:45:00Z'
+  title: Visualisation in Python - Quick and easy routes to plotting magic
+  tracks:
+  - name: Track 1
+  type: schedule-session
+- description: "Finite state machines are usually the thing of nightmares for CS undergrads.\
+    \ The first question any CS student asks after seeing them is \"But where will\
+    \ I ever use this?\". The answer surprised us too: You can use FSM's almost everywhere.\r\
+    \n\r\nIn this talk we will do a recap on Finite State Machines, and show you some\
+    \ examples of where we use them at Telnyx. \r\nWe will also show the transactions\
+    \ library and how we use this library to process FSMs in a distributed manner.\r\
+    \nAnd we end on a small demo of how you can use FSM machines in a real world application."
+  endTime: '2018-11-10T11:30:00Z'
+  id: '86'
+  speakers: Brian Stempin
+  startTime: '2018-11-10T10:45:00Z'
+  title: Finite State Machines in Python; Or How I learned to stop worrying and love
+    the automaton
+  tracks:
+  - name: Track 1
+  type: schedule-session
+- description: 'This intermediate level talk will focus on introducing the three pillars
+    of Observibility (1: structured logging 2: metrics 3: tracing) to your Python
+    application. The learning objective is to introduce existing Python developers
+    to each area as well as best practices (RED/four golden signals) and the specific
+    Python libraries they can use in their applications. It aim is that by the end
+    people will know how to add specific tools plus related best practices to their
+    existing applications to provide greater insight into their systems. The closest
+    example is that this talk will pragmatically present the content of "Distributed
+    Systems Observibility" O''Reilly into concrete actions and libraries to use. Some
+    anecdotes and examples of how these have gone for the speaker in his production
+    systems will also be noted.'
+  endTime: '2018-11-10T08:00:00Z'
+  id: '91'
+  speakers: Eoin Brazil
+  startTime: '2018-11-10T07:15:00Z'
+  title: Adding the three pillars of Observibility to your Python app
+  tracks:
+  - name: Track 1
+  type: schedule-session
+- description: "At Fieldguide we are developing a digital field guide for all species\
+    \ of flora and fauna across the planet. We are using image recognition technology\
+    \ to enable species identification and to help with the curation of this massive\
+    \ catalogue.\r\n\r\nIn this talk I will describe how we are building an image\
+    \ recognition system with the aim of identifying all known species in the natural\
+    \ world. The system has gone through a number of iterations at this point using\
+    \ a variety of computer vision and machine learning techniques, from nearest neighbour\
+    \ search to classification with fine tuned deep convolutional networks. All of\
+    \ this has been implemented in Python using scikit-learn, Numpy, Caffe and Tensorflow.\r\
+    \n\r\nAside from the obvious machine learning challenges in designing and training\
+    \ such a system we faced numerous technical challenges while implementing and\
+    \ scaling this system in a cost effective manner. I will discuss these challenges,\
+    \ our solutions and the remaining open problems.\r\n\r\nWhile this talk will be\
+    \ relatively high level with few code examples and no math (but lots moths), it\
+    \ will be of most interest to those who have some knowledge of machine learning\
+    \ concepts."
+  endTime: '2018-11-11T10:15:00Z'
+  id: '103'
+  speakers: Fergal Walsh
+  startTime: '2018-11-11T09:30:00Z'
+  title: Building a Fine Grained Image Classification System for Nature Images
+  tracks:
+  - name: Track 1
+  type: schedule-session
+- description: "This talk will attempt to explain how to version an API within the\
+    \ Django framework. Say you need to change the data that your API returns to your\
+    \ users, but any major changes would result in breaking the API for users of any\
+    \ previous versions. This talk will explain how to avoid this problem, which as\
+    \ a developer who works on APIs with the Django framework every day is a constant\
+    \ problem that I would have to face. \r\n\r\nThis talk will cover:\r\n\r\n1.)\
+    \ Why do I even have to version my API in the first place? Surely I can just make\
+    \ changes?\r\n\r\n2.) Okay, now I understand why to version my API in Django.\
+    \ What about the how? (this will mainly focus on the Django REST framework's library\
+    \ of versioning, but other methods will be considered) \r\n\r\n3.) Live Demo of\
+    \ breaking changes (oh no!) and how we can apply our knowledge from the second\
+    \ part of the talk and avoid these."
+  endTime: '2018-11-10T10:15:00Z'
+  id: '104'
+  speakers: Rebecca Martin
+  startTime: '2018-11-10T09:30:00Z'
+  title: Django APIs, Versioning and You
+  tracks:
+  - name: Track 2
+  type: schedule-session
+- description: Asynchronous programming can have many advantages, but may be awfully
+    complicated. It also requires a developer to think differently. In this talk I
+    will go through what async programming is, when you should or should not use it,
+    and what we can do to avoid getting lost. I will also explore various approaches
+    and tools available in Python.
+  endTime: '2018-11-10T09:15:00Z'
+  id: '105'
+  speakers: Mikhail Medvedev
+  startTime: '2018-11-10T08:30:00Z'
+  title: Asynchronous programming in Python, or the art of living backwards
+  tracks:
+  - name: Workshop Track 1
+  type: schedule-session
+- description: "I would like to discuss how to use data science skills for public\
+    \ policy and the process of scoping projects. This will all be based on the University\
+    \ of Chicago's Data Science for Social Good fellowship (dssg.uchicago.edu), which\
+    \ I just completed this year. I will present the process, the fellowship, how\
+    \ to get involved with the fellowship (fellows and mentors), and a deep dive on\
+    \ a project I was involved in.\r\n\r\nThe project I will present will be on improving\
+    \ workplace safety in Chile by building a machine learning system to proactively\
+    \ predict companies that will have a labor law violation. This work was done in\
+    \ partnership with the Department of Labor in Chile. \r\n\r\nProject page:\r\n\
+    https://dssg.uchicago.edu/project/improving-workplace-safety-through-proactive-inspections/"
+  endTime: '2018-11-11T10:15:00Z'
+  id: '106'
+  speakers: Ancil Crayton
+  startTime: '2018-11-11T09:30:00Z'
+  title: Data Science for Social Good
+  tracks:
+  - name: Track 2
+  type: schedule-session
+- description: Released in June before the conference, Python 3.7 is a feature-packed
+    release! This talk will cover all the new features of Python 3.7, including the
+    Data Classes and the Context Variables for the asynchronous programming with asyncio.
+  endTime: '2018-11-10T10:15:00Z'
+  id: '107'
+  speakers: Stephane Wirtel
+  startTime: '2018-11-10T09:30:00Z'
+  title: What is new in Python 3.7?
+  tracks:
+  - name: Workshop Track 1
+  type: schedule-session
+- description: "Packages that won't install, encodings that don't work, installers\
+    \ that ask too many questions, and having to own a PC are all great reasons to\
+    \ just ignore Windows. Or they would be, if they were true.\r\nDespite community\
+    \ perception, more than half of Python usage still happens on Windows, including\
+    \ web development, system administration, and data science, just like on Linux\
+    \ and Mac. And for the most part, Python works the same regardless of what operating\
+    \ system you happen to be using. Still, many library developers will unnecessarily\
+    \ exclude half of their potential audience by not even attempting to be compatible.\r\
+    \nThis session will walk through the things to be aware of when creating cross-platform\
+    \ libraries. From simple things like using pathlib rather than bytestrings, through\
+    \ to all the ways you can get builds and tests running on Windows for free, by\
+    \ the end of this session you will have a checklist of easy tasks for your project\
+    \ that will really enable the whole Python world to benefit from your work."
+  endTime: '2018-11-10T11:30:00Z'
+  id: '108'
+  speakers: Steve Dower
+  startTime: '2018-11-10T10:45:00Z'
+  title: Python on Windows is Okay, Actually
+  tracks:
+  - name: Track 2
+  type: schedule-session
+- description: "Atrial fibrillation (AF) is the most common irregular heartbeat among\
+    \ the\r\nworld\u2019s population and is a major contributing factor to clot formation\
+    \ within\r\nthe heart. When such a blood clot enters the cardiovascular system,\
+    \ it first\r\nmust travel along the ascending aorta. The clot may travel along\
+    \ the aortic\r\narch and travel towards the brain through the left and right common\
+    \ carotid\r\narteries. If clot enters these vessels, it can become lodged within\
+    \ the\r\nsmaller vessels of the brain and cause a stroke.  We apply supervised\
+    \ machine\r\nlearning classifiers (logit, SVM) for detecting stroke probability\
+    \ using simulation data.  \r\nVarious scenarios are implemented to examine the\
+    \ impact of variables such as\r\nshape of the aortic arch, varying clot dimensions\
+    \ and the entry point.\r\nModel selection tools (grid search, cross-validation)\
+    \ and classification probability are calculated for each\r\nclassifier. Application\
+    \ will be shown using Jupyter notebooks."
+  endTime: '2018-11-11T11:30:00Z'
+  id: '109'
+  speakers: Olga Lyashevska
+  startTime: '2018-11-11T10:45:00Z'
+  title: Prediction of risk factors for stroke using classification algorithms (logit,
+    SVM)
+  tracks:
+  - name: Track 2
+  type: schedule-session

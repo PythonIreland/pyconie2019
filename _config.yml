@@ -43,14 +43,17 @@ c4sponsorsUrl: "http://python.ie/pycon-2018/call-for-sponsors/"
 # Navigation
 navigationLinks:
  - {permalink: "/#partners", text: "Sponsors"}
- - {permalink: "/#tickets", text: "Tickets"}
- - {permalink: "/#location-map", text: "Location"}
+ - {permalink: "/#quiz", text: "Entertainment"}
+ - {permalink: "/#tickets", text: "tickets"}
  - {permalink: "/#keynote-speakers", text: "Keynotes"}
-# - {permalink: "/#quiz", text: "Entertainment"}
+ - {permalink: "/#talks", text: "talks"}
+ - {permalink: "/#location-map", text: "Location"}
+ - {link: "https://python.ie/pycon-2018/financial-aid-2018/", text: "Financial Aid"}
+
+
 # - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/team/", text: "Team"}
 # - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals", text: "Become a speaker"}
- - {link: "https://python.ie/pycon-2018/financial-aid-2018/", text: "Financial Aid"}
 #bottomNavigationLinks:
 # - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals", text: "Become a speaker"}
 #rightNavigationButtons:
@@ -64,12 +67,17 @@ typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
  - {permalink: "/#partners", text: "Sponsors"}
+ - {permalink: "/#quiz", text: "Entertainment"}
+ - {permalink: "/#tickets", text: "Tickets"}
  - {permalink: "/#keynote-speakers", text: "Keynotes"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+ - {permalink: "/#talks", text: "Talks"}
+ - {permalink: "/#location-map", text: "Location"}
+ - {link: "https://python.ie/pycon-2018/financial-aid-2018/", text: "Financial Aid"}
+
+
 # - {link: "http://pycon-ireland-accommodation.wikia.com/wiki/PyCon_Ireland_Accommodation_Wiki", text: "Accommodation and Travel Guide"}
 # - {link: "http://schedule.pycon.python.ie/", text: "Full Schedule"}
 # - {link: "http://python.ie/pycon/volunteer/", text: "Become a volunteer"}
-# - {permalink: "/#quiz", text: "Entertainment"}
 
 # About Block
 aboutTitle: "About PyConIE 2018"
@@ -136,7 +144,9 @@ partnersC4sponsorsButton: "Become a sponsor"
 #subscribeImage: "subscribe.jpg"
 #subscribeTitle: "Subscribe for updates"
 #subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-#subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+#subscribeInfo: "Registration will be open around end of August. Number of talks are limited. Stay tuned!"
+
+
 
 # Footer
 socialLinks:
@@ -200,3 +210,5 @@ directionDetailsWideCards:
     links:
      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
 
+# talks Block
+talksTitle: "Talks"
