@@ -171,11 +171,7 @@
     \ of the Leaving Certificate Computer Science pilot scheme\r\nSection 2: The structure\
     \ of the Leaving Certificate CS Specification \r\nSection 3: How Python can be\
     \ applied to the Leaving Certificate CS specification\r\nSection 4 : The Computer\
-    \ Science Teachers' Association of Ireland and Python Ireland \r\n\r\nI am the\
-    \ founder of the Computer Science Teachers' Association of Ireland and have been\
-    \ in contact with Nicolas Laurence about links between the CSTAI and Python Ireland.\
-    \ Nicolas suggested that I should come to the conference and submit a talk about\
-    \ this topic."
+    \ Science Teachers' Association of Ireland and Python Ireland."
   endTime: '2018-11-11T07:00:00Z'
   id: '98'
   speakers: Stephen Murphy
@@ -209,11 +205,7 @@
   tracks:
   - name: Track 2
   type: schedule-session
-- description: "Talk Abstract\r\n==========\r\nThere are lots of reasons using a cloud\
-    \ service is favorable, but how to make sure consistency between development and\
-    \ deployment? With Docker and Terraform, we can create the same environment on\
-    \ cloud easily. For example, we will deploy a Jupyter notebook on Google Cloud\
-    \ Platform using both tools.\r\n\r\nTalk Description\r\n============\r\nIn this\
+- description: "In this\
     \ talk, we will use a task: hiring a GPU on Google Cloud Platform to train neural\
     \ network, as an example to show how an application can be deployed on a cloud\
     \ platform with Docker and Terraform. The goal is to have Jupyter Notebook running\
