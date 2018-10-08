@@ -397,21 +397,24 @@
   tracks:
   - name: Workshop Track 1
   type: schedule-session
-- description: "I would like to discuss how to use data science skills for public\
-    \ policy and the process of scoping projects. This will all be based on the University\
-    \ of Chicago's Data Science for Social Good fellowship (dssg.uchicago.edu), which\
-    \ I just completed this year. I will present the process, the fellowship, how\
-    \ to get involved with the fellowship (fellows and mentors), and a deep dive on\
-    \ a project I was involved in.\r\n\r\nThe project I will present will be on improving\
-    \ workplace safety in Chile by building a machine learning system to proactively\
-    \ predict companies that will have a labor law violation. This work was done in\
-    \ partnership with the Department of Labor in Chile. \r\n\r\nProject page:\r\n\
-    https://dssg.uchicago.edu/project/improving-workplace-safety-through-proactive-inspections/"
+- description: "In this session, I would like to apply NLP methods to explore press\
+    \ releases by governments in order to understand public policy decisions.\
+    \ This talk will be based on my PhD research in applying topic models to\
+    \ Federal Reserve communication and analyzing how important themes influence\
+    \ financial markets. I will walk through a Jupyter notebook that covers the\
+    \ main steps of text preprocessing, feature extraction, topic modeling (LDA or NMF),\
+    \ visualizing topics, and possibly regression analysis to assess the impact\
+    \ of the information financial markets. It will include mentions to packages\
+    \ like gensim, Scikit Learn, Word Cloud, and possibly statsmodels. I will make\
+    \ this available in a public repo on Github or a notebook on Google Colab that\
+    \ will allow participants to follow along as well. I hope that this session will\
+    \ inspire participants to apply their Python and data science skills to interesting\
+    \ problems lurking in public policy."
   endTime: '2018-11-11T10:15:00Z'
   id: '106'
   speakers: Ancil Crayton
   startTime: '2018-11-11T09:30:00Z'
-  title: Data Science for Social Good
+  title: 'Natural Language Processing: An Application for Public Policy'
   tracks:
   - name: Track 2
   type: schedule-session
