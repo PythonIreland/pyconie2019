@@ -23,6 +23,26 @@
             </div>
             <div class="clearfix visible-xs"></div>
             {% endfor %}
+            <h3 id="workshop-title">{{ site.workshopTitle }}</h3>
+            {% for talk in site.data.workshops %}
+            <div class="talks-row">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-12 text-left">
+                        <p class="title">{{ talk.title }}</p>
+                        {% if talk.additionalInfo != null %}
+                        <span class="talk-additional-info">{{ talk.additionalInfo }}</span>
+                        {% endif %}
+                    </div>
+                    <div class="col-sm-1 col-xs-12 text-left">
+                        <p class="price">{{ talk.speakers }}</p>
+                    </div>
+                    <div class="col-sm-8 col-xs-12 text-left">
+                        <p class="price">{{ talk.description }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix visible-xs"></div>
+            {% endfor %}
         </div>
     </div>
 </section>
