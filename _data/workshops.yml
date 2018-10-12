@@ -111,11 +111,9 @@
     s beautiful but sometimes peculiar implementation of OOP concepts. It\u2019s ideal\
     \ for people who have a bit of Python knowledge and experience, and need to move\
     \ from first steps to a deeper understanding.\r\n\r\nThe workshop has been presented\
-    \ at many Python conferences, including PyCon, Ireland in past years and has always\
+    \ at many Python conferences, including PyCon Ireland in past years and has always\
     \ been full packed of attendees. This year I completely reworked the slides to\
-    \ better explain some of the points where attendees struggled in the past.\r\n\
-    \r\nThe workshop lasts 3-4 hours, it cannot be squeezed in 2 hours. If there is\
-    \ no longer slot available I have to withdraw the proposal"
+    \ better explain some of the points where attendees struggled in the past."
   endTime: '2018-11-11T12:45:00Z'
   id: '125'
   speakers: Leonardo Giordani

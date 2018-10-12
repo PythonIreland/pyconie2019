@@ -46,6 +46,7 @@ navigationLinks:
  - {permalink: "/#tickets", text: "tickets"}
  - {permalink: "/#keynote-speakers", text: "Keynotes"}
  - {permalink: "/#talks", text: "talks"}
+ - {permalink: "/#workshops", text: "Workshops"}
  - {permalink: "/#quiz", text: "Entertainment"}
  - {permalink: "/#location-map", text: "Location"}
  - {link: "https://python.ie/pycon-2018/financial-aid-2018/", text: "Financial Aid"}
@@ -70,6 +71,7 @@ heroButtons:
  - {permalink: "/#tickets", text: "Tickets"}
  - {permalink: "/#keynote-speakers", text: "Keynotes"}
  - {permalink: "/#talks", text: "Talks"}
+ - {permalink: "/#workshops", text: "Workshops"}
  - {permalink: "/#quiz", text: "Entertainment"}
  - {permalink: "/#location-map", text: "Location"}
  - {link: "https://python.ie/pycon-2018/financial-aid-2018/", text: "Financial Aid"}
