@@ -45,7 +45,7 @@ navigationLinks:
  - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "tickets"}
  - {permalink: "/#keynote-speakers", text: "Keynotes"}
- - {link: "http://schedule.pycon.python.ie/", text: "Schedule"}
+ - {link: "http://schedule.pycon18.python.ie/", text: "Schedule"}
  - {permalink: "/#quiz", text: "Entertainment"}
  - {permalink: "/#location-map", text: "Location"}
 
