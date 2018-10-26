@@ -6,7 +6,7 @@
   group: "Platinum Sponsors"
   elements: 
     - {name: "Demonware", description: "Demonware is an Irish software development company and a subsidiary of Activision Blizzard. Demonware's products enable games publishers to outsource their networking requirements, allowing them to concentrate on playability. ", link: "https://www.demonware.net", imageUrl: "dw.png"}
-    - {name: "Brightwater", description: "Brightwater Recruitment specialises in placing candidates in permanent, contract and temporary Irish and international jobs.", link: "https://www.brightwater.ie", imageUrl: "bw2.png"}
+    - {name: "Brightwater", description: "Brightwater Recruitment specialises in placing candidates in permanent, contract and temporary Irish and international jobs.", link: "https://www.brightwater.ie", imageUrl: "logo_brightwater.jpg"}
     - {name: "RenRe", description: "RenaissanceRe Holdings Ltd is a provider of reinsurance, insurance and other related business services.", link: "https://www.renre.com/", imageUrl: "renaissancere-grey.png"}
 -
   group: "Bar and Entertainmant"
