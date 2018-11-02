@@ -20,7 +20,7 @@
     - {name: "Riot Games", description: "Riot Games, Inc. is an American video game developer and eSports tournament organizer based in West Los Angeles, California. ", link: "https://www.riotgames.com", imageUrl: "riot-games.png"}
     - {name: "Bank of America Merrill Lynch", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
     - {name: "Tenable", description: "Tenable.io, the world’s first Cyber Exposure platform, arms Security with the visibility to see their entire cyber attack surface at all times (from IT to Cloud to IoT to OT) and arms the CISO, C-suite and Board of Directors with the insight to focus on the issues which matter most and make better strategic decisions.", link: "http://www.tenable.com/", imageUrl: "ten.png"}
-    - {name: "Bloomberg Polarlake", description: "Bloomberg L.P. is a privately held financial, software, data, and media company headquartered in Midtown Manhattan, New York City.", link: "https://www.bloombergpolarlake.com/", imageUrl: "bloomberg.png"}
+    - {name: "Bloomberg Polarlake", description: "Bloomberg L.P. is a privately held financial, software, data, and media company headquartered in Midtown Manhattan, New York City.", link: "https://www.bloombergpolarlake.com/", imageUrl: "PolarLake_Black_CMYK.jpg"}
 -
   group: "Lanyards Sponsors"
   elements:
