@@ -44,7 +44,7 @@ c4sponsorsUrl: "http://python.ie/pycon-2018/call-for-sponsors/"
 navigationLinks:
  - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "tickets"}
- - {permalink: "/#keynote-speakers", text: "Keynotes"}
+# - {permalink: "/#keynote-speakers", text: "Keynotes"}
  - {link: "http://schedule.pycon18.python.ie/", text: "Schedule"}
  - {permalink: "/#quiz", text: "Entertainment"}
  - {permalink: "/#location-map", text: "Location"}
@@ -67,7 +67,7 @@ typeoutFallback: ""
 heroButtons:
  - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "Tickets"}
- - {permalink: "/#keynote-speakers", text: "Keynotes"}
+# - {permalink: "/#keynote-speakers", text: "Keynotes"}
  - {link: "http://schedule.pycon18.python.ie/", text: "Schedule"}
  - {permalink: "/#quiz", text: "Entertainment"}
  - {permalink: "/#location-map", text: "Location"}
