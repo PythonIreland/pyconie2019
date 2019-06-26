@@ -10,11 +10,11 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "PyCon Ireland 2018 - Ireland's Python Conference"
+title: "PyCon Ireland 2019 - Ireland's Python Conference"
 email: "pycon@python.ie"
 description: "Python Ireland's Annual Python Conference"
 baseurl: ""
-url: "https://pyconie18.python.ie"
+url: "https://pyconie19.python.ie"
 #permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-53856571-4"
 googleAnalyticsSiteUrl: "python.ie"
@@ -37,7 +37,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
 #c4pUrl: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2017/call-for-proposals/"
-c4sponsorsUrl: "http://python.ie/pycon-2018/call-for-sponsors/"
+c4sponsorsUrl: "http://python.ie/pycon-2019/call-for-sponsors/"
 
 
 # Navigation
@@ -45,30 +45,30 @@ navigationLinks:
  - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "tickets"}
 # - {permalink: "/#keynote-speakers", text: "Keynotes"}
-# - {link: "http://schedule.pycon18.python.ie/", text: "Schedule"}
+# - {link: "http://schedule.pycon19.python.ie/", text: "Schedule"}
  - {permalink: "/#quiz", text: "Entertainment"}
  - {permalink: "/#location-map", text: "Location"}
 
 
 # - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/team/", text: "Team"}
-# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals", text: "Become a speaker"}
+# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2019/call-for-proposals", text: "Become a speaker"}
 #bottomNavigationLinks:
-# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals", text: "Become a speaker"}
+# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2019/call-for-proposals", text: "Become a speaker"}
 #rightNavigationButtons:
-# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals", text: "Become a speaker"}
+# - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2019/call-for-proposals", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "PyConIE 2018 - Ireland's Python Conference"
-eventDate: "Sat 10th - Sun 11th November"
+heroTitle: "PyConIE 2019 - Ireland's Python Conference"
+eventDate: "Sat 12th - Sun 13th of October"
 typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
  - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "Tickets"}
 # - {permalink: "/#keynote-speakers", text: "Keynotes"}
-# - {link: "http://schedule.pycon18.python.ie/", text: "Schedule"}
+# - {link: "http://schedule.pycon19.python.ie/", text: "Schedule"}
  - {permalink: "/#quiz", text: "Entertainment"}
  - {permalink: "/#location-map", text: "Location"}
 
@@ -78,7 +78,7 @@ heroButtons:
 # - {link: "http://python.ie/pycon/volunteer/", text: "Become a volunteer"}
 
 # About Block
-aboutTitle: "About PyConIE 2018"
+aboutTitle: "About PyConIE 2019"
 aboutBlock:
  - {title: "Talks", image: "conference.jpg", text: "The best talks from Irish and International speakers about Python and related technologies." }
  - {title: "Workshops", image: "workshop.jpg", text: "Full workshop tracks to up-skill on some new technology." }
@@ -111,9 +111,9 @@ eventAddressLocality: "Dublin"
 #eventAddressLocalityRegion: "Ireland"
 # eventPostalCode: "79000"
 eventAddressCountry: "Ireland"
-eventStartTime: "2018-11-10T09:00"
+eventStartTime: "2019-10-12T09:00"
 eventDoorTime: "08:00"
-eventEndTime: "2018-11-11T20:00"
+eventEndTime: "2019-10-13T20:00"
 eventPlaceCoordinates: "53.3408484, -6.2682426"
 mapCenterCoordinates: "53.3408484, -6.2682426"
 mapMobileCenterCoordinates: "53.3408484, -6.2682426"
@@ -159,7 +159,7 @@ footerBlocks:
  -
   title: "FAQ"
   links:
-   - {link: "https://python.ie/pycon-2018/code-conduct/", text: "Code of Conduct"}
+   - {link: "https://python.ie/pycon-2019/code-conduct/", text: "Code of Conduct"}
 
 # Blog
 blogTitle: "Latest news"
