@@ -167,7 +167,7 @@ blogCommentsEnabled: false
 discusShortName: "devfestua"
 
 # Speakers List Block
-showSessions: true
+showSessions: false
 
 # Team Block
 teamBlockTitle: "About us"
