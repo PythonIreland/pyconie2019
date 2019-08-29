@@ -36,7 +36,6 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-#c4pUrl: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2017/call-for-proposals/"
 c4sponsorsUrl: "http://python.ie/pycon-2019/call-for-sponsors/"
 
 
