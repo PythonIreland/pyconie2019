@@ -7,16 +7,16 @@
             {% for talk in site.data.talks %}
             <div class="talks-row">
                 <div class="row">
-                    <div class="col-sm-3 col-xs-12 text-left">
+                    <div class="col-sm-4 col-xs-12 text-left">
                         <p class="title">{{ talk.title }}</p>
-                        {% if talk.additionalInfo != null %}
-                        <span class="talk-additional-info">{{ talk.additionalInfo }}</span>
+                        {% if talk.subtype != null %}
+                        <span class="talk-additional-info">{{ talk.subtype }}</span>
                         {% endif %}
                     </div>
                     <div class="col-sm-1 col-xs-12 text-left">
                         <p class="price">{{ talk.speakers }}</p>
                     </div>
-                    <div class="col-sm-8 col-xs-12 text-left">
+                    <div class="col-sm-7 col-xs-12 text-left">
                         <p class="price">{{ talk.description }}</p>
                     </div>
                 </div>

@@ -1,0 +1,7 @@
+-
+  id: 002
+  title: "iOS malware detection with python: saving private Brian"
+  description: "Can your iPhone or iPad get malware? Yes. Well rarely, but yes. How would you know though? Apple won't let AV products in the app store. There's a few apps like sysmon but the outputs can be difficult to interpret. Currently, it appears impossible to know, particularly if it's a sophisticated state actor, when you're infected.
+                This talk will be told through the story of Brian, a human rights investigator, who has been targeted by a hostile state intelligence organisation that wants to interfere with his work by identifying and persecuting his secret in-country contacts."
+  subtype: presentation
+  speakers: "Michael Burke"
