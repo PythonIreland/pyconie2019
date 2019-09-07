@@ -87,9 +87,8 @@ aboutBlock:
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "400", specialCharacter: "+", info: "attendees", detail: "from everywhere around Ireland and the world"}
-# - {count: "32", specialCharacter: "+", info: "hours", detail: "of Python related talks"}
  - {count: "30", specialCharacter: "+", info: "speakers", detail: "from around the world"}
- - {count: "2", specialCharacter: "", info: "talk tracks", detail: "2 tracks with a mix of core python, data science, web frameworks"}
+ - {count: "3", specialCharacter: "", info: "talk tracks", detail: "3 tracks with a mix of core python, data science, web frameworks"}
  - {count: "2", specialCharacter: "", info: "workshop tracks", detail: "With workshops for beginners, advanced, and data science."}
 
 # Latest News Block
