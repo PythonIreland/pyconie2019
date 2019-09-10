@@ -1,0 +1,458 @@
+-
+  id: 002
+  title: " How I made a python program to beat the game I couldn't"
+  description: "Games are pretty fun to play unless you are stuck at a puzzle or level. Fortunately, you can program a agent which can do the job for you. Reinforcement learning, is a pretty exciting way to train a machine which can learn to play a game by rewarding it on successful moves and penalizing it for wrong moves. You can train the model multiple until it can explored all the possible moves and now has an idea of successful moves. So when you make it play again it will take only those succesful steps and will efficiently complete the level /game. For the talk, I’ll focus on the introduction of RL and different algorithms and how they can be used. Lastly, I’ll show how one can train a model to play a simple 2D / Atari games."
+  subtype: presentation
+  speakers: "Sanket Thakur"
+
+-
+  id: 002
+  title: "Introduction to MicroPython"
+  description: ""https://d1workshop.readthedocs.io/en/latest/
+  Workshop that goes through getting started with MicroPython, using the D1 mini as the hardware platform. There is an initial setup part that covers installing drivers and connecting to boards REPL, usually about 15-20 minutes.
+  Then Part 1 covers basic I/O, LEDs, buttons etc. Part 2 covers OLED screen, reading temperature sensor, setting up networks, making web requests etc.""
+  subtype: presentation
+  speakers: "Max Vizard"
+
+  -
+    id: 002
+    title: "Pragmatic Machine Learning Product Development"
+    description: ""I would talk about how Intercom built an important machine learning product, the interplay between the technical and product side of delivering a successful ML product.
+    Many people are interested in machine learning, but how do you build a ML product that actually ships? I'll discuss the complexities you run into when building ML products above normal software development. I'll give some techniques and strategies for overcoming these, and take the audience through the timeline of how Intercom built a successful ML product. (& we built it in Python, even though Intercom is normally all Ruby!)""
+    subtype: presentation
+    speakers: "Fergal Reid"
+
+  -
+    id: 002
+    title: "Zero to Blockchain in 30 minutes"
+    description: ""We will build a working blockchain with all the basic functionality, and deploy our own currency, pyconCoin - from scratch.
+    Let’s take a complicated topic, break it up into simple building blocks, and connect the dots in our favorite way - by implementing them in Python.
+    It's incredibly cool to see how easy it is to create things that sound relatively complex.
+    No understanding in blockchain is needed for this talk.""
+    subtype: presentation
+    speakers: "Carine-Belle & Yonatan"
+
+  -
+    id: 002
+    title: "MicroPython fun on €10 hardware"
+    description: ""You can find a draft of the talk here, https://github.com/deanstheory/jupyter-micropython-esp32
+    Introduction to MicroPython running on ESP32 based microcontroller. Overview of the standard libraries and hardware specific MicroPython libraries. Live demonstrations using Jupyter Notebook running MicroPython Remote kernel.""
+    subtype: presentation
+    speakers: "Sean Doherty"
+
+  -
+    id: 002
+    title: "What's beyond Django Girls tutorial: an introduction to Class Based Views"
+    description: "In several Django tutorials, we see how to receive requests and return responses with html pages containing various information.
+    This is pretty cool to start understanding the process Django does: it receives requests and returns templates. But okay, and after that?
+    When we start to make a system a little more complex, we are faced with several functions of get and post that have to do a lot of checks, their classes or functions begin to become gigantic, complex and usually ineffective to cover all the possibilities we can glimpse.
+    That's where Django's Class Based Views come into the story. These wonders can make your life infinitely easier, but they may be very easy to understand in the beginning.
+    Let's find out how to make a more complex system? Let's find out what's beyond to the tutorials?"
+    subtype: presentation
+    speakers: "Leticia Portella"
+
+  -
+    id: 002
+    title: "PyMongo for Beginners"
+    description: "PyMongo the Python MongoDB driver is one of our most popular and mature drivers. In this talk we will go into some detail on how to use the driver for real application development. From basic installation right up to building a somewhat sophisticated application."
+    subtype: presentation
+    speakers: "Joe Drumgoole"
+
+  -
+    id: 002
+    title: "Dash: Interactive Data Visualization Web Apps with no Javascript"
+    description: ""Your data science or machine learning project probably won't just produce a written report. Instead, projects are increasingly expected to produce interactive tools to allow end-users to explore data and results with rich, interactive visualizations. Inevitably, this will be done in a web browser, meaning you'll need to add a quantitatively trained web developer to your team, or have your data scientists spend time learning HTML, Javascript and CSS. Dash, a project by the team that makes Plotly, solves some of these problems by allowing data scientists to build rich and interactive websites in pure python, with minimal knowledge of HTML and absolutely no Javascript.
+    At decisionLab, a London-based data science consultancy producing decision tools, we've embraced Dash to produce proof-of-concept models for our projects in alpha. Although we're not officially connected to the plotly/Dash project, by using the library daily across many projects, we've learned many lessons and what we feel are best practices we'd like to share, and hear feedback on!
+    This talk will give an overview of Dash, how it works and what it can be used for, before outlining some of the common problems that emerge when data scientists are let loose to produce web applications, and web developers have to work with the pydata ecosystem. The talk also covers effective working practises to start producing cool interactive statistical web applications, fast. We'll also identify some of the pitfalls of Dash, and how and when to make the decision to stop using Dash and start building a proper web application.""
+    subtype: presentation
+    speakers: "Dom Weldon"
+
+  -
+    id: 002
+    title: "pflacs: Faster load cases and parameter studies"
+    description: "My talk will present a Python module I have created called "pflacs", an open-source package that takes advantage of Python's flexible dynamic nature and its introspection tools to provide an object-orientated environment for automating engineering design and computational studies.  Traditionally engineering design methodologies have been very slow, manual and iterative, however recent developments in computer technologies are driving a growing trend towards automation. The author has a background in the subsea  oil & gas industry, and has applied  "pflacs" to automating the  design of subsea pipelines.  Although its origins and primary objectives are in engineering design,  "pflacs"  can be used to manage and automate parameter study type analyses in any domain that has a significant computational component.  More details on "pflacs" are available in this draft paper: https://github.com/qwilka/blog-resources/blob/master/drafts/paper.pdf"
+    subtype: presentation
+    speakers: "Stephen McEntee"
+
+  -
+    id: 002
+    title: "Leveraging Public APIs for Machine Learning Datasets"
+    description: "When we look for datasets for Machine Learning we often forget the wealth of information available from public APIs.
+    We can capture Twitter data for Sentiment Analysis, Youtube data for video recommendations/ speech to text, Github data for project health classification, GDELT.org data for information extraction, or Google BigQuery datasets of reddit, stackoverflow, etc. for Natural Language Processing.
+    Using python API libraries we can easily fetch (live) target data from APIs and use it for offline or incremental training."
+    subtype: presentation
+    speakers: "Johannes Ahlmann"
+
+  -
+    id: 002
+    title: "I am telling you 3 things about Chatbot (so you don't have to learn it the hard way)"
+    description: "Chatbot is cool, have you even think about building one yourself? There are many platforms and tools available, do you know which one to use and where to start?
+    The first thing I am going to tell you, is what are the main components of a chatbot. It’s always a mystery why chatbot can understand us and take action accordingly. To understand such a complicated machine, we will tear down a chatbot and show you the different parts of a chatbot: NLU, dialogue logic, user interface; and explains what their functions are, thus which part of the process they are responsible for, and how they interact with each other.
+    The second thing, what a chatbot can and cannot do. We always have an impression that all chatbot can pass the Turing test easily due to the advancement of deep learning and AI. Is that true? Or is it just a couple of big key players in AI showing off their ability? By showing how a chatbot is trained, we can see what limits the “intelligent” of the bot. We can also see how we could make adjustment in training to suit different purpose.
+    The third thing, is which one to choose. There are many different chatbot development platforms available, both commercial and open source, and they are different in design and approaches in training the bot. I have tried using Amazon Lex and Rasa. From my experience, I can tell you what are the difference between using them so you have a better understanding of what suits your use case better.
+    This talk is suitable for those who are curious but does not have much experience in chatbots. We will assume audiences already have basic knowledge about NLP and neural network so it would not be covered in details."
+    subtype: presentation
+    speakers: "Cheuk Ho"
+
+  -
+    id: 002
+    title: "Object-Oriented Data Science for Production"
+    description: ""Python is one of the most popular programming environments for Data Science. The prototypical data science approach is linear-- find the best combination of data manipulation and model selection, put it all together in a function or set of functions, and put it into production. Python's functional programming capabilities are a great match there. This approach to DS is very useful as a teaching tool, but in business there is a premium on getting as much value as possible from a data set. Rather than finding one model to achieve insight on one issue, a crafty data scientist will try to wring as many insights out of their data as they can.
+    In that scenario, a linear approach isn't practical for production code. If there are four models delivering four insights from one dataset, it is impractical and inefficient to read a file in four times. And keeping track of four different ""versions"" of a data file, each with its own idiosyncratic transformations to match a different model, is a ticket to bugs and code confusion. Taking advantage of Python's Object-Oriented Programming capabilities can eliminate redundant data processing and reduce confusion by organizing code into an object (the data) and a series of methods that act on that data.
+    This talk will provide an argument for the use of OOP in Data Science, specifying the conditions where OOP is most useful, and an introduction to OOP in Python from the perspective of a data scientist who wants to move from prototyping to production code. It will include Python code samples and lessons learned, as well as an example case where OOP was used to solve a data science problem at EmpowerTheUser.""
+    subtype: presentation
+    speakers: "Bethany Kok"
+
+  -
+    id: 002
+    title: "The Gender Data Gap"
+    description: "The gender data gap describes how the vast sum of data collected is exclusively male. This leads to design problems where things are not suited for female use for example cars, smartphones and even drugs and medication are ill suited for women. The homogenous perspectives of developers can also amplify stereotypes and perpetuate exclusion. It is particularly worrying with the rise of AI as a developers bias can be unknowingly built into technical systems. Bias can also be introduced into AI models when they are trained on a corpus of male data. How do we work towards fixing this problem ?"
+    subtype: presentation
+    speakers: "Louise O'Connor"
+
+  -
+    id: 002
+    title: "Planning my Summer Vacation using Python, Machine Learning, Google API and Cloud Database"
+    description: "I'm planning the family summer vacation. This year is going to be a little different. This year I'm going to use Python, Machine Learning, Google API and a Cloud Database to plan the vacation. It will be a driving holiday in Scotland, but what places do we visit and in what order? Using details of local landmarks and family personal interest, Python and machine learning are used to identify different groupings of local landmarks matching those interests. Combining the outputs of the Python Machine Learning a driving route will be planned to optimise the number of landmarks to visit, where to stay and what else to visit and then saving the details to a Cloud Database. Do one thing for me!  Don't tell my family this is how our vacation is being planned."
+    subtype: presentation
+    speakers: "Brendan Tierney"
+
+  -
+    id: 002
+    title: "Dynamically generating schemas from arbitrary objects"
+    description: ""Understanding the DNA of the data that an application is processing can be essential. When talking about machine learning systems, data structures can be very different from application to application but knowing the corresponding schemas can help with dynamically generating API contracts or learning meta models like anomaly detection. Instead of forcing users to also supply a schema in some form, it's possible to inspect the data and dynamically generate schemas.
+    In this talk I will first show the concept behind how Cubonacci generates schemas dynamically from Python objects that our users pass to us. After that I will show how this specific approach scales well within standard data engineering frameworks. If there is any time left I will show some additional free benefits when applying these methods to your datasets.""
+    subtype: presentation
+    speakers: "Jan van der Vegt"
+
+  -
+    id: 002
+    title: "Wrapping All Your Databases"
+    description: "There are many database libraries in the Python ecosystem that help developers generate SQL or provide an ORM (object-relational mapping) for accessing database records. In this talk, we will go through a cursory glance of common libraries including SqlAlchemy, Django, Gino, aiopg, and more, calling out their strengths, their restrictions, and what projects they might be suitable for. You will walk out of the talk knowing which of the database libraries suit you and how to evaluate new libraries when they come out."
+    subtype: presentation
+    speakers: "Yiu Ming Huynh"
+
+  -
+    id: 002
+    title: "How to curate an NLP dataset with Python"
+    description: "We will step through the process of constructing datasets for supervised machine machine learning for Natural Language Processing together. Firstly how to gather questions. How to categorise these quickly. How to find issues in this initial dataset. And metrics/visualisations needed for reports.
+Each step will use python libraries: flask, scikit-learn, pandas, matplotlib, jupyter. The python needed is fairly basic. The checklist for the process and how python helps at each step will be the useful takeaway."
+    subtype: presentation
+    speakers: "David Curran"
+
+  -
+    id: 002
+    title: "Unit and Integration Testing"
+    description: "Testing is an important part of the software development life cycle, however we don't always stress the importance of it. There are dozens of different types of testing and each one has its own purpose. In order to clarify/revisit two of the more common testing types used by developers, here are some concept definitions and best practices around them.
+    This talk focuses on unit testing and integration testing, mainly narrow integration testing as Fowler point it out on his article https://martinfowler.com/bliki/IntegrationTest.html"
+    subtype: presentation
+    speakers: "Ignasi Bosch"
+
+  -
+    id: 002
+    title: "Dissecting tf.function to discover AutoGraph strengths and subtleties"
+    description: "AutoGraph is one of the most exciting new features of Tensorflow 2.0: it allows transforming a subset of Python syntax into its portable, high-performance and language agnostic graph representation bridging the gap between Tensorflow 1.x and the 2.0 release based on eager execution.
+
+    Using AutoGraph with the `@tf.fuction` decorator seems easy, but in practice, writing efficient and correctly graph-convertible code requires to know in detail how AutoGraph and tf.function work.
+    In particular, knowing how:
+
+    - A graph is created and when it is re-used;
+    - To deal with functions that create a state;
+    - To correctly use the Tensorflow `tf.Tensor` object instead of using the Python native types to speed-up the computation;
+    defines the minimum skill-set required to write correct graph-accelerable code.
+    The talk will guide you through AutoGraph and `tf.function` highlighting all the peculiarities that are worth knowing to build the right skill-set."
+    subtype: presentation
+    speakers: "Paolo Galeone"
+
+  -
+    id: 002
+    title: "Will somebody *please* tell me what's going on?"
+    description: "Software rarely stands still (unless it's TeX). Things are added, things are removed, things break and are then hopefully fixed. Managing this, from both the developer and user perspective, can be tough. In this talk we examine and compare some of the tools that one can use to make this process easier, such as 'debtcollector', 'reno' and 'towncrier', and contrast these with alternatives used in other projects. This talk would mainly be of interest to developers of open source libraries, though the same tooling can be used for any Python library or application that wishes to maintain stable interfaces and/or document changes in their product."
+    subtype: presentation
+    speakers: "Stephen Finucane"
+
+  -
+    id: 002
+    title: "The Irish Earth Observation (IEO) Python Module for Satellite Data Management"
+    description: "The effective use of remote sensing data requires that they be processed to a set of uniform and useful standard products. For data that are acquired in the Republic of Ireland (RoI) and Northern Ireland (NI), it is best that these be transformed into Irish Transverse Mercator (ITM, EPSG:2157) projection. Conversion to ITM is important for two reasons- firstly, ITM is geodetically accurate for Ireland, and is the officially recommended projection for the Ordnance Surveys of both RoI and NI. Secondly, the boundary between Universal Transverse Mercator (UTM) zones 29 and 30 North lies just to the east of Dublin, and this can result in software misprojecting to the west Landsat scenes whose centres occur just to the east of this boundary. By transforming data from UTM to ITM, we ensure that data are properly located and can be more accurately used with other national, regional, and local data sets. The Irish Earth Observation (IEO) Python module is an open-source library that is available for download on Github at https://github.com/DrGuy/ieo. It currently allows for the importation and basic processing of Landsat Thematic Mapper (TM), Enhanced Thematic Mapper Plus (ETM+), and Operational Land Imager (OLI)/ Thermal Infrared Spectrometer (TIRS) data that have been processed to surface reflectance via the LEDAPS algorithm. Data are extracted, stacked, saved in ENVI format, and virtual mosaics are created in VRT format. The IEO module also calculates basic cloud and cloud shadow-masked indices like NDVI and EVI. Support for additional sensors, e.g., the Landsat Multispectral Scanner, Sentinel-1, and Sentinel-2, are also planned."
+    subtype: presentation
+    speakers: "Guy Serbin"
+
+  -
+    id: 002
+    title: "Knock Knock: Who's there? Aiohttp!"
+    description: "Description:
+    This workshop is geared towards intermediate-level Python users. We’ll assume you have a good basic familiarity with the language, and already have a good working environment setup. We will be using Python 3.6, but any version after 3.5 will work as well. We will be using a python cookie cutter to setup a basic template to start our project off with. We’ll go through what aiohttp is, how to utilize it and start building our asynchronous web service. We’ll talk about the benefits of setting up an asynchronous server including better metrics and logging. We’ll be building an app akin to the Dial-A-Joke app built by Steve Wozniak. Our server will make calls to users who have signed up to receive jokes at scheduled times and tell them a joke using TTS, and it will also provide a basic interactive experience over the phone using the touchpad. We’ll setup native asynchronous scheduling inside the service and let it run.
+
+    Abstract:
+    Have you ever made a phone call through your web service? Curious about all the buzz about asynchronous frameworks and libraries? Looking to start delving into it and don’t understand what the big hubbub is all about? We’ll build an app that will be able to make phone calls out to users and be able to do basic interactions with the user while telling them a joke. We’ll also setup metrics gathering and logging and show you how much easier it is to handle when your whole service is setup asynchronously."
+    subtype: presentation
+    speakers: "Luiz Marques & Badal Moradia"
+
+  -
+    id: 002
+    title: "Python and the digital preservation of Ireland's moving image heritage"
+    description: ""This talk will look at how the Irish Film Institute began to create python scripts in order to facilitate the preservation of our digital objects. This largely stemmed from bad experiences with vendors providing proprietary GUIs, which led to me learning python my spare time and building a suite of tools that handle things like integrity checks, archival packaging, metadata extraction and transformation, auditing, file format normalisation and migration, the generation of access copies, and adhering to international standards
+    It also will show how I ended up carving out a role and made python and open source tools an integral part of how we work in the Irish Film Insitute - something that would have seemed impossible just a few years ago.
+    We recently won an award from the Digital Preservation Coalition for these scripts, beating the White House and Uk national parliament archives in the process. https://github.com/kieranjol/IFIscripts
+    The talk will focus on the approach we take to writing and using the scripts, as well as how we ended up adopting such a different approach - when a lot of memory instituions reach out for large, monolithic proprietary systems rather than bespoke microservices.
+    Hopefully it will show that an 'amateur', self-taught developer can use python in a cultural institution for a huge variety of uses, as well as highlighting the flaws in the project the and deviations from best practise (lack of OOP and unittesting in particular)""
+    subtype: presentation
+    speakers: "Kieran O'Leary"
+
+  -
+    id: 002
+    title: "Chaos Engineering"
+    description: "Chaos engineering is relatively a new area with not too many mature tools. We will give a brief overview of the area and talk about Chaos Toolkit, a tool written in Python, and how we used it. We will walk through how to run Chaos Engineering experiments in a continuous manner while surfacing these executions for greater observability and how to inject failures into your production systems in a controlled way to identify weaknesses in your applications."
+    subtype: presentation
+    speakers: "Vel Sailaja & Brian Neary & Juan Flores"
+
+  -
+    id: 002
+    title: "Everybody wants DATA!!!"
+    description: ""Data is described as the new oil but what happens when that asset which belongs to millions and millions of people in the world who are not aware of the different ways that companies used their data to create products and services that will not necessarily will enhance their lives but could be doing the opposite
+    What is behind the terms and conditions when you sign a contract?
+    Or
+    What is behind the terms and conditions when you tick that tiny box?
+    How AI is changing the panoramic for Healthcare members(consumers maybe?)?
+    Would you say yes to openly letting companies to use your Healthcare data?
+    Would you say yes to openly letting companies to use your Healthcare data in other countries?
+    Have you thought about the fitness watch that you are wearing and how it is harvesting your data?
+    I don’t want to promote fear, just knowledge of the data-driven world as we have it now, our privacy and protection will shape the world of data-driven healthcare
+    This talk will describe Healthcare companies in a data driven world""
+    subtype: presentation
+    speakers: "Olga Minguett"
+
+  -
+    id: 002
+    title: "How can Python help to understand Atom Dynamics in Two-Dimensional Materials"
+    description: "In the previous decade, open-source python packages, such as Hyperspy [1], have gifted researchers in the field of electron microscopy (EM) with easy to use, well-documented, and most-importantly flexible analysis tools. Although there is a small initial barrier for those not versed in programming and scripting, the simplicity and depth of documentation of these python packages allow many to contribute to their development. The power of these programs is the ability to adapt and create code for many areas of data and image analysis. Combining python packages developed for EM and material science such as Hyperspy [1], RigidRegistration [2], Atomap [3], PyPrismatic [4,5] and Atomic Simulation Environment (ASE) [6] allows for automated and reproducible image analysis.
+    To accurately control atoms in the next generation of 2D electronic devices, we must understand the dynamics of atoms in each material. Using electron microscopes, we can do just that! We observe the evolution and energetics of the system, down to the smallest visible scale. We will discuss approaches for interlinking the above-mentioned complimentary python packages, and how we can use them to analyse state-of-the-art atomic resolution images. We will then discuss the next step; creating clean, generalised code for specific issues in material science.
+
+    [1] F. de la Peña et al. doi:10.5281/zenodo.592838. (2018).
+    [2] B. H. Savitzky et al., Ultramicroscopy, vol. 191, (2018), pp. 56–65.
+    [3] M. Nord, et al, Adv. Struct. Chem. Imaging, vol. 3, (2017), p. 9.
+    [4] A. Pryor, C. Ophus, and J. Miao, Adv. Struct. Chem. Imaging, vol. 3, (2017), p. 15.
+    [5] C. Ophus, Adv. Struct. Chem. Imaging, vol. 3, (2017), p. 13.
+    [6] A. H. Larsen et al, J. Phys. Condens. Matter Top. Rev., vol 29, (2017), p 273002 (30pp)."
+    subtype: presentation
+    speakers: "Eoghan O'Connell"
+
+  -
+    id: 002
+    title: "Simulation to Reality: Reinforcement Learning For Autonomous Driving"
+    description: "The objective of the talk is to give people an understanding of the capabilities of using deep reinforcement learning. The first part of the talk will give a high level explanation of what reinforcement is and how it works. The 2nd part of the talk goes through a case study of applying reinforcement learning. This looks at one of the research projects in Jaguar Land Rover  using Deep Reinforcement Learning to teach an AI agent to control the steering of an autonomous vehicle. Finally, the talk will go through the many potential benefits of being able to deploy Reinforcement Learning agents straight from a simulation into live production."
+    subtype: presentation
+    speakers: "Donal Byrne"
+
+  -
+    id: 002
+    title: "Adding data visualisation to your Flask app with React Victory charts"
+    description: "Flask is a web server micro-framework designed to make getting started quick and easy, with the ability to scale up to complex applications.
+    Victory is a set of React.js components for modular charting and data visualization.
+    This talk will focus on adding data visualisation to Flask applications by using the amazing React Victory library.
+    Presenting data in web applications can be a daunting task, web applications make it very easy to store large amounts of data into your database of choice but many applications struggle with finding a way to display this data in a meaningful way. Server side rendering of charts can work but often lead to a slower and poor user experience.
+    This talk proposes a solution by integrating a React frontend onto your Flask application, and taking advantage of the powerful and flexible React Victory library for data charting and visualisation.
+    This talk will cover the following topics:
+    Discussing the benefits of using a JS frontend.
+    Integrate a React frontend into your Flask app.
+    Installing and setting up the Webpack, Babel and Victory libraries.
+    Creating an API endpoint to send JSON data.
+    Fetching API data from your React frontend.
+    Some security concerns and how to resolve them.
+    Displaying chart data with Victory charts.
+    How to customize the charts."
+    subtype: presentation
+    speakers: "Allyn Hunt"
+
+  -
+    id: 002
+    title: "Push Over Pandas"
+    description: "NOTE: There are hyperlinks in here - please let me know if you prefer them without
+    [pandas](https://github.com/pandas-dev/pandas) has been the default library of choice for data analysis / manipulation in the Python ML ecosystem.
+    Recently there has a raft of new libraries/frameworks that are similar in design intent as pandas (easy & fast analysis and manipulation of mixed data types in a tabular structure) but take different implementation pathways, incorporating newer compute paradigms. Some of these include
+    - [Dask](https://docs.dask.org/en/latest/why.html) allowing you to scale from single computer to run on 1000+ clusters of machines using familiar pandas APIs.
+    - [data.table](https://github.com/h2oai/datatable) from h20.ai focusing on single machines, that can process moderately large amounts of data (100GB) - taking advantage of column-orientated data storage and native-c implementation of all datatypes (including strings unlike pandas)
+    - [modin](https://github.com/modin-project/modin) from the [RiseLab, Berkely](https://rise.cs.berkeley.edu/) taking advantage of [ray](https://github.com/ray-project/ray/) to seamlessly speed up existing pandas based notebooks, scripts, and libraries.
+    - [vaex](https://github.com/vaexio/vaex) a python library for lazy out-of-core data-frames that can calculate statistics on an N-dimensional grid for more than a billion (10^9) objects/rows per second and has incredibly fast and memory efficient support for all common string manipulations.
+    - [rapids](https://rapids.ai/) from [Nivida](https://developer.nvidia.com/rapids) a suite of software libraries, built on CUDA-X AI, allowing you build ML pipelines entirely on GPUs.
+    In this talk myself and my colleague Barry will give an overview of some of emerging data-frame technologies and guide the listener to advantages, pitfalls and also considerations as to where some of these new libraries may be worthwhile considering as part of the ML practitioners toolkit."
+    subtype: presentation
+    speakers: "Brian Carter & Barry Reeves"
+
+  -
+    id: 002
+    title: "Python"
+    description: "Python has become a common chose of the machine learning community. I've used it vastly in machine learning-deep learning projects as well as for computer vision challenges. I've won several medals at machine learning competitions and would like to share the experience of using Python tools and libraries for AI and computer vision (https://github.com/tatigabru/kaggle-imet).
+    In particular, I could cover:
+    Deep learning libraries in python: Keras vs Pytorch
+    Basic computer vision pipeline (on the example of a kaggle competition)
+    Choosing metrics and losses for computer vision tasks
+    Useful computer vision libraries: openCV, PIL, imgaug, torchvision, etc.
+    Images preprocessing and augmentations with python"
+    subtype: presentation
+    speakers: "Tatiana Habruseva, PhD"
+
+  -
+    id: 002
+    title: "The pivotal role of bioinformatics in cancer research"
+    description: ""Part 1: Overview of genetics and how genetic sequencing is used in cancer diagnostics and in the research setting.
+    This segment will include a brief, high-level, explanation of DNA, what cancer is, and how genetic mutations and alterations contribute to the development and progression of cancer. This will allow part 2 to make sense to an audience which may not be fluent in biology and genetics.
+
+    Part 2: Next generation sequencing techniques and their use in clinical diagnostics.
+    This will review the technologies which exist and the types of data which they provide. I will also discuss how I use this information in clinical practice (through case scenarios), and how I have used this data in a research context. This will help people understand the tools and materials we have available from the existing range of sequencing platforms, and their real-world applications.
+
+    Part 3: The leading role of bioinformatics in cancer research.
+    In this section I will discuss what bioinformatics can do in cancer research (and more broadly in health research), and I will show people some examples of where they can find libraries of genetics data online and how to experiment with these datasets. I will also discuss some of the types of research ongoing at present and highlight how much programmers contribute to advancing cancer care.""
+    subtype: presentation
+    speakers: "Victoria Malone"
+
+  -
+    id: 002
+    title: "Robust and charming dataviz with RainCloud Plots"
+    description: "**You did it**. After hunting, cleaning, cooking and chewing your ton of data you have just completed your project!
+    Now it's time to produce some nice graphs to present your data.
+    And here comes the struggle
+    You soon realise that barplots have a few to tell, scatterplots don't let you see the big picture, histograms hide the exact median and mean. You try Violin Plots because you saw [that xkcd comic][1], but you still have the sense that something is missing.
+    It's time to use [RainClouds][2]! RainCloud Plot is a [multilanguage][3], easy-to-use package for categorical plotting. RainClouds are transparent, informative and robust.
+    In this talk I will focus on [PtitPrince][4] (RainCloud for Python), giving informative examples, comparing RainClouds with widely-used plots, and explaining custom options.
+    Finally, I will talk about how this project was [born][5] on Twitter.
+
+    [1]: xkcd.com/1967/
+    [2]: wellcomeopenresearch.org/articles/4-63
+    [3]: github.com/RainCloudPlots/RainCloudPlots
+    [4]: github.com/pog87/PtitPrince
+    [5]: twitter.com/neuroconscience/status/1032975850143195138"
+    subtype: presentation
+    speakers: "Davide Poggiali"
+
+  -
+    id: 002
+    title: "Emotional demands of software development"
+    description: "A not talked too much part of being software developer is to handle the emotional and psychological demands of the work. The pressure is high, and imposter syndrome cramps up. In this talk we will talk about difficulties in handling the work and learn how to handle our emotions and fears is an important ability in a long career."
+    subtype: presentation
+    speakers: "Jaime Buelta"
+
+  -
+    id: 002
+    title: "Living Earth: Land cover mapping using the Open Data Cube"
+    description: "Identifying the state and condition of environmental landscapes through continuous monitoring is paramount to a sustainable approach for managing our natural resources. The Open Data Cube (ODC) initiative, an open source geospatial data management and analysis software project, offers a framework for continuous monitoring using earth observation data to produce a range of information products. Living Earth utilises the ODC framework to generate land cover and change classification based on the Food and Agriculture Organisation (FAO) Land Cover Classification System (LCCS). This novel approach has been demonstrated for the Australian landscape and the design is intended for transfer to other countries using the ODC framework. The prospect to routinely generate land cover maps at high (<= 30 m) spatial resolution (based on those of Landsat or Sentinel-1/2) using a consistent and internationally recognised taxonomy parallels with international underway to monitor advances on agreed Sustainable Development Goal (SDG) targets."
+    subtype: presentation
+    speakers: "Chris Owers"
+
+  -
+    id: 002
+    title: "Flask app with Twilio Programmable SMS API"
+    description: "From zero to production in 30 minutes! In this session we will explore the fundamentals of HTTP and web apps in Python with Flask and the Requests Library. This will be illustrated through a step-by-step writing of an app that will send/receive real SMS messages using Twilio's Programmable SMS API."
+    subtype: presentation
+    speakers: "Nahuel Sznajderhaus"
+
+  -
+    id: 002
+    title: "Planning your Hackerspace with Python AKA Multivariate Timeseries Forecasting with Endogenous Factors"
+    description: ""Farset Labs (Northern Irelands Hackerspace based in Belfast) is nearly 8 and undergoing a major expansion and renovation.
+    In this talk, I'll be giving a gentle introduction to some of the tools (mostly python or python-accessible API's) that we've been using over the years to manage, coordinate, communicate and plan the space.
+    A technical focus of the talk will be exploring and experimenting with the statsmodels module, particularly it's timeseries analysis capabilities, attempting to explain, characterise, and predict the charities cashflow and growth over the next 5 years.
+    This talk will be practical, rather than academic, and does not require a deep knowledge of statistics, accounting, or system modeling""
+    subtype: presentation
+    speakers: "Andrew Bolster"
+
+  -
+    id: 002
+    title: "Automated Web-UI testing with behave-manners"
+    description: ""behave-manners' is a personal project, built to facilitate testing of some older projects (eg. F3-ERP) . In an effort to test/prove and stress the Web-UI of non-trivial applications, 'behave-manners' tackles complexity through abstraction, to the level of functional UI components.
+    This is a middleware, bridges 'selenium' to 'behave' , solely written in Python and suitable for testing any Web-UI project.""
+    subtype: presentation
+    speakers: "Panos Christeas"
+
+  -
+    id: 002
+    title: "Information extraction from social media (twitter) to facilitate crises informatics"
+    description: "I am going to present my research project for the current talk/workshop. The title of the project is ‘Analyzing twitter feeds to facilitate crises informatics and disaster response during mass emergencies’ and it involves an in-depth analysis and processing of social media messages (tweets) collected during different natural disaster events (earthquakes, cyclones, floods, hurricanes, typhoons) in different parts of the world. For the sake of simplicity, tweets posted in 'English' language are taken into consideration. The research is conducted as a two-fold experiment: firstly, a detailed sentiment analysis (polarity & subjectivity scores) of disaster-related tweets is performed to generate situational awareness; and secondly, a supervised machine classification of tweet text is done using additionally generated sentiment features along with the usual word vectors to automate the process of filtering tweets into crises-relevant categories catering to the specific needs of the humanitarian-aid organizations to facilitate disaster management and relief operations. Different tools, techniques and a variety of supervised machine learning classifiers like SVM, Logistic Regression, Deep Learning (CNN), Random Forest etc. are used to classify tweets into various categories and their performance is compared against each other with and without including sentiment-based features in this domain-specific text classification scenario to check for any improvement in the accuracy of performance."
+    subtype: presentation
+    speakers: "Arshdeep Kaur"
+
+  -
+    id: 002
+    title: "Automate Everything: Python DevOps flows with Ansible, Packer and Kubernetes"
+    description: "Infrastructure as Code and Image Build with Ansible, Packer and Vagrant:
+    - Build and Automate your Image and Infrastructure pipeline
+    - Build multiple OS images and containers from the same specification
+    - Creating customized Kickstart/Automated installs with Python support
+    - Build Vagrant, VirtualBox, VMware, KVM, Azure and AWS images at the same time
+
+    Build your own Ansible Collection, roles and tasks to automate everything:
+    - Install Anaconda Python and modules from conda and pip
+    - Setup your Python development environment, SonarQube and toolset automatically
+    - Setup portable shell profile and dotfiles and tools
+    - Install VirtualBox, VMware or Docker from playbooks
+    - Build OS images and cloud images
+    - Build containers with buildah and podman
+    GitOps with Python, Ansible and Kubernetes:
+    - Build and deploy your python workloads on Kubernetes
+    - Package applications as Helm Charts and integrate with databases such as PostgreSQL. Convert Docker Compose to Helm using kompose.
+    - Automate static analysis, build, packaging and deployment of your application."
+    subtype: presentation
+    speakers: "Mihai Criveti"
+
+  -
+    id: 002
+    title: "Making a Chatbot using Python with Matrix"
+    description: ""
+    Matrix is an open standard for interoperable, decentralised, real-time communication over the Internet. It can be used to power Instant Messaging, VoIP/WebRTC signalling, Internet of Things communication - or anywhere you need a standard HTTP API for publishing and subscribing to data whilst tracking the conversation history. There are Python SDKs available for interfacing with Matrix as a client (that is, doing things a client application or bot would do, such as sending and receiving messages.)
+    In this workshop you will investigate how to interact with the Matrix platform, first using curl HTTP calls, then using Python. You will use the Matrix Python SDK to read messages, and extract their contents. Then, you will make a basic use of TensorFlow to analyse the text (Sentiment Analysis is just an example of what can be done.) On getting the result, you will learn how to send a message back in response to the original message.""
+    subtype: presentation
+    speakers: "Ben Parsons"
+
+  -
+    id: 002
+    title: "Turning the database inside-out with Oracle OCI Streaming"
+    description: ""The talk is about database architecture and application architecture. It’s somewhat related to an project I’ve been working on, called Oracle OCI Streaming.
+    If we started with a clean slate, without the historical baggage of existing databases, what would the ideal architecture for applications look like?
+    What if we took that replication stream, and made it a first-class citizen in our data architecture? What if we changed our infrastructure so that the replication stream was not an implementation detail, but a key part of the public interface of the database? What if we turn the database inside out, take the implementation detail that was previously hidden, and make it a top-level concern? What would that look like?
+    Well, you could call that replication stream a “transaction log” or an “event stream”. You can format all your writes as immutable events (facts). Now each write is just an immutable event that you can append to the end of the transaction log. The transaction log is a really simple, append-only data structure. And this is exact of the Streaming tools now a days are doing like Apache Kafka and Oracle OCI Streaming.""
+    subtype: presentation
+    speakers: "Igor De Souza"
+
+  -
+    id: 002
+    title: "The Wire & Neo4j"
+    description: ""The Wire is an American crime drama television series set in the city of
+    Baltimore, which focuses on its law enforcement, the illegal drug trade, the
+    port system, the city government and bureaucracy, the school system, and the
+    print news media.
+    The Wire employs a broad ensemble cast, supplemented by many recurring guest
+    stars who populate the institutions featured in the show.
+    Stephen maps the characters and their institutions into a 'social graph' and
+    reports on how and why he used python to do this and what conclusions he came to.""
+    subtype: presentation
+    speakers: "Stephen McCullough"
+
+  -
+    id: 002
+    title: "How to Webpack your Django!"
+    description: "This talk is aimed at attendees who wish to integrate the latest JavaScript frameworks into their Django project but don't know where to start. I will give a brief introduction to Webpack and how it is used in client-side web development. Webpack is a static module bundler that can be configured to take your static files (.js, .css, .vue, etc) and generate a minimised and optimised bundle for the web browser. I will then introduce a package called “django-webpack-loader” which can be used to seamlessly integrate Webpack into a Django application for both development purposes and deployment to the production site. This talk will introduce Webpack to Django developers to allow faster code development, improved debugging ability and better code performance. Using Webpack allows your Django project to soar!"
+    subtype: presentation
+    speakers: "David Gibbons"
+
+  -
+    id: 002
+    title: "Visualising Youtube video context (NLP pipeline)"
+    description: "Talk is about group UCD project of 6 engineers. Name of the project is Yousights. Vision behind the project: Refine time consuming YouTube searches for skill enhancement. We had idea to reduce the time to find most useful Youtube video, and increase user confidence in right choice. For this purpose we build NLP pipeline in python, using 5 microservices deployed in multi-clud environment (IBM PaaS, Google IaaS). Core of the project is advanced sorting algorithm based per similarity with books, e.g how similar is python video with most ranked Safari books. Second part is sorting youtube video comments based on sentiment, and third part automatically generating table of content based per video transcript.
+    Python is used for backend, to extract text from youtube video, process the text, and NLP machine learning part. All microservices on backend side use Python Flask, and our DB of choice is MongoDB. My role was project management, architecture and development.
+    Presentation will show advanced usage of Python and hardware like GPU for NLP in novel idea to visualise context on Youtube video.
+    Website can be tested here: https://yousight.eu-gb.mybluemix.net/"
+    subtype: presentation
+    speakers: "Krunoslav Plecko"
+
+  -
+    id: 002
+    title: "What's new in Python 3.8 ?"
+    description: "Python 3.7 is the stable version but Python 3.8 is not very far, in few months there will be a new release of Python. This version will be 3.8. This talk explains the new features of Python 3.8 which should be released in October 2019. The features are summarised with the PEP 569 but this talk will give you some practical examples.
+
+    Examples:
+    - audit hook
+    - f-string {=} debug
+    - etc..."
+    subtype: presentation
+    speakers: "Stéphane Wirtel"

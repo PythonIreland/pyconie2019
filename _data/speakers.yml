@@ -9,10 +9,10 @@
 #  rockstar: true
 #  social:
 #    - {name: "twitter", link: "https://twitter.com/brandon_rhodes"}
-
-
-Michael Burke	I am the lead investigator responsible for global investigations for Grant Thornton's worldwide clients. 	iOS malware detection with python: saving private Brian	"Can your iPhone or iPad get malware? Yes. Well rarely, but yes. How would you know though? Apple won't let AV products in the app store. There's a few apps like sysmon but the outputs can be difficult to interpret. Currently, it appears impossible to know, particularly if it's a sophisticated state actor, when you're infected.
-
-This talk will be told through the story of Brian, a human rights investigator, who has been targeted by a hostile state intelligence organisation that wants to interfere with his work by identifying and persecuting his secret in-country contacts.
-
-I will present a brand new analysis script coded by me in python that can help identify potential malware for the first time on iOS devices - all in under a minute and with minimal forensic knowledge."
+-
+  id: 1
+  name: "Michael"
+  surname: "Burke"
+  company: "DropBox"
+  title: ""
+  bio: " lead investigator responsible for global investigations for Grant Thornton's worldwide clients."
