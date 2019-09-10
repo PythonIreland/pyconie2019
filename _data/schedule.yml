@@ -1,7 +1,7 @@
-- 
+-
   date: "2019-10-12"
   dateReadable: "October 12th"
-  tracks: 
+  tracks:
     - {title: "Track 1", color: "#90be4e"}
     - {title: "Track 2", color: "#03a9f4"}
     - {title: "Track 3", color: "#e91e63"}
@@ -26,14 +26,14 @@
     	endTime: "11:45",
     	sessionIds: []
     }
-- 
+-
   date: "2019-10-13"
   dateReadable: "October 13th"
-  tracks: 
+  tracks:
     - {title: "Track 1", color: "#90be4e"}
     - {title: "Track 2", color: "#03a9f4"}
     - {title: "Track 3", color: "#e91e63"}
-  timeslots: 
+  timeslots:
     - {
     	startTime: "10:00",
     	endTime: "10:45",

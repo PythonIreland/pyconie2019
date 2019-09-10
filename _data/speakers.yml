@@ -9,3 +9,10 @@
 #  rockstar: true
 #  social:
 #    - {name: "twitter", link: "https://twitter.com/brandon_rhodes"}
+-
+  id: 1
+  name: "Michael"
+  surname: "Burke"
+  company: "DropBox"
+  title: ""
+  bio: " lead investigator responsible for global investigations for Grant Thornton's worldwide clients."
