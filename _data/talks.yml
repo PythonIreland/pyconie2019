@@ -1,5 +1,5 @@
 -
-  id: 002
+  id: 001
   title: " How I made a python program to beat the game I couldn't"
   description: "Games are pretty fun to play unless you are stuck at a puzzle or level. Fortunately, you can program a agent which can do the job for you. Reinforcement learning, is a pretty exciting way to train a machine which can learn to play a game by rewarding it on successful moves and penalizing it for wrong moves. You can train the model multiple until it can explored all the possible moves and now has an idea of successful moves. So when you make it play again it will take only those succesful steps and will efficiently complete the level /game. For the talk, I’ll focus on the introduction of RL and different algorithms and how they can be used. Lastly, I’ll show how one can train a model to play a simple 2D / Atari games."
   subtype: presentation
