@@ -6,32 +6,32 @@
 
 - id: 002
   title: "Introduction to MicroPython"
-  description: ""https://d1workshop.readthedocs.io/en/latest/
+  description: "https://d1workshop.readthedocs.io/en/latest/
   Workshop that goes through getting started with MicroPython, using the D1 mini as the hardware platform. There is an initial setup part that covers installing drivers and connecting to boards REPL, usually about 15-20 minutes.
-  Then Part 1 covers basic I/O, LEDs, buttons etc. Part 2 covers OLED screen, reading temperature sensor, setting up networks, making web requests etc.""
+  Then Part 1 covers basic I/O, LEDs, buttons etc. Part 2 covers OLED screen, reading temperature sensor, setting up networks, making web requests etc."
   subtype: presentation
   speakers: "Max Vizard"
 
 - id: 002
   title: "Pragmatic Machine Learning Product Development"
-  description: ""I would talk about how Intercom built an important machine learning product, the interplay between the technical and product side of delivering a successful ML product.
-  Many people are interested in machine learning, but how do you build a ML product that actually ships? I'll discuss the complexities you run into when building ML products above normal software development. I'll give some techniques and strategies for overcoming these, and take the audience through the timeline of how Intercom built a successful ML product. (& we built it in Python, even though Intercom is normally all Ruby!)""
+  description: "I would talk about how Intercom built an important machine learning product, the interplay between the technical and product side of delivering a successful ML product.
+  Many people are interested in machine learning, but how do you build a ML product that actually ships? I'll discuss the complexities you run into when building ML products above normal software development. I'll give some techniques and strategies for overcoming these, and take the audience through the timeline of how Intercom built a successful ML product. (& we built it in Python, even though Intercom is normally all Ruby!)"
   subtype: presentation
   speakers: "Fergal Reid"
 
 - id: 002
   title: "Zero to Blockchain in 30 minutes"
-  description: ""We will build a working blockchain with all the basic functionality, and deploy our own currency, pyconCoin - from scratch.
+  description: "We will build a working blockchain with all the basic functionality, and deploy our own currency, pyconCoin - from scratch.
   Let’s take a complicated topic, break it up into simple building blocks, and connect the dots in our favorite way - by implementing them in Python.
   It's incredibly cool to see how easy it is to create things that sound relatively complex.
-  No understanding in blockchain is needed for this talk.""
+  No understanding in blockchain is needed for this talk."
   subtype: presentation
   speakers: "Carine-Belle & Yonatan"
 
 - id: 002
   title: "MicroPython fun on €10 hardware"
-  description: ""You can find a draft of the talk here, https://github.com/deanstheory/jupyter-micropython-esp32
-  Introduction to MicroPython running on ESP32 based microcontroller. Overview of the standard libraries and hardware specific MicroPython libraries. Live demonstrations using Jupyter Notebook running MicroPython Remote kernel.""
+  description: "You can find a draft of the talk here, https://github.com/deanstheory/jupyter-micropython-esp32
+  Introduction to MicroPython running on ESP32 based microcontroller. Overview of the standard libraries and hardware specific MicroPython libraries. Live demonstrations using Jupyter Notebook running MicroPython Remote kernel."
   subtype: presentation
   speakers: "Sean Doherty"
 
