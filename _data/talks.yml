@@ -84,14 +84,6 @@ This talk is suitable for those who are curious but does not have much experienc
   speakers: "Cheuk Ho"
 
 - id: 002
-  title: "Object Oriented Data Science for Production"
-  description: "Python is one of the most popular programming environments for Data Science. The prototypical data science approach is linear-- find the best combination of data manipulation and model selection, put it all together in a function or set of functions, and put it into production. Python's functional programming capabilities are a great match there. This approach to DS is very useful as a teaching tool, but in business there is a premium on getting as much value as possible from a data set. Rather than finding one model to achieve insight on one issue, a crafty data scientist will try to wring as many insights out of their data as they can.
-  In that scenario, a linear approach isn't practical for production code. If there are four models delivering four insights from one dataset, it is impractical and inefficient to read a file in four times. And keeping track of four different ""versions"" of a data file, each with its own idiosyncratic transformations to match a different model, is a ticket to bugs and code confusion. Taking advantage of Python's Object-Oriented Programming capabilities can eliminate redundant data processing and reduce confusion by organizing code into an object (the data) and a series of methods that act on that data.
-  This talk will provide an argument for the use of OOP in Data Science, specifying the conditions where OOP is most useful, and an introduction to OOP in Python from the perspective of a data scientist who wants to move from prototyping to production code. It will include Python code samples and lessons learned, as well as an example case where OOP was used to solve a data science problem at EmpowerTheUser."
-  subtype: presentation
-  speakers: "Bethany Kok"
-
-- id: 002
   title: "The Gender Data Gap"
   description: "The gender data gap describes how the vast sum of data collected is exclusively male. This leads to design problems where things are not suited for female use for example cars, smartphones and even drugs and medication are ill suited for women. The homogenous perspectives of developers can also amplify stereotypes and perpetuate exclusion. It is particularly worrying with the rise of AI as a developers bias can be unknowingly built into technical systems. Bias can also be introduced into AI models when they are trained on a corpus of male data. How do we work towards fixing this problem ?"
   subtype: presentation
