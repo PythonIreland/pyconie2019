@@ -1,6 +1,6 @@
 # Plugins
 gems:
-- jekyll-sitemap
+  - jekyll-sitemap
 safe: false
 
 # Build Settings
@@ -10,74 +10,75 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
-baseurl: "/zeppelin"
-url: "https://gdg-x.github.io"
-permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
+title: "PyCon Ireland 2019 - Ireland's Python Conference"
+email: "pycon@python.ie"
+description: "Python Ireland's Annual Python Conference"
+baseurl: ""
+url: "https://pycon2019.python.ie"
+#permalink: "/blog/:title"
+googleAnalyticsTrackingId: "UA-53856571-4"
+googleAnalyticsSiteUrl: "python.ie"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
-organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerName: "Python Ireland"
+organizerAlternateName: "Python Ireland Developers Ltd"
+organizerDescription: "The Python Ireland Committee"
+organizerEmail: "pycon@python.ie"
+#organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "https://www.python.ie/"
+
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "event, pycon, conference, python, ireland, programming, developers, workshps, data science, pydata"
+twitterAccount: "@PythonIreland"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+#c4pUrl: "https://bit.ly/dfua-c4p"
+c4sponsorsUrl: "http://python.ie/pycon-2019/call-for-sponsors/"
 
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
-bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
-rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+  - {permalink: "/", text: "Home"}
+#  - {permalink: "/blog/", text: "Blog"}
+  - {permalink: "/schedule/", text: "Schedule"}
+  - {permalink: "/speakers/", text: "Speakers"}
+  - {permalink: "/team/", text: "Team"}
+  - {permalink: "/logistics/", text: "Logistics"}
+#  - {permalink: "/hackathon/", text: "Hackathon"}
+#bottomNavigationLinks:
+#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+#rightNavigationButtons:
+#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
+heroTitle: "PyConIE 2019 - Ireland's Python Conference"
+eventDate: "Sat 12th - Sun 13th of October"
+typeoutTextValues: '"", "Ireland", "Europe"'
+typeoutFallback: "Ireland"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "About PyConIE 2019"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+  - {title: "Talks", image: "conference.jpg", text: "The best talks from Irish and International speakers about Python and related technologies." }
+  - {title: "Workshops", image: "workshop.jpg", text: "Full workshop tracks to up-skill on some new technology." }
+  - {title: "Networking", image: "networking.jpg", text: "Meet new friends and enjoy Dublin City, enjoy our entertainment events!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+  - {count: "400", specialCharacter: "+", info: "attendees", detail: "from everywhere around Ireland and the world"}
+  - {count: "40", specialCharacter: "+", info: "speakers", detail: "from around the world"}
+  - {count: "3", specialCharacter: "", info: "talk tracks", detail: "3 tracks with a mix of core python, data science, web frameworks"}
+  - {count: "2", specialCharacter: "", info: "workshop tracks", detail: "With workshops for beginners, advanced, and data science."}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -90,34 +91,34 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
-eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
-eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventLocationName: "Radisson Blu"
+eventLocationLink: "https://www.radissonblu.com/en/royalhotel-dublin"
+eventStreetAddress: "Golden Lane"
+eventAddressLocality: "Dublin"
+eventAddressLocalityRegion: "Dublin"
+# eventPostalCode: "79000"
+eventAddressCountry: "Ireland"
+eventStartTime: "2019-10-12T09:00"
+eventDoorTime: "08:00"
+eventEndTime: "2019-10-13T20:00"
+eventPlaceCoordinates: "53.3408484, -6.2682426"
+mapCenterCoordinates: "53.3408484, -6.2682426"
+mapMobileCenterCoordinates: "53.3408484, -6.2682426"
 
 # Venue Block
 venueBlockTitle: "Venue"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueSmallImage2: "radisson_0.PNG"
+venueSmallImage3: "radisson_1.PNG"
+venueTitle: "Radisson Blu"
+venueFeatures: ["2 main room on ground floor", "2 rooms on first floor", "Skybar on 7th floor"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+twitterHashTag: "pyconie"
+#twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
 organizersTitle: "Organizers"
@@ -134,64 +135,58 @@ subscribeInfo: "Registration will be open around end of August. Number of ticket
 ticketsTitle: "Pricetable"
 ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
 ticketsOffers:
- -
-  name: "Early Bird"
-  price: "350"
-  priceCurrency: "UAH"
-  ticketsNumber: "150"
-  ribbon: "-5%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
- -
-  name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
-  ticketsNumber: "100"
-  ribbon: "-20%"
-  featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
-  disabled: true
- -
-  name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
-  ticketsNumber: "50"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
-  soldOut: true
-  soldOutText: "Sold Out"
+  - name: "Early Bird"
+    price: "350"
+    priceCurrency: "UAH"
+    ticketsNumber: "150"
+    ribbon: "-5%"
+    buyButtonLink: "http://dfua.ticketforevent.com/"
+    buyButtonText: "Buy Now"
+    ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+    validFrom: "2014-08-25T10:00"
+    validThrough: "2014-09-30T23:59"
+  - name: "Last Chance"
+    price: "450"
+    priceCurrency: "UAH"
+    ticketsNumber: "100"
+    ribbon: "-20%"
+    featured: true
+    buyButtonLink: "http://dfua.ticketforevent.com/"
+    buyButtonText: "Buy Now"
+    ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+    validFrom: "2014-10-01T00:00"
+    validThrough: "2014-10-23T23:59"
+    disabled: true
+  - name: "Student"
+    price: "200"
+    priceCurrency: "UAH"
+    ticketsNumber: "50"
+    buyButtonLink: "http://dfua.ticketforevent.com/"
+    buyButtonText: "Buy Now"
+    additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
+    ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+    validFrom: "2014-08-20T10:00"
+    validThrough: "2014-10-23T23:59"
+    soldOut: true
+    soldOutText: "Sold Out"
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
+  - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+  - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
+  - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
- -
-  title: "Links"
-  links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
- -
-  title: "Contacts"
-  links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
- -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+  - title: "Links"
+    links:
+      - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
+      - {link: "https://developers.google.com", text: "Google Developers"}
+  - title: "Contacts"
+    links:
+      - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+  - title: "FAQ"
+    links:
+      - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
 blogTitle: "Latest news"
@@ -221,34 +216,30 @@ logisticsMapAutoDirections: false
 directionDetailsImage: "direction-details.jpg"
 directionDetailsTitle: "Get around Lviv"
 directionDetailsCards:
- - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
- - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
- - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
+  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
+  - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
 directionDetailsWideCards:
- -
-  title: "Questions?"
-  subCards:
-   -
-    title: "Hotels"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Registration"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Attendance Details"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+  - title: "Questions?"
+    subCards:
+      - title: "Hotels"
+        links:
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+      - title: "Registration"
+        links:
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+      - title: "Attendance Details"
+        links:
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+          - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
 # Hackathon
 hackathonTitle: "Hackathon"
@@ -257,9 +248,9 @@ enableHackathon: true
 # Hackathon About Block
 aboutHackathonTitle: "Meet our themes"
 hackathonRows:
- - {title: "Android Wear", image: "hackathon-0.png", details: "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!"}
- - {title: "Google Glass", image: "hackathon-1.png", details: "We love wearable computing especially Google Glass for which we want to gather the break up community in order to boost innovation.<br><br>Coding an app on Google Glass needs its Rockstar Dev : the team needs a fast learner with solid skills on Android. He knows his way around Android SDK, already checked the Glass Developement Kit (GDK) quick start guide allowing him to jump start developing an app for Glass.The Designer has the hard task to build the visual identity from the ground up, he has strong UX knowledge and a deep understanding of the new rules set by the Glass. His design skills give him the credibility to decide the most effective UI and the most compelling Glass experience."}
- - {title: "Polymer", image: "hackathon-2.png", details: "Polymer is a library that introduces web components. Web components are small elements on a page that can be extended and incorporated in web applications. The result is an increase in productivity.<br><br>We used Polymer mainly to explore the concept of web components. The transition of Google to material design was also a factor.While the library was never touched by the team, it still was painless to wireframe the application. Later on we incorporated some Polymer components in the design. We didn’t use the full potential of Polymer because of the limited time."}
+  - {title: "Android Wear", image: "hackathon-0.png", details: "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!"}
+  - {title: "Google Glass", image: "hackathon-1.png", details: "We love wearable computing especially Google Glass for which we want to gather the break up community in order to boost innovation.<br><br>Coding an app on Google Glass needs its Rockstar Dev : the team needs a fast learner with solid skills on Android. He knows his way around Android SDK, already checked the Glass Developement Kit (GDK) quick start guide allowing him to jump start developing an app for Glass.The Designer has the hard task to build the visual identity from the ground up, he has strong UX knowledge and a deep understanding of the new rules set by the Glass. His design skills give him the credibility to decide the most effective UI and the most compelling Glass experience."}
+  - {title: "Polymer", image: "hackathon-2.png", details: "Polymer is a library that introduces web components. Web components are small elements on a page that can be extended and incorporated in web applications. The result is an increase in productivity.<br><br>We used Polymer mainly to explore the concept of web components. The transition of Google to material design was also a factor.While the library was never touched by the team, it still was painless to wireframe the application. Later on we incorporated some Polymer components in the design. We didn’t use the full potential of Polymer because of the limited time."}
 
 # Hackathon Judges Block
 judgesImage: "judges.jpg"
@@ -268,9 +259,9 @@ judgesTitle: "Judges"
 # Hackathon Prizes Block
 prizesTitle: "Prizes"
 prizes:
- - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
- - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
- - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+  - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
+  - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
+  - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
 
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Location"
