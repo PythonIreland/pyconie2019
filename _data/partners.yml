@@ -1,23 +1,45 @@
-- 
-  group: "General sponsor"
-  elements: 
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-- 
-  group: "With support of"
-  elements: 
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg", width: "120px"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg", width: "120px"}
-    - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg", width: "120px"}
-- 
-  group: "Information partners"
-  elements: 
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-    - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-    - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-    - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}
+-
+  group: "Diamond Sponsor"
+  elements:
+    - {name: "Telnyx", description: "Telnyx built a communication platform that enables anyone to deliver enterprise-grade real-time communications over the internet.", link: "https://telnyx.com/company/careers", imageUrl: "telnyx.svg"}
+-
+  group: "Platinum Sponsors"
+  elements:
+    - {name: "Demonware", description: "Demonware is an Irish software development company and a subsidiary of Activision Blizzard. Demonware's products enable games publishers to outsource their networking requirements, allowing them to concentrate on playability. ", link: "https://www.demonware.net", imageUrl: "dw.png"}
+    - {name: "Brightwater", description: "Brightwater Recruitment specialises in placing candidates in permanent, contract and temporary Irish and international jobs.", link: "https://www.brightwater.ie", imageUrl: "logo_brightwater.jpg"}
+-
+  group: "Accessibility"
+  elements:
+    - {name: "RenRe", description: "RenaissanceRe Holdings Ltd is a provider of reinsurance, insurance and other related business services.", link: "https://www.renre.com/", imageUrl: "renaissancere-grey.png"}
+-
+  group: "Bar and Entertainment"
+  elements:
+    - {name: "RapidRatings", description: "Rapid Ratings International, Inc. is the creator of the proprietary FHR® (Financial Health Rating), the industry’s leading assessment of public and private company financial health. Our disruptive methodology, scalable solutions, and unparalleled support enable businesses to effectively manage and price risks associated with the financial health of third-parties including customers, trading counterparties, suppliers, vendors, and investments.", link: "http://www.rapidratings.com/about-us/careers/", imageUrl: "rr.png"}
+#    - {name: "Scurri", description: "Scurri is a cloud based multi-carrier, eCommerce shipping platform aimed at making personal delivery simple for eCommerce merchants.", link: "https://www.scurri.co.uk/", imageUrl: "Scurri.png"}
+-
+  group: "Gold Sponsors"
+  elements:
+#    - {name: "Riot Games", description: "Riot Games, Inc. is an American video game developer and eSports tournament organizer based in West Los Angeles, California. ", link: "https://www.riotgames.com", imageUrl: "riot-games.png"}
+    - {name: "Bank of America Merrill Lynch", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
+#    - {name: "Tenable", description: "Tenable.io, the world’s first Cyber Exposure platform, arms Security with the visibility to see their entire cyber attack surface at all times (from IT to Cloud to IoT to OT) and arms the CISO, C-suite and Board of Directors with the insight to focus on the issues which matter most and make better strategic decisions.", link: "http://www.tenable.com/", imageUrl: "ten.png"}
+-
+  group: "Lanyards Sponsors"
+  elements:
+    - {name: "Telnyx", description: "Telnyx built a communication platform that enables anyone to deliver enterprise-grade real-time communications over the internet.", link: "https://telnyx.com/company/careers", imageUrl: "telnyx.svg"}
+-
+  group: "Community Sponsors"
+  elements:
+    - {name: "Python Software Foundation", description: "The Python Software Foundation is the organization behind Python.",
+       link: "https://www.python.org/psf/", imageUrl: "psf-logo.png"}
+    - {name: "EuroPython Society", description: "Organizers of the EuroPython conference series. Working for the Python community.",
+       link: "https://www.europython-society.org/", imageUrl: "europythonsociety.png"}
+-
+  group: "Silver Sponsors"
+  elements:
+    - {name: "O'Reilly", description: "", imageUrl: "or.png"}
+    - {name: "Python Academy", description: "Advanced Python Workshop", link: " http://www.python-academy.com/courses/python_advanced_pyconie.html", imageUrl: "academy.png"}
+    - {name: "Bloomberg Polarlake", description: "Bloomberg L.P. is a privately held financial, software, data, and media company headquartered in Midtown Manhattan, New York City.", link: "https://www.bloombergpolarlake.com/", imageUrl: "bloomberg.png"}
+#-
+#  group: "Volunteers"
+#  elements:
+#-

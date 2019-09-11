@@ -32,7 +32,6 @@ organizerLink: "https://www.python.ie/"
 # Head
 metaKeywords: "event, pycon, conference, python, ireland, programming, developers, workshps, data science, pydata"
 twitterAccount: "@PythonIreland"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
@@ -133,60 +132,84 @@ subscribeInfo: "Registration will be open around end of August. Number of ticket
 
 # Tickets Block
 ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsInfo: "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price."
 ticketsOffers:
-  - name: "Early Bird"
-    price: "350"
-    priceCurrency: "UAH"
-    ticketsNumber: "150"
-    ribbon: "-5%"
-    buyButtonLink: "http://dfua.ticketforevent.com/"
+#  - name: "Early Bird"
+#    price: "60"
+#    priceCurrency: "EUR"
+#    ticketsNumber: "120"
+#    ribbon: "-33%"
+#    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/pebxmuwfhqo"
+#    buyButtonText: "Buy Now"
+#    ticketContentList: ["Both days of the conference", "All workshops (arrive early)", "Breakfast, Lunch and coffee breaks"]
+#    soldOut: true
+#    validFrom: "2019-10-12T8:30"
+#    validThrough: "2019-10-13T23:59"
+  - name: "Corporate"
+    price: "300"
+    priceCurrency: "EUR"
+    ticketsNumber: "30"
+    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/csohaw67uiy"
     buyButtonText: "Buy Now"
-    ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-    validFrom: "2014-08-25T10:00"
-    validThrough: "2014-09-30T23:59"
-  - name: "Last Chance"
-    price: "450"
-    priceCurrency: "UAH"
-    ticketsNumber: "100"
-    ribbon: "-20%"
-    featured: true
-    buyButtonLink: "http://dfua.ticketforevent.com/"
+    additionalInfo: "If your company pays for your ticket or refunds you, this is the ticket you need"
+    ribbon: "Support"
+    ticketContentList: ["Both days of the conference", "All workshops", "Breakfast, Lunch and coffee breaks"]
+    validFrom: "2019-10-12T8:30"
+    validThrough: "2019-10-13T23:59"
+    soldOut: false
+    soldOutText: "Sold Out"
+  - name: "General"
+    price: "90"
+    priceCurrency: "EUR"
+    ticketsNumber: "300"
+    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/wjvu2gqeavo"
     buyButtonText: "Buy Now"
-    ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-    validFrom: "2014-10-01T00:00"
-    validThrough: "2014-10-23T23:59"
-    disabled: true
+    additionalInfo: ""
+    ticketContentList: ["Both days of the conference", "All workshops", "Breakfast, Lunch and coffee breaks"]
+    validFrom: "2019-10-12T8:30"
+    validThrough: "2019-10-13T23:59"
+    soldOut: false
+    soldOutText: "Sold Out"
+  - name: "Sunday"
+    price: "50"
+    priceCurrency: "EUR"
+    ticketsNumber: "30"
+    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/pxwjwcrdl4g"
+    buyButtonText: "Buy Now"
+    additionalInfo: ""
+    ticketContentList: ["Only valid for Sunday October 13th", "All workshops", "Breakfast, Lunch and coffee breaks"]
+    validFrom: "2019-10-12T8:30"
+    validThrough: "2019-10-13T23:59"
+    soldOut: false
+    soldOutText: "Sold Out"
   - name: "Student"
-    price: "200"
-    priceCurrency: "UAH"
+    price: "40"
+    priceCurrency: "EUR"
     ticketsNumber: "50"
-    buyButtonLink: "http://dfua.ticketforevent.com/"
+    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/kaznzhgbbwa"
     buyButtonText: "Buy Now"
-    additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-    ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-    validFrom: "2014-08-20T10:00"
-    validThrough: "2014-10-23T23:59"
-    soldOut: true
+    additionalInfo: "Requires a valid student ID at the conference check in."
+    ticketContentList: ["Both days of the conference", "All workshops", "Breakfast, Lunch and coffee breaks"]
+    validFrom: "2019-10-12T8:30"
+    validThrough: "2019-10-13T23:59"
+    soldOut: false
     soldOutText: "Sold Out"
 
 # Footer
 socialLinks:
-  - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
-  - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
-  - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
-  - {permalink: "/feed.xml", icon: "rss"}
+ - {link: "https://twitter.com/intent/user?screen_name=pythonireland", icon: "twitter"}
+ - {link: "https://facebook.com/pythonireland", icon: "facebook"}
+
 footerBlocks:
   - title: "Links"
     links:
-      - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-      - {link: "https://developers.google.com", text: "Google Developers"}
+      - {link: "https://www.python.ie", text: "Python Ireland"}
   - title: "Contacts"
     links:
-      - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+      - {link: "mailto:pycon@python.ie", text: "pycon@python.ie"}
   - title: "FAQ"
     links:
-      - {permalink: "/cod/", text: "Code of Conduct"}
+      - {link: "https://python.ie/pycon-2019/code-conduct/", text: "Code of Conduct"}
 
 # Blog
 blogTitle: "Latest news"
@@ -208,42 +231,29 @@ findWayWalking: "WALKING"
 findWayBicycling: "BICYCLING"
 findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "49.056728, 3.117289"
-logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+logisticsMapCenterCoordinates: "53.3429625, -6.2795405"
+logisticsMapMobileCenterCoordinates: "53.3429625, -6.2795405"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
 directionDetailsImage: "direction-details.jpg"
-directionDetailsTitle: "Get around Lviv"
+directionDetailsTitle: "Get around Dublin"
 directionDetailsCards:
-  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
-  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
-  - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
-directionDetailsWideCards:
-  - title: "Questions?"
-    subCards:
-      - title: "Hotels"
-        links:
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-      - title: "Registration"
-        links:
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-      - title: "Attendance Details"
-        links:
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-          - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="https://www.dublinairport.com/to-from-the-airport">airport website</a>.'}
+  - {title: "Public Transit", information: 'Google Transit is available in Dublin. So you can find your way in Google Maps.'}
+#directionDetailsWideCards:
+#  - title: "Questions?"
+#    subCards:
+#      - title: "Hotels"
+#        links:
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#          - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
 # Hackathon
 hackathonTitle: "Hackathon"
-enableHackathon: true
+enableHackathon: false
 
 # Hackathon About Block
 aboutHackathonTitle: "Meet our themes"
