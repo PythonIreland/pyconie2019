@@ -44,9 +44,9 @@ c4sponsorsUrl: "http://python.ie/pycon-2019/call-for-sponsors/"
 navigationLinks:
   - {permalink: "/", text: "Home"}
 #  - {permalink: "/blog/", text: "Blog"}
-  - {permalink: "/schedule/", text: "Schedule"}
+#  - {permalink: "/schedule/", text: "Schedule"}
   - {permalink: "/speakers/", text: "Speakers"}
-  - {permalink: "/team/", text: "Team"}
+#  - {permalink: "/team/", text: "Team"}
   - {permalink: "/logistics/", text: "Logistics"}
 #  - {permalink: "/hackathon/", text: "Hackathon"}
 #bottomNavigationLinks:
@@ -177,7 +177,7 @@ ticketsOffers:
     buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/pxwjwcrdl4g"
     buyButtonText: "Buy Now"
     additionalInfo: ""
-    ticketContentList: ["Only valid for Sunday October 13th", "All workshops", "Breakfast, Lunch and coffee breaks"]
+    ticketContentList: ["Only valid for Day 2", "All workshops", "Breakfast, Lunch and coffee breaks"]
     validFrom: "2019-10-12T8:30"
     validThrough: "2019-10-13T23:59"
     soldOut: false
@@ -213,8 +213,8 @@ footerBlocks:
 
 # Blog
 blogTitle: "Latest news"
-blogCommentsEnabled: true
-discusShortName: "devfestua"
+blogCommentsEnabled: false
+discusShortName: "pyconie"
 
 # Speakers List Block
 showSessions: true
