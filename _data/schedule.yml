@@ -2,55 +2,43 @@
   date: "2019-10-12"
   dateReadable: "October 12th"
   tracks:
-    - {title: "Track 1", color: "#90be4e"}
-    - {title: "Track 2", color: "#03a9f4"}
-    - {title: "Track 3", color: "#e91e63"}
+    - {title: "Goldsmith 1&2, Track 1", color: "#90be4e"}
+    - {title: "Goldsmith 3, Track 2", color: "#03a9f4"}
+    - {title: "Swift Suite, Track 3", color: "#e91e63"}
+    - {title: "Field Suite, Workshop", color: "#e91e63"}
+    - {title: "Skybar, Workshop", color: "#e91e63"}
   timeslots:
     - {
     	startTime: "9:00",
     	endTime: "9:30",
-    	sessionIds: [001, 001, 001]
+    	sessionIds: [200, 200, 404, 404, 404]
+    }
+    - {
+    	startTime: "9:30",
+    	endTime: "10:00",
+    	sessionIds: [405, 404, 404, 404, 404]
     }
     - {
     	startTime: "10:00",
     	endTime: "10:45",
-    	sessionIds: [002]
+    	sessionIds: [405, 404, 404, 404, 404]
     }
     - {
-        startTime: "11:00",
-        endTime: "11:45",
-        sessionIds: []
+    	startTime: "10:45",
+    	endTime: "11:00",
+    	sessionIds: [405, 404, 404, 404, 404]
     }
-    - {
-    	startTime: "12:00",
-    	endTime: "11:45",
-    	sessionIds: []
-    }
--
-  date: "2019-10-13"
-  dateReadable: "October 13th"
-  tracks:
-    - {title: "Track 1", color: "#90be4e"}
-    - {title: "Track 2", color: "#03a9f4"}
-    - {title: "Track 3", color: "#e91e63"}
-  timeslots:
-    - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: []
-    }
+
     - {
     	startTime: "11:00",
-    	endTime: "11:45",
-    	sessionIds: []
+    	endTime: "11:30",
+    	sessionIds: [405, 404, 404, 404, 404]
     }
+
+
     - {
-        startTime: "13:00",
-        endTime: "13:45",
-        sessionIds: []
+    	startTime: "15:30",
+    	endTime: "15:45",
+    	sessionIds: [405, 404, 404, 404, 404]
     }
-    - {
-    	startTime: "14:00",
-    	endTime: "15:00",
-    	sessionIds: []
-    }
+

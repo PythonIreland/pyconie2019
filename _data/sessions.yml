@@ -15,7 +15,16 @@
   title: "Opening ceremony"
   description: "A word of welcome to everyone"
   subtype: presentation
-  language: en
+  language: st
+
+-
+  id: 404
+  title: "      "
+  description: "Room closed"
+-
+  id: 405
+  title: "    "
+  description: "Room closed"
 
 
 - description: "Games are pretty fun to play unless you are stuck at a puzzle or level.\

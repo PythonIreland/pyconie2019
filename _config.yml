@@ -48,7 +48,8 @@ navigationLinks:
  - {permalink: "/#quiz", text: "Entertainment"}
 # - {permalink: "/#talks", text: "Talks"}
  - {permalink: "/#location-map", text: "Location"}
- - {permalink: "/speakers/", text: "Program"}
+ - {permalink: "/speakers", text: "Program"}
+# - {permalink: "/schedule", text: "Schedule"}
 
 # - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/team/", text: "Team"}
@@ -69,7 +70,8 @@ heroButtons:
  - {permalink: "/#tickets", text: "Tickets"}
 # - {permalink: "/#keynote-speakers", text: "Keynotes"}
 # - {link: "http://schedule.pycon19.python.ie/", text: "Schedule"}
-# - {permalink: "/#talks", text: "Talks"}
+ - {permalink: "/schedule", text: "Schedule"}
+ - {permalink: "/speakers", text: "Program"}
  - {permalink: "/#quiz", text: "Entertainment"}
  - {permalink: "/#location-map", text: "Location"}
 
