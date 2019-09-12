@@ -1,18 +1,45 @@
--
-  id: 1
-  name: "Michael"
-  surname: "Burke"
-  company: "DropBox"
-  title: ""
-  bio: " lead investigator responsible for global investigations for Grant Thornton's worldwide clients."
-#  thumbnailUrl: rhodes.jpeg
-#  rockstar: true
-#  social:
-#    - {name: "twitter", link: "https://twitter.com/brandon_rhodes"}
--
-  id: 1
-  name: "Michael"
-  surname: "Burke"
-  company: "DropBox"
-  title: ""
-  bio: " lead investigator responsible for global investigations for Grant Thornton's worldwide clients."
+- {id: 1, name: Sanket Thakur}
+- {id: 2, name: Max Vizard}
+- {id: 3, name: Fergal Reid}
+- {id: 4, name: Carine-Belle & Yonatan}
+- {id: 5, name: Sean Doherty}
+- {id: 6, name: Leticia Portella}
+- {id: 7, name: Joe Drumgoole}
+- {id: 8, name: Dom Weldon}
+- {id: 9, name: Stephen McEntee}
+- {id: 10, name: Johannes Ahlmann}
+- {id: 11, name: Cheuk Ho}
+- {id: 12, name: Bethany Kok}
+- {id: 13, name: Louise O'Connor}
+- {id: 14, name: Brendan Tierney}
+- {id: 15, name: Jan van der Vegt}
+- {id: 16, name: Yiu Ming Huynh}
+- {id: 17, name: David Curran}
+- {id: 18, name: Ignasi Bosch}
+- {id: 19, name: Paolo Galeone}
+- {id: 20, name: Stephen Finucane}
+- {id: 21, name: Guy Serbin}
+- {id: 22, name: Luiz Marques & Badal Moradia}
+- {id: 23, name: Kieran O'Leary}
+- {id: 24, name: Vel Sailaja & Brian Neary & Juan Flores}
+- {id: 25, name: Olga Minguett}
+- {id: 26, name: Eoghan O'Connell}
+- {id: 27, name: Donal Byrne}
+- {id: 28, name: Allyn Hunt}
+- {id: 29, name: Brian Carter & Barry Reeves}
+- {id: 30, name: 'Tatiana Habruseva, PhD'}
+- {id: 31, name: Victoria Malone}
+- {id: 32, name: Davide Poggiali}
+- {id: 33, name: Jaime Buelta}
+- {id: 34, name: Chris Owers}
+- {id: 35, name: Nahuel Sznajderhaus}
+- {id: 36, name: Andrew Bolster}
+- {id: 37, name: Panos Christeas}
+- {id: 38, name: Arshdeep Kaur}
+- {id: 39, name: Mihai Criveti}
+- {id: 40, name: Ben Parsons}
+- {id: 41, name: Igor De Souza}
+- {id: 42, name: Stephen McCullough}
+- {id: 43, name: David Gibbons}
+- {id: 44, name: Krunoslav Plecko}
+- {id: 45, name: "St\xE9phane Wirtel"}
