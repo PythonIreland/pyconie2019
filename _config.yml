@@ -41,14 +41,14 @@ c4sponsorsUrl: "http://python.ie/pycon-2019/call-for-sponsors/"
 
 # Navigation
 navigationLinks:
- - {permalink: "/#partners", text: "Sponsors"}
- - {permalink: "/#tickets", text: "tickets"}
-# - {permalink: "/#keynote-speakers", text: "Keynotes"}
-# - {link: "http://schedule.pycon19.python.ie/", text: "Schedule"}
- - {permalink: "/#quiz", text: "Entertainment"}
-# - {permalink: "/#talks", text: "Talks"}
- - {permalink: "/#location-map", text: "Location"}
  - {permalink: "/speakers", text: "Program"}
+ - {permalink: "/#partners", text: "Sponsors"}
+ # - {permalink: "/#keynote-speakers", text: "Keynotes"}
+ # - {link: "http://schedule.pycon19.python.ie/", text: "Schedule"}
+ # - {permalink: "/#quiz", text: "Entertainment"}
+ # - {permalink: "/#talks", text: "Talks"}
+ - {permalink: "/#venue", text: "Venue"}
+ - {permalink: "/#tickets", text: "tickets"}
 # - {permalink: "/schedule", text: "Schedule"}
 
 # - {permalink: "/schedule/", text: "Schedule"}
@@ -66,14 +66,14 @@ eventDate: "Sat 12th - Sun 13th of October"
 typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
- - {permalink: "/#partners", text: "Sponsors"}
- - {permalink: "/#tickets", text: "Tickets"}
-# - {permalink: "/#keynote-speakers", text: "Keynotes"}
-# - {link: "http://schedule.pycon19.python.ie/", text: "Schedule"}
- - {permalink: "/schedule", text: "Schedule"}
+ # - {permalink: "/#keynote-speakers", text: "Keynotes"}
+ # - {link: "http://schedule.pycon19.python.ie/", text: "Schedule"}
+ # - {permalink: "/schedule", text: "Schedule"}
  - {permalink: "/speakers", text: "Program"}
- - {permalink: "/#quiz", text: "Entertainment"}
- - {permalink: "/#location-map", text: "Location"}
+ - {permalink: "/#partners", text: "Sponsors"}
+ # - {permalink: "/#quiz", text: "Entertainment"}
+ - {permalink: "/#venue", text: "Venue"}
+ - {permalink: "/#tickets", text: "Tickets"}
 
 
 # - {link: "http://pycon-ireland-accommodation.wikia.com/wiki/PyCon_Ireland_Accommodation_Wiki", text: "Accommodation and Travel Guide"}
@@ -124,10 +124,10 @@ mapMobileCenterCoordinates: "53.3408484, -6.2682426"
 venueBlockTitle: "Venue"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueSmallImage2: "radisson_0.PNG"
+venueSmallImage3: "radisson_1.PNG"
+venueTitle: "Radisson Blu"
+venueFeatures: ["2 main room on ground floor", "2 rooms on first floor", "Skybar on 7th floor"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
@@ -213,3 +213,69 @@ directionDetailsWideCards:
 # talks Block
 talksTitle: "Talks"
 workshopTitle: "Workshops"
+
+
+# Tickets Block
+ticketsTitle: "Pricetable"
+ticketsInfo: "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsOffers:
+#  - name: "Early Bird"
+#    price: "60"
+#    priceCurrency: "EUR"
+#    ticketsNumber: "120"
+#    ribbon: "-33%"
+#    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/pebxmuwfhqo"
+#    buyButtonText: "Buy Now"
+#    ticketContentList: ["Both days of the conference", "All workshops (arrive early)", "Breakfast, Lunch and coffee breaks"]
+#    soldOut: true
+#    validFrom: "2019-10-12T8:30"
+#    validThrough: "2019-10-13T23:59"
+  - name: "Corporate"
+    price: "300"
+    priceCurrency: "EUR"
+    ticketsNumber: "30"
+    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/csohaw67uiy"
+    buyButtonText: "Buy Now"
+    additionalInfo: "If your company pays for your ticket or refunds you, this is the ticket you need"
+    ribbon: "Support"
+    ticketContentList: ["Both days of the conference", "All workshops", "Breakfast, Lunch and coffee breaks"]
+    validFrom: "2019-10-12T8:30"
+    validThrough: "2019-10-13T23:59"
+    soldOut: false
+    soldOutText: "Sold Out"
+  - name: "General"
+    price: "90"
+    priceCurrency: "EUR"
+    ticketsNumber: "300"
+    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/wjvu2gqeavo"
+    buyButtonText: "Buy Now"
+    additionalInfo: ""
+    ticketContentList: ["Both days of the conference", "All workshops", "Breakfast, Lunch and coffee breaks"]
+    validFrom: "2019-10-12T8:30"
+    validThrough: "2019-10-13T23:59"
+    soldOut: false
+    soldOutText: "Sold Out"
+  - name: "Sunday"
+    price: "50"
+    priceCurrency: "EUR"
+    ticketsNumber: "30"
+    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/pxwjwcrdl4g"
+    buyButtonText: "Buy Now"
+    additionalInfo: ""
+    ticketContentList: ["Only valid for Day 2", "All workshops", "Breakfast, Lunch and coffee breaks"]
+    validFrom: "2019-10-12T8:30"
+    validThrough: "2019-10-13T23:59"
+    soldOut: false
+    soldOutText: "Sold Out"
+  - name: "Student"
+    price: "40"
+    priceCurrency: "EUR"
+    ticketsNumber: "50"
+    buyButtonLink: "https://ti.to/python-ireland/pycon-ireland-2019/with/kaznzhgbbwa"
+    buyButtonText: "Buy Now"
+    additionalInfo: "Requires a valid student ID at the conference check in."
+    ticketContentList: ["Both days of the conference", "All workshops", "Breakfast, Lunch and coffee breaks"]
+    validFrom: "2019-10-12T8:30"
+    validThrough: "2019-10-13T23:59"
+    soldOut: false
+    soldOutText: "Sold Out"
