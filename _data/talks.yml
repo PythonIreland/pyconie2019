@@ -5,7 +5,7 @@
 
 - id: 002
   title: "Introduction to MicroPython"
-  subtype: workshop
+  subtype: presentation
   speakers: "Max Vizard"
 
 - id: 003
@@ -105,7 +105,7 @@
 
 - id: 022
   title: "Knock Knock: Who's there? Aiohttp!"
-  subtype: workshop
+  subtype: presentation
   speakers: "Luiz Marques & Badal Moradia"
 
 - id: 023
@@ -175,6 +175,7 @@
 
 - id: 036
   title: "Planning your Hackerspace with Python AKA Multivariate Timeseries Forecasting with Endogenous Factors"
+  subtype: presentation
   speakers: "Andrew Bolster"
 
 - id: 037
