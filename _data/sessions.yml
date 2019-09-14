@@ -577,12 +577,15 @@
   speakers: [32]
   subtype: presentation
   title: Robust and charming dataviz with RainCloud Plots
-- description: "Everything in Python is an object and nothing is special. Python's built-in objects can be added, called, indexed, or with'd, and with a little magic, so can yours! Use of magic methods, those prefixed/suffixed with 
-  double underscores, can increase the flexibility of your code while also making it shorter and simpler. This talk will focus on the dunder magic methods that Python will attempt to call when using objects with virtually any type of syntax; when using a plus, an ""if"", a ""for"", etc. Magic methods both provide a convenient division on where to separate concerns in code, to avoid doing too much in once place, and also allow objects to act like others where appropriate; so-called ""duck-typing"".
+- description: "Everything in Python is an object and nothing is special. 
+  Python's built-in objects can be added, called, indexed, or with'd, and with a little magic, so can yours! Use of magic methods, those prefixed/suffixed with 
+  double underscores, can increase the flexibility of your code while also making it shorter and simpler. 
+  This talk will focus on the dunder magic methods that Python will attempt to call when using objects with virtually any type of syntax; when using a plus, an ""if"", a ""for"", etc. 
+  Magic methods both provide a convenient division on where to separate concerns in code, to avoid doing too much in once place, and also allow objects to act like others where appropriate; so-called "duck-typing"".
   id: 33
   speakers: [33]
   subtype: presentation
-  title: "There's Magic Everywhere: Python Magic Methods"
+  title: There's Magic Everywhere: Python Magic Methods
 - description: Identifying the state and condition of environmental landscapes through
     continuous monitoring is paramount to a sustainable approach for managing our
     natural resources. The Open Data Cube (ODC) initiative, an open source geospatial
