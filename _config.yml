@@ -67,7 +67,6 @@ typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
  # - {permalink: "/#keynote-speakers", text: "Keynotes"}
- # - {link: "http://schedule.pycon19.python.ie/", text: "Schedule"}
  # - {permalink: "/schedule", text: "Schedule"}
  - {permalink: "/speakers", text: "Program"}
  - {permalink: "/#partners", text: "Sponsors"}

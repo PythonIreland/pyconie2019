@@ -10,35 +10,81 @@
   timeslots:
     - {
     	startTime: "9:00",
-    	endTime: "9:30",
+    	endTime: "9:20",
     	sessionIds: [200, 200, 404, 404, 404]
     }
     - {
     	startTime: "9:30",
     	endTime: "10:00",
+    	sessionIds: [3, 404, 404, 404, 404]
+    }
+    - {
+    	startTime: "10:05",
+    	endTime: "10:35",
     	sessionIds: [405, 404, 404, 404, 404]
     }
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
+    	startTime: "10:40",
+    	endTime: "11:10",
     	sessionIds: [405, 404, 404, 404, 404]
     }
     - {
-    	startTime: "10:45",
-    	endTime: "11:00",
-    	sessionIds: [405, 404, 404, 404, 404]
-    }
-
-    - {
-    	startTime: "11:00",
+    	startTime: "11:10",
     	endTime: "11:30",
+    	sessionIds: [400, 400, 400, 400, 400]
+    }
+    - {
+    	startTime: "11:30",
+    	endTime: "12:15",
     	sessionIds: [405, 404, 404, 404, 404]
     }
-
-
     - {
-    	startTime: "15:30",
+    	startTime: "12:20",
+    	endTime: "13:10",
+    	sessionIds: [405, 404, 404, 404, 404]
+    }
+    - {
+    	startTime: "13:10",
+    	endTime: "14:00",
+    	sessionIds: [500, 500, 500, 500, 500]
+    }
+    - {
+    	startTime: "14:00",
+    	endTime: "14:50",
+    	sessionIds: [405, 404, 404, 404, 404]
+    }
+    - {
+    	startTime: "15:00",
     	endTime: "15:45",
     	sessionIds: [405, 404, 404, 404, 404]
     }
-
+    - {
+    	startTime: "15:45",
+    	endTime: "16:15",
+    	sessionIds: [400, 400, 400, 400, 400]
+    }
+    - {
+    	startTime: "16:15",
+    	endTime: "17:00",
+    	sessionIds: [405, 404, 404, 404, 404]
+    }
+    - {
+    	startTime: "17:05",
+    	endTime: "17:35",
+    	sessionIds: [405, 404, 404, 404, 404]
+    }
+    - {
+    	startTime: "17:40",
+    	endTime: "18:10",
+    	sessionIds: [405, 404, 404, 404, 404]
+    }
+    - {
+    	startTime: "18:15",
+    	endTime: "19:15",
+    	sessionIds: [502, 502, 404, 404, 404]
+    }
+    - {
+    	startTime: "20:00",
+    	endTime: "23:00",
+    	sessionIds: [501, 501, 404, 404, 404]
+    }

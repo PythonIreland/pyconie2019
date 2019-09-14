@@ -9,6 +9,16 @@
   title: "Lunch Break"
   place: "Lobby and ground floor restaurant"
   service: true
+-
+  id: 501
+  title: "Quiz"
+  description: "Come for an evening of entertainment"
+  service: true
+-
+  id: 502
+  title: "Lightning talks"
+  description: "5 minutes max, fast paced sessions"
+  service: true
 
 -
   id: 200
