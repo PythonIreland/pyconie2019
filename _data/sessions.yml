@@ -773,11 +773,6 @@
   speakers: [46]
   subtype: presentation
   title: Python iterators as a tool for analysing a social network
-- description: "We'll show how to use a Raspberry Pi and GSM modem to (mostly safely) control a space heater inside of a bombed out fridge we found in the office to maintain an even 60 °C temperature for making black garlic. Connected to the internet via the cellular network, we can monitor it no matter where it is. Power systems, headless operation, init daemons, and watchdog timers can be used to grant us an unlimited supply of specialty foods, saving dollars a year. This talk will be fairly high-level, focusing on how to design the system and how the parts are assembled and communicate, but complete resources (sources, schematics) of the presented system will be made available.'"
-  id: 47
-  speakers: [47]
-  subtype: presentation
-  title: Equip Your Performance Toolbox - Cython v.s.  Pybind11
 - description: The rationale is developing Python applications is handy
  and rapid, but performance is always concerned, especially on the CPU
  bound components. I'll first go through the common tools and tricks
@@ -785,7 +780,12 @@
  two prevailing tools, Cython and Pybind11. Finally, their similarity
  and difference, in terms of implementation and performance, will be
  listed out so that attendees can thoroughly understand the criteria to
- choose the right library in their projects.
+ choose the right library in their projects. 
+  id: 47
+  speakers: [47]
+  subtype: presentation
+  title: Equip Your Performance Toolbox - Cython v.s.  Pybind11
+- description: ""
   id: 48
   speakers: [48]
   subtype: keynote
