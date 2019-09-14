@@ -381,7 +381,7 @@
     \ asynchronously."
   id: 22
   speakers: [22]
-  subtype: presentation
+  subtype: workshop
   title: 'Knock Knock: Who''s there? Aiohttp!'
 - description: This talk will look at how the Irish Film Institute began to create
     python scripts in order to facilitate the preservation of our digital objects.
