@@ -26,6 +26,12 @@
   description: "A word of welcome to everyone"
   subtype: presentation
   language: st
+-
+  id: 201
+  title: "Closing address"
+  description: "Time to say good bye"
+  subtype: presentation
+  language: st
 
 -
   id: 404
