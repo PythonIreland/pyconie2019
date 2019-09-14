@@ -19,6 +19,11 @@
   title: "Lightning talks"
   description: "5 minutes max, fast paced sessions"
   service: true
+-
+  id: 503
+  title: "Recruitment session"
+  description: "Panel discussion where our sponsors discuss their workplace culture and career opportunities"
+  service: true
 
 -
   id: 200
@@ -455,7 +460,7 @@
   id: 26
   speakers: [26]
   subtype: presentation
-  title: How can Python help to understand Atom Dynamics in Two-Dimensional Materials
+  title: How can Python help to understand Atom Dynamics in 2D Materials
 - description: The objective of the talk is to give people an understanding of the
     capabilities of using deep reinforcement learning. The first part of the talk
     will give a high level explanation of what reinforcement is and how it works.
@@ -763,3 +768,38 @@
   speakers: [45]
   subtype: presentation
   title: What's new in Python 3.8 ?
+- description: 'Python iterators as a tool for analysing a social network'
+  id: 46
+  speakers: [46]
+  subtype: presentation
+  title: Python iterators as a tool for analysing a social network
+- description: "We'll show how to use a Raspberry Pi and GSM modem to (mostly safely) control a space heater inside of a bombed out fridge we found in the office to maintain an even 60 °C temperature for making black garlic. Connected to the internet via the cellular network, we can monitor it no matter where it is. Power systems, headless operation, init daemons, and watchdog timers can be used to grant us an unlimited supply of specialty foods, saving dollars a year. This talk will be fairly high-level, focusing on how to design the system and how the parts are assembled and communicate, but complete resources (sources, schematics) of the presented system will be made available.'"
+  id: 47
+  speakers: [47]
+  subtype: presentation
+  title: Python to cook black Garlic
+- description: "Keynote address"
+  id: 48
+  speakers: [48]
+  subtype: keynote
+  title: Keynote
+- description: ""
+  id: 49
+  speakers: [49]
+  subtype: presentation
+  title: Scheduling as a service, using Python Step Functions in AWS
+- description: ""
+  id: 50
+  speakers: [50]
+  subtype: presentation
+  title: Snakes on a (Control) Plane, Kubernetes Custom Resource
+- description: ""
+  id: 51
+  speakers: [51]
+  subtype: presentation
+  title: Message Queue for Distributed Computing on Kubernetes
+- description: ""
+  id: 52
+  speakers: [52]
+  subtype: presentation
+  title: Blockchain 101 with Python

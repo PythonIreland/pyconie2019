@@ -27,7 +27,7 @@
 - {id: 27, name: Donal Byrne}
 - {id: 28, name: Allyn Hunt}
 - {id: 29, name: Brian Carter & Barry Reeves}
-- {id: 30, name: 'Tatiana Habruseva, PhD'}
+- {id: 30, name: 'Tatiana Habruseva'}
 - {id: 31, name: Victoria Malone}
 - {id: 32, name: Davide Poggiali}
 - {id: 33, name: Jaime Buelta}
@@ -43,3 +43,10 @@
 - {id: 43, name: David Gibbons}
 - {id: 44, name: Krunoslav Plecko}
 - {id: 45, name: "St\xE9phane Wirtel"}
+- {id: 46, name: Yoni Lavi}
+- {id: 47, name: Telnyx}
+- {id: 48, name: Nick Timkovich}
+- {id: 49, name: Ben Ellerby}
+- {id: 50, name: Karl O'Dwyer}
+- {id: 51, name: Solin Gungar}
+- {id: 52, name: Carin}

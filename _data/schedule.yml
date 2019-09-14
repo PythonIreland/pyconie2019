@@ -16,17 +16,17 @@
     - {
     	startTime: "9:30",
     	endTime: "10:00",
-    	sessionIds: [3, 404, 404, 404, 404]
+    	sessionIds: [3, 25, 35, 47, 404]
     }
     - {
     	startTime: "10:05",
     	endTime: "10:35",
-    	sessionIds: [405, 404, 404, 404, 404]
+    	sessionIds: [12, 32, 37, 47, 404]
     }
     - {
     	startTime: "10:40",
     	endTime: "11:10",
-    	sessionIds: [405, 404, 404, 404, 404]
+    	sessionIds: [42, 26, 24, 47, 404]
     }
     - {
     	startTime: "11:10",
@@ -36,12 +36,12 @@
     - {
     	startTime: "11:30",
     	endTime: "12:15",
-    	sessionIds: [405, 404, 404, 404, 404]
+    	sessionIds: [28, 9, 17, 47, 404]
     }
     - {
     	startTime: "12:20",
     	endTime: "13:10",
-    	sessionIds: [405, 404, 404, 404, 404]
+    	sessionIds: [39, 46, 10, 47, 404]
     }
     - {
     	startTime: "13:10",
@@ -51,12 +51,12 @@
     - {
     	startTime: "14:00",
     	endTime: "14:50",
-    	sessionIds: [405, 404, 404, 404, 404]
+    	sessionIds: [48, 48, 404, 404, 404]
     }
     - {
     	startTime: "15:00",
     	endTime: "15:45",
-    	sessionIds: [405, 404, 404, 404, 404]
+    	sessionIds: [43, 14, 503, 404, 404]
     }
     - {
     	startTime: "15:45",
@@ -66,17 +66,17 @@
     - {
     	startTime: "16:15",
     	endTime: "17:00",
-    	sessionIds: [405, 404, 404, 404, 404]
+    	sessionIds: [20, 50, 5, 404, 404]
     }
     - {
     	startTime: "17:05",
     	endTime: "17:35",
-    	sessionIds: [405, 404, 404, 404, 404]
+    	sessionIds: [19, 51, 36, 404, 404]
     }
     - {
     	startTime: "17:40",
     	endTime: "18:10",
-    	sessionIds: [405, 404, 404, 404, 404]
+    	sessionIds: [49, 52, 23, 404, 404]
     }
     - {
     	startTime: "18:15",
