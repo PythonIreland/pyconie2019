@@ -54,46 +54,51 @@
   speakers: "Cheuk Ho"
 
 - id: 012
+  title: "TBC"
+  subtype: presentation
+  speakers: "LBethany Kok"
+  
+- id: 013
   title: "The Gender Data Gap"
   subtype: presentation
   speakers: "Louise O'Connor"
 
-- id: 013
+- id: 014
   title: "Planning my Summer Vacation using Python, Machine Learning, Google API and Cloud Database"
   subtype: presentation
   speakers: "Brendan Tierney"
 
-- id: 014
+- id: 015
   title: "Dynamically generating schemas from arbitrary objects"
   subtype: presentation
   speakers: "Jan van der Vegt"
 
-- id: 015
+- id: 016
   title: "Wrapping All Your Databases"
   subtype: presentation
   speakers: "Yiu Ming Huynh"
 
-- id: 016
+- id: 017
   title: "How to curate an NLP dataset with Python"
   subtype: presentation
   speakers: "David Curran"
 
-- id: 017
+- id: 018
   title: "Unit and Integration Testing"
   subtype: presentation
   speakers: "Ignasi Bosch"
 
-- id: 018
+- id: 019
   title: "Dissecting tf.function to discover AutoGraph strengths and subtleties"
   subtype: presentation
   speakers: "Paolo Galeone"
 
-- id: 019
+- id: 020
   title: "Will somebody *please* tell me what's going on?"
   subtype: presentation
   speakers: "Stephen Finucane"
 
-- id: 020
+- id: 021
   title: "The Irish Earth Observation (IEO) Python Module for Satellite Data Management"
   subtype: presentation
   speakers: "Guy Serbin"
@@ -218,16 +223,37 @@
   speakers: "Stéphane Wirtel"
 
 - id: 046
-  title: "Object Oriented Data Science for Production"
+  title: "TBC"
   subtype: presentation
-  speakers: "Bethany Kok"
+  speakers: "Yoni Lavi"
   
 - id: 047
   title: "TBC"
   subtype: presentation
-  speakers: "Gavin Choi"
+  speakers: "Telnyx"
   
- - id: 048
+- id: 048
   title: "TBC"
   subtype: presentation
-  speakers: "Yoni Lavi"
+  speakers: "Nick Timkovich"
+  
+- id: 049
+  title: "TBC"
+  subtype: presentation
+  speakers: "Ben Ellerby"
+  
+- id: 050
+  title: "TBC"
+  subtype: presentation
+  speakers: "Karl O'Dwyer"
+  
+- id: 051
+  title: "TBC"
+  subtype: presentation
+  speakers: "Solin Gungar"
+
+- id: 052
+  title: "TBC"
+  subtype: presentation
+  speakers: "Shane Carey"
+  
