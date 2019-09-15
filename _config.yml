@@ -41,7 +41,7 @@ c4sponsorsUrl: "http://python.ie/pycon-2019/call-for-sponsors/"
 
 # Navigation
 navigationLinks:
- - {permalink: "/speakers", text: "Program"}
+ - {permalink: "/speakers", text: "Speakers"}
  - {permalink: "/#partners", text: "Sponsors"}
  # - {permalink: "/#keynote-speakers", text: "Keynotes"}
  # - {link: "http://schedule.pycon19.python.ie/", text: "Schedule"}
@@ -49,7 +49,7 @@ navigationLinks:
  # - {permalink: "/#talks", text: "Talks"}
  - {permalink: "/#venue", text: "Venue"}
  - {permalink: "/#tickets", text: "tickets"}
-# - {permalink: "/schedule", text: "Schedule"}
+ - {permalink: "/schedule", text: "Schedule"}
 
 # - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/team/", text: "Team"}
@@ -67,12 +67,12 @@ typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
  # - {permalink: "/#keynote-speakers", text: "Keynotes"}
- # - {permalink: "/schedule", text: "Schedule"}
- - {permalink: "/speakers", text: "Program"}
+ - {permalink: "/speakers", text: "Speakers"}
  - {permalink: "/#partners", text: "Sponsors"}
- # - {permalink: "/#quiz", text: "Entertainment"}
+  # - {permalink: "/#quiz", text: "Entertainment"}
  - {permalink: "/#venue", text: "Venue"}
  - {permalink: "/#tickets", text: "Tickets"}
+ - {permalink: "/schedule", text: "Schedule"}
 
 
 # - {link: "http://pycon-ireland-accommodation.wikia.com/wiki/PyCon_Ireland_Accommodation_Wiki", text: "Accommodation and Travel Guide"}
@@ -161,6 +161,8 @@ footerBlocks:
   title: "FAQ"
   links:
    - {link: "https://python.ie/pycon-2019/code-conduct/", text: "Code of Conduct"}
+   - {link: "https://python.ie/pycon-2019/terms-and-conditions-attend-pycon-ie-2019/", text: "Terms and Conditions"}
+   - {link: "https://python.ie/pycon-2019/financial-aid-2019/", text: "Financial Aid"}
 
 # Blog
 blogTitle: "Latest news"
