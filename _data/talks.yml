@@ -258,3 +258,17 @@
   subtype: presentation
   speakers: "Shane Carey"
   
+- id: 053
+  title: "Introduction to MicroPython"
+  subtype: presentation
+  speakers: "Josh Smith"
+  
+- id: 054
+  title: "IOT Workshop"
+  subtype: presentation
+  speakers: "John O'Reilly"  
+  
+- id: 055
+  title: "Pew-Pew Workshop"
+  subtype: presentation
+  speakers: "Vicky Twomey-Lee"   
