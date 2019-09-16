@@ -74,17 +74,12 @@
     	sessionIds: [49, 51, 36, 40, 2]
     }
     - {
-    	startTime: "17:40",
-    	endTime: "18:10",
+    	startTime: "17:45",
+    	endTime: "18:45",
     	sessionIds: [404, 404, 404, 404, 404]
     }
     - {
-    	startTime: "18:15",
-    	endTime: "19:15",
-    	sessionIds: [502, 502, 404, 404, 404]
-    }
-    - {
-    	startTime: "20:00",
+    	startTime: "19:30",
     	endTime: "23:00",
     	sessionIds: [501, 501, 404, 404, 404]
     }
