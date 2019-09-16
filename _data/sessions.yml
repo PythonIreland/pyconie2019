@@ -693,7 +693,7 @@
     how to send a message back in response to the original message.
   id: 40
   speakers: [40]
-  subtype: presentation
+  subtype: workshop
   title: Making a Chatbot using Python with Matrix
 - description: "The talk is about database architecture and application architecture.\
     \ It\u2019s somewhat related to an project I\u2019ve been working on, called Oracle\
