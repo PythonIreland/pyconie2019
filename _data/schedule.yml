@@ -144,11 +144,6 @@
     	sessionIds: [33, 404, 44, 50, 404]
     }
     - {
-    	startTime: "15:45",
-    	endTime: "15:50",
-    	sessionIds: [404, 404, 404, 404, 404]
-    }
-    - {
     	startTime: "15:50",
     	endTime: "16:20",
     	sessionIds: [23, 404, 41, 30, 404]
@@ -156,10 +151,5 @@
     - {
     	startTime: "16:25",
     	endTime: "16:55",
-    	sessionIds: [405, 404, 404, 404, 404]
-    }
-    - {
-    	startTime: "17:00",
-    	endTime: "17:30",
     	sessionIds: [405, 404, 404, 404, 404]
     }
