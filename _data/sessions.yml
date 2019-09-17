@@ -816,11 +816,14 @@
   speakers: [52]
   subtype: presentation
   title: Geo-Python applications for Hydrogeological analysis
-- description: ""
+- description: "Attendees will learn how neural nets (Deep Learning, LSTMs, GaNs, and RNNs) are used to generate music. 
+  There will be a briefing of each model prior to diving into the code.  
+  Data sets and basic models are provided.  
+  No previous experience is necessary."
   id: 53
   speakers: [53]
   subtype: workshop
-  title: Josh Smith Workshop
+  title: An overview of generative music modelling using Python. 
 - description: "Python Image Classification can save the world!
   The world is facing many major problems right now, why are robots not doing more to help?
   We have had electric motors, batteries, computers and robot arms for a long time but where is the cyborg to do something useful?
