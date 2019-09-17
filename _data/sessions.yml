@@ -821,4 +821,19 @@
   speakers: [53]
   subtype: workshop
   title: Josh Smith Workshop
+- description: ""
+  id: 54
+  speakers: [54]
+  subtype: workshop
+  title: Josh Smith Workshop
+- description: ""
+  id: 55
+  speakers: [55]
+  subtype: workshop
+  title: Josh Smith Workshop
+- description: ""
+  id: 56
+  speakers: [56]
+  subtype: Presentation 
+  title: TensorFlow 2.0: Tensorflow Strikes Back
 
