@@ -821,17 +821,25 @@
   speakers: [53]
   subtype: workshop
   title: Josh Smith Workshop
-- description: ""
+- description: "Python Image Classification can save the world!
+  The world is facing many major problems right now, why are robots not doing more to help?
+  We have had electric motors, batteries, computers and robot arms for a long time but where is the cyborg to do something useful?
+  In this workshop we will explore image classification as the key technology to enable robots and autonomous vehicles to really start doing useful things. Beginning with image classification in autonomous vehicles we will take concepts from the automotive space and apply them to real world problems."
   id: 54
   speakers: [54]
   subtype: workshop
-  title: TBC: IOT Workshop
+  title: Image Classification Workshop
 - description: ""
   id: 55
   speakers: [55]
   subtype: workshop
   title: Pew Pew Workshop
-- description: ""
+- description: "The talk will showcase the main features of this new TF version that should appease the needs of the Researcher and Practitioner alike. A focus will be put on:
+  *  Keras as the new standard API
+  *  Eager Mode & Graph
+  *  Production Pipeline
+  *  Extended Ecosystem
+  Prerequisites: Basic Python, Exposure to a deep learning framework is advised but not necessary"
   id: 56
   speakers: [56]
   subtype: Presentation 
