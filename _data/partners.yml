@@ -7,6 +7,7 @@
   elements:
     - {name: "Demonware", description: "Demonware is an Irish software development company and a subsidiary of Activision Blizzard. Demonware's products enable games publishers to outsource their networking requirements, allowing them to concentrate on playability. ", link: "https://www.demonware.net", imageUrl: "dw.png"}
     - {name: "Brightwater", description: "Brightwater Recruitment specialises in placing candidates in permanent, contract and temporary Irish and international jobs.", link: "https://www.brightwater.ie", imageUrl: "logo_brightwater.jpg"}
+    - {name: "Tenable", description: "Tenable.io, the world’s first Cyber Exposure platform, arms Security with the visibility to see their entire cyber attack surface at all times (from IT to Cloud to IoT to OT) and arms the CISO, C-suite and Board of Directors with the insight to focus on the issues which matter most and make better strategic decisions.", link: "http://www.tenable.com/", imageUrl: "ten.png"}
 -
   group: "Accessibility"
   elements:
@@ -21,7 +22,8 @@
   elements:
 #    - {name: "Riot Games", description: "Riot Games, Inc. is an American video game developer and eSports tournament organizer based in West Los Angeles, California. ", link: "https://www.riotgames.com", imageUrl: "riot-games.png"}
     - {name: "Bank of America Merrill Lynch", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
-#    - {name: "Tenable", description: "Tenable.io, the world’s first Cyber Exposure platform, arms Security with the visibility to see their entire cyber attack surface at all times (from IT to Cloud to IoT to OT) and arms the CISO, C-suite and Board of Directors with the insight to focus on the issues which matter most and make better strategic decisions.", link: "http://www.tenable.com/", imageUrl: "ten.png"}
+#    - {name: "Microsoft", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
+#    - {name: "Code Institute", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
 -
   group: "Lanyards Sponsors"
   elements:
@@ -30,7 +32,7 @@
   group: "Silver Sponsors"
   elements:
     - {name: "Python Academy", description: "Advanced Python Workshop", link: " http://www.python-academy.com/courses/python_advanced_pyconie.html", imageUrl: "academy.png"}
-#    - {name: "Bloomberg Polarlake", description: "Bloomberg L.P. is a privately held financial, software, data, and media company headquartered in Midtown Manhattan, New York City.", link: "https://www.bloombergpolarlake.com/", imageUrl: "bloomberg.png"}
+    - {name: "Bloomberg Polarlake", description: "Bloomberg L.P. is a privately held financial, software, data, and media company headquartered in Midtown Manhattan, New York City.", link: "https://www.bloombergpolarlake.com/", imageUrl: "bloomberg.png"}
 #-
 #  group: "Volunteers"
 #  elements:
