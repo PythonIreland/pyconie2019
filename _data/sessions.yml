@@ -832,11 +832,11 @@
   speakers: [54]
   subtype: workshop
   title: Image Classification Workshop
-- description: ""
+- description: "Josh Smith Workshop 2"
   id: 55
   speakers: [55]
   subtype: workshop
-  title: Pew Pew Workshop
+  title: Josh Smith Workshop 2
 - description: "The talk will showcase the main features of this new TF version that should appease the needs of the Researcher and Practitioner alike. A focus will be put on:
   *  Keras as the new standard API
   *  Eager Mode & Graph
