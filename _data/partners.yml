@@ -33,6 +33,7 @@
   elements:
 #    - {name: "Python Academy", description: "Advanced Python Workshop", link: " http://www.python-academy.com/courses/python_advanced_pyconie.html", imageUrl: "academy.png"}
     - {name: "Bloomberg Polarlake", description: "Bloomberg L.P. is a privately held financial, software, data, and media company headquartered in Midtown Manhattan, New York City.", link: "https://www.bloombergpolarlake.com/", imageUrl: "bloomberg.png"}
+    - {name: "O'Reilly", description: "O’Reilly is a learning company that helps individuals, teams, and enterprises build skills to succeed in a world defined by technology-driven transformation.", link: "https://www.oreilly.com/", imageUrl: "oreilly.png"}
 #-
 #  group: "Volunteers"
 #  elements:
