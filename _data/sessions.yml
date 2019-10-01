@@ -834,7 +834,8 @@
   title: Image Classification Workshop
 - description: "Learn how to build Collaborative Filtering recommenders that give suggestions to users on the basis of ratings of similar users.
   Collaborative filtering encompasses techniques for matching people with similar interests and making recommendations on this basis. 
-  Workshop attendees will learn various approaches for building simple implementations of recommender system models. "
+  Workshop attendees will learn various approaches for building simple implementations of recommender system models. 
+  More details here: http://johnreilly.tech/pycon_dublin_2019_preview/"
   id: 55
   speakers: [55]
   subtype: workshop
