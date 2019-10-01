@@ -22,7 +22,7 @@
   elements:
 #    - {name: "Riot Games", description: "Riot Games, Inc. is an American video game developer and eSports tournament organizer based in West Los Angeles, California. ", link: "https://www.riotgames.com", imageUrl: "riot-games.png"}
     - {name: "Bank of America Merrill Lynch", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
-#    - {name: "Microsoft", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
+#    - {name: "Microsoft", description: "Microsoft", link: "", imageUrl: "baml.png"}
 #    - {name: "Code Institute", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
 -
   group: "Lanyards Sponsors"
@@ -31,7 +31,7 @@
 -
   group: "Silver Sponsors"
   elements:
-    - {name: "Python Academy", description: "Advanced Python Workshop", link: " http://www.python-academy.com/courses/python_advanced_pyconie.html", imageUrl: "academy.png"}
+#    - {name: "Python Academy", description: "Advanced Python Workshop", link: " http://www.python-academy.com/courses/python_advanced_pyconie.html", imageUrl: "academy.png"}
     - {name: "Bloomberg Polarlake", description: "Bloomberg L.P. is a privately held financial, software, data, and media company headquartered in Midtown Manhattan, New York City.", link: "https://www.bloombergpolarlake.com/", imageUrl: "bloomberg.png"}
 #-
 #  group: "Volunteers"
