@@ -136,12 +136,12 @@
     - {
     	startTime: "15:00",
     	endTime: "15:45",
-    	sessionIds: [33, 56, 30, 55, 404]
+    	sessionIds: [33, 30, 44, 55, 404]
     }
     - {
     	startTime: "15:50",
     	endTime: "16:20",
-    	sessionIds: [36, 44, 6, 55, 404]
+    	sessionIds: [36, 56, 6, 55, 404]
     }
     - {
     	startTime: "16:25",
