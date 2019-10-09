@@ -811,7 +811,8 @@
   speakers: [51]
   subtype: presentation
   title: Message Queue for Distributed Computing on Kubernetes
-- description: ""
+- description: "Hydrogeology is the study of groundwater.  Hydrogeologists use data from disparate sources to better understand groundwater systems. Bespoke hydrogeological applications can greatly aid hydrogeologists in the analysis and understanding of groundwater quality and flow. There are numerous scientific packages constantly being developed in python such as Pandas for data analysis, Fiona for reading and writing GIS data and Shapely for manipulating and analysing geometric objects. Coupling these packages with the excellent PyQt5 python bindings for the QT cross-platform C++ framework, allows for bespoke Graphical User Interface applications to be developed. 
+  Hence, python proves to be an invaluable language to develop hydrogeological applications. "
   id: 52
   speakers: [52]
   subtype: presentation
