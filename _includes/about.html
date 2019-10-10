@@ -3,11 +3,19 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <h3>{{ site.aboutTitle }}</h3>
+
+            <p>This year we honour the <strong>"Environment"</strong> theme.</p>
+<p>Python is vastly used in the data analysis and machine learning world, come and see how these techniques can be
+            leveraged to protect our planet.</p>
+            <p>We will host a beginner workshop for Internet of Things IoT, so you can build your own device to take metrics from the physical world.
+Seasoned developers will also find advanced and experts talks about the latests of Python 3.8, techniques for machine learning and a great selection of fantastic talks.
+So join us to learn, to teach, to share and enjoy a great week end.</p>
+
             <div class="row about-details">
                 {% assign animationDelay = 0 %}
                 {% for about in site.aboutBlock %}
                 {% assign colWidth = 12 | divided_by: forloop.length %}
-                <div class="col-md-{{ colWidth }} col-xs-6">  
+                <div class="col-md-{{ colWidth }} col-xs-6">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <h5>{{ about.title }}</h5>
                         <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}" height="128" width="128" alt="{{ about.title }}">

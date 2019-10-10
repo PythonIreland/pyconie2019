@@ -17,6 +17,7 @@
 							{% for listItem in ticketsOffer.ticketContentList %}
 							<li>{{ listItem }}</li>
 							{% endfor %}
+							<li>{{ ticketsOffer.additionalInfo }}</li>
 						</ul>
 						{% if ticketsOffer.soldOut == true %}
 						<span class="button disabled">{{ ticketsOffer.soldOutText }}</span>
@@ -24,7 +25,7 @@
 						<a class="button" href="{{ ticketsOffer.buyButtonLink }}" target="_blank">{{ ticketsOffer.buyButtonText }}</a>
 						{% else %}
 		           		{% assign ticketValidFrom = ticketsOffer.validFrom | split: "T" %}
-						<span class="button disabled fallback">Ticket sales will begin on {{ ticketValidFrom[0] | date: "%-d %B %Y"}} {{ ticketValidFrom[1] }}</span>
+						<span class="button disabled fallback">Tickets on sale soon</span>
 						{% endif %}
 					</div>
 				</div>
