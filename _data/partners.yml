@@ -22,7 +22,7 @@
   elements:
 #    - {name: "Riot Games", description: "Riot Games, Inc. is an American video game developer and eSports tournament organizer based in West Los Angeles, California. ", link: "https://www.riotgames.com", imageUrl: "riot-games.png"}
     - {name: "Bank of America Merrill Lynch", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
-#    - {name: "Microsoft", description: "Microsoft", link: "", imageUrl: "baml.png"}
+    - {name: "Microsoft", description: "Microsoft Azure enables developers to build, test, and deploy applications on Microsoft's highly scalable and reliable infrastructure. Microsoft Azure frees you from the overhead of managing infrastructure, provisioning servers and configuring networks. Turn your ideas into solutions faster using a trusted cloud that has been designed for you.", link: "http://www.microsoft.com/", imageUrl: "microsoft.png"}
 #    - {name: "Code Institute", description: "Bank of America Merrill Lynch", link: "http://careers.bankofamerica.com/emea", imageUrl: "baml.png"}
 -
   group: "Lanyards Sponsors"
