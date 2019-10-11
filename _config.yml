@@ -50,7 +50,7 @@ navigationLinks:
  - {permalink: "/#venue", text: "Venue"}
  - {permalink: "/#tickets", text: "tickets"}
  - {permalink: "/schedule", text: "Schedule"}
-# - {permalink: "/workshops", text: "Workshops"}
+ - {permalink: "/workshops", text: "Workshops"}
 
 # - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/team/", text: "Team"}
@@ -74,7 +74,7 @@ heroButtons:
  - {permalink: "/#venue", text: "Venue"}
  - {permalink: "/#tickets", text: "Tickets"}
  - {permalink: "/schedule", text: "Schedule"}
-# - {permalink: "/workshops", text: "Workshops"}
+ - {permalink: "/workshops", text: "Workshops"}
 
 
 # - {link: "http://pycon-ireland-accommodation.wikia.com/wiki/PyCon_Ireland_Accommodation_Wiki", text: "Accommodation and Travel Guide"}
