@@ -782,7 +782,8 @@
   two prevailing tools, Cython and Pybind11. Finally, their similarity
   and difference, in terms of implementation and performance, will be
   listed out so that attendees can thoroughly understand the criteria to
-  choose the right library in their projects."
+  choose the right library in their projects.
+  Python's iterator protocol is quite possibly the coolest thing since sliced lists. In this session, I'll go over a map/reduce-inspired data pipeline we've written at Code Institute to visualise the dynamics of our student community, and use this as an opportunity to demonstrate how fun it is to write iterator-based code. This'll be part case study and part lesson, in which you'll learn about iterators, iterables, generators, and the usefulness of lazily counting from 0 to infinity."
   id: 47
   speakers: [47]
   subtype: presentation
