@@ -1,5 +1,5 @@
--
-  date: "2019-10-12"
+---
+- date: "2019-10-12"
   dateReadable: "October 12th"
   tracks:
     - {title: "Goldsmith 1&2, Track 1", color: "#90be4e"}
@@ -8,83 +8,52 @@
     - {title: "Field Suite, Workshop", color: "#e91e63"}
     - {title: "Skybar, Workshop", color: "#e91e63"}
   timeslots:
-    - {
-    	startTime: "9:00",
-    	endTime: "9:20",
-    	sessionIds: [200, 200, 404, 404, 404]
-    }
-    - {
-    	startTime: "9:30",
-    	endTime: "10:00",
-    	sessionIds: [3, 25, 404, 22, 53]
-    }
-    - {
-    	startTime: "10:05",
-    	endTime: "10:35",
-    	sessionIds: [12, 32, 37, 22, 53]
-    }
-    - {
-    	startTime: "10:40",
-    	endTime: "11:10",
-    	sessionIds: [35, 19, 24, 22, 53]
-    }
-    - {
-    	startTime: "11:10",
-    	endTime: "11:30",
-    	sessionIds: [400, 400, 400, 400, 53]
-    }
-    - {
-    	startTime: "11:30",
-    	endTime: "12:15",
-    	sessionIds: [28, 9, 17, 22, 53]
-    }
-    - {
-    	startTime: "12:20",
-    	endTime: "13:10",
-    	sessionIds: [39, 46, 10, 22, 53]
-    }
-    - {
-    	startTime: "13:10",
-    	endTime: "14:00",
-    	sessionIds: [500, 500, 500, 500, 500]
-    }
-    - {
-    	startTime: "14:00",
-    	endTime: "14:50",
-    	sessionIds: [48, 48, 404, 404, 404]
-    }
-    - {
-    	startTime: "15:00",
-    	endTime: "15:45",
-    	sessionIds: [43, 14, 503, 40, 2]
-    }
-    - {
-    	startTime: "15:45",
-    	endTime: "16:15",
-    	sessionIds: [400, 400, 400, 400, 400]
-    }
-    - {
-    	startTime: "16:15",
-    	endTime: "17:00",
-    	sessionIds: [20, 50, 5, 40, 2]
-    }
-    - {
-    	startTime: "17:05",
-    	endTime: "17:35",
-    	sessionIds: [49, 51, 23, 40, 2]
-    }
-    - {
-    	startTime: "17:45",
-    	endTime: "18:45",
-    	sessionIds: [502, 404, 404, 404, 404]
-    }
-    - {
-    	startTime: "20:00",
-    	endTime: "23:30",
-    	sessionIds: [501, 501, 404, 404, 404]
-    }
--
-  date: "2019-10-13"
+    - startTime: "9:00"
+      endTime: "9:20"
+      sessionIds: [200, 200, 404, 404, 404]
+    - startTime: "9:30"
+      endTime: "10:00"
+      sessionIds: [3, 25, 404, 22, 53]
+    - startTime: "10:05"
+      endTime: "10:35"
+      sessionIds: [12, 32, 37, 22, 53]
+    - startTime: "10:40"
+      endTime: "11:10"
+      sessionIds: [35, 19, 24, 22, 53]
+    - startTime: "11:10"
+      endTime: "11:30"
+      sessionIds: [400, 400, 400, 400, 53]
+    - startTime: "11:30"
+      endTime: "12:15"
+      sessionIds: [28, 9, 17, 22, 53]
+    - startTime: "12:20"
+      endTime: "13:10"
+      sessionIds: [39, 46, 10, 22, 53]
+    - startTime: "13:10"
+      endTime: "14:00"
+      sessionIds: [500, 500, 500, 500, 500]
+    - startTime: "14:00"
+      endTime: "14:50"
+      sessionIds: [48, 48, 404, 404, 404]
+    - startTime: "15:00"
+      endTime: "15:45"
+      sessionIds: [43, 14, 503, 40, 2]
+    - startTime: "15:45"
+      endTime: "16:15"
+      sessionIds: [400, 400, 400, 400, 400]
+    - startTime: "16:15"
+      endTime: "17:00"
+      sessionIds: [20, 50, 5, 40, 2]
+    - startTime: "17:05"
+      endTime: "17:35"
+      sessionIds: [49, 51, 23, 40, 2]
+    - startTime: "17:45"
+      endTime: "18:45"
+      sessionIds: [502, 404, 404, 404, 404]
+    - startTime: "20:00"
+      endTime: "23:30"
+      sessionIds: [501, 501, 404, 404, 404]
+- date: "2019-10-13"
   dateReadable: "October 13th"
   tracks:
     - {title: "Goldsmith 1&2, Track 1", color: "#90be4e"}
@@ -93,63 +62,39 @@
     - {title: "Field Suite, Track 4", color: "#e91e63"}
     - {title: "Skybar, Workshop", color: "#e91e63"}
   timeslots:
-    - {
-    	startTime: "10:00",
-    	endTime: "10:30",
-    	sessionIds: [8, 47, 13, 52, 54]
-    }
-    - {
-    	startTime: "10:35",
-    	endTime: "11:05",
-    	sessionIds: [16, 15, 38, 34, 54]
-    }
-    - {
-    	startTime: "11:05",
-    	endTime: "11:30",
-    	sessionIds: [400, 400, 400, 400, 400]
-    }
-    - {
-    	startTime: "11:30",
-    	endTime: "12:15",
-    	sessionIds: [7, 21, 18, 27, 54]
-    }
-    - {
-    	startTime: "12:15",
-    	endTime: "12:20",
-    	sessionIds: [405, 404, 404, 404, 404]
-    }
-    - {
-    	startTime: "12:20",
-    	endTime: "13:05",
-    	sessionIds: [45, 56, 1, 31, 54]
-    }
-    - {
-    	startTime: "13:05",
-    	endTime: "14:00",
-    	sessionIds: [500, 500, 500, 500, 500]
-    }
-    - {
-    	startTime: "14:00",
-    	endTime: "14:55",
-    	sessionIds: [11, 11,404,404, 404]
-    }
-    - {
-    	startTime: "15:00",
-    	endTime: "15:45",
-    	sessionIds: [33, 30, 44, 55, 404]
-    }
-    - {
-    	startTime: "15:50",
-    	endTime: "16:20",
-    	sessionIds: [36, 29, 6, 55, 404]
-    }
-    - {
-    	startTime: "16:25",
-    	endTime: "16:55",
-    	sessionIds: [41, 26, 4, 55, 404]
-    }
-    - {
-    	startTime: "16:55",
-    	endTime: "17:15",
-    	sessionIds: [404, 404, 201, 201, 404]
-    }
+    - startTime: "10:00"
+      endTime: "10:30"
+      sessionIds: [8, 47, 13, 52, 54]
+    - startTime: "10:35"
+      endTime: "11:05"
+      sessionIds: [16, 15, 38, 34, 54]
+    - startTime: "11:05"
+      endTime: "11:30"
+      sessionIds: [400, 400, 400, 400, 400]
+    - startTime: "11:30"
+      endTime: "12:15"
+      sessionIds: [7, 21, 18, 27, 54]
+    - startTime: "12:15"
+      endTime: "12:20"
+      sessionIds: [405, 404, 404, 404, 404]
+    - startTime: "12:20"
+      endTime: "13:05"
+      sessionIds: [45, 56, 1, 31, 54]
+    - startTime: "13:05"
+      endTime: "14:00"
+      sessionIds: [500, 500, 500, 500, 500]
+    - startTime: "14:00"
+      endTime: "14:55"
+      sessionIds: [11, 11, 404, 404, 404]
+    - startTime: "15:00"
+      endTime: "15:45"
+      sessionIds: [33, 30, 44, 55, 404]
+    - startTime: "15:50"
+      endTime: "16:20"
+      sessionIds: [36, 29, 6, 55, 404]
+    - startTime: "16:25"
+      endTime: "16:55"
+      sessionIds: [41, 26, 4, 55, 404]
+    - startTime: "16:55"
+      endTime: "17:15"
+      sessionIds: [404, 404, 201, 201, 404]
